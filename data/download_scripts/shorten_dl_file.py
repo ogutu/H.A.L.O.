@@ -5,10 +5,10 @@
 # removing files found in a delete file.
 
 # This file dcontains a lot of files to delete
-delete_path = '/home/lee/Downloads/delete_gms2.txt'
+delete_path = 'delete_gms3.txt'
 # The first file originally contained 761 lines
-download_path = '/home/lee/Downloads/download_gms2.txt'
-output_path = '/home/lee/Downloads/download_gms2_keepers.txt'
+download_path = 'download_gms2.txt'
+output_path = 'download_gms3.txt'
 
 # Read contents of delete_gms1.txt and append it to a list
 delete_file = open(delete_path, 'r')
@@ -27,7 +27,6 @@ download_file.close()
 print('len(original_lines) == ' + str(len(original_lines)))
 
 delete = 0
-print('start')
 keepers = []
 for original_line in original_lines:
     examine_file = original_line[44:].replace('\n', '')
