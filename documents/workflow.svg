@@ -14,9 +14,51 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="workflow.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4576"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4576-2"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4576-29"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,9 +66,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="509.40516"
-     inkscape:cy="528.86471"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="350.56712"
+     inkscape:cy="334.54757"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -118,5 +160,339 @@
          x="819.88287"
          y="365.40506"
          id="tspan3834-2">Validation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-53.57143"
+       y="116.95162"
+       id="text4162"
+       sodipodi:linespacing="125%"
+       transform="translate(0,308.2677)"><tspan
+         sodipodi:role="line"
+         id="tspan4164"
+         x="-53.57143"
+         y="116.95162" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="-708.38983"
+       y="33.354923"
+       id="text3830-81"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3924"
+         x="-708.38983"
+         y="33.354923">Satellite positions</tspan></text>
+    <g
+       id="g6191">
+      <g
+         transform="translate(-47.659862,-70.200545)"
+         id="g4079">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path3894"
+           sodipodi:cx="180"
+           sodipodi:cy="166.23734"
+           sodipodi:rx="107.14286"
+           sodipodi:ry="55"
+           d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+           transform="matrix(0.50666669,0,0,0.61688311,55.163151,523.96638)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="146.36609"
+           y="622.67749"
+           id="text3896"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3898"
+             x="146.36609"
+             y="622.67749">GMS</tspan><tspan
+             sodipodi:role="line"
+             x="146.36609"
+             y="637.67749"
+             id="tspan4013">(155°E)</tspan></text>
+      </g>
+      <g
+         transform="translate(-47.659862,-70.200545)"
+         id="g4073">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path3894-1"
+           sodipodi:cx="180"
+           sodipodi:cy="166.23734"
+           sodipodi:rx="107.14286"
+           sodipodi:ry="55"
+           d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+           transform="matrix(0.50666669,0,0,0.61688311,55.16315,452.10914)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="146.2196"
+           y="550.82025"
+           id="text3896-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3898-3"
+             x="146.2196"
+             y="550.82025">GOES-W</tspan><tspan
+             sodipodi:role="line"
+             x="146.2196"
+             y="565.82025"
+             id="tspan4015">(135°W)</tspan></text>
+      </g>
+      <g
+         transform="translate(-47.659862,-70.200545)"
+         id="g4085">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path3894-3"
+           sodipodi:cx="180"
+           sodipodi:cy="166.23734"
+           sodipodi:rx="107.14286"
+           sodipodi:ry="55"
+           d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+           transform="matrix(0.50666669,0,0,0.61688311,55.16315,595.82362)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="146.41589"
+           y="694.53473"
+           id="text3896-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3898-6"
+             x="146.41589"
+             y="694.53473">GOES-E</tspan><tspan
+             sodipodi:role="line"
+             x="146.41589"
+             y="709.53473"
+             id="tspan4017">(75°W)</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6179">
+      <g
+         transform="translate(-47.659862,-70.200545)"
+         id="g4097">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path3894-38"
+           sodipodi:cx="180"
+           sodipodi:cy="166.23734"
+           sodipodi:rx="107.14286"
+           sodipodi:ry="55"
+           d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+           transform="matrix(0.50666669,0,0,0.61688311,55.16315,739.53811)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="146.09363"
+           y="838.35468"
+           id="text3896-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3898-4"
+             x="146.09363"
+             y="838.35468">Meteosat Prime</tspan><tspan
+             sodipodi:role="line"
+             x="146.09363"
+             y="853.35468"
+             id="tspan4019">(0°)</tspan></text>
+      </g>
+      <g
+         transform="translate(-47.659862,-70.200545)"
+         id="g4091">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path3894-39"
+           sodipodi:cx="180"
+           sodipodi:cy="166.23734"
+           sodipodi:rx="107.14286"
+           sodipodi:ry="55"
+           d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+           transform="matrix(0.50666669,0,0,0.61688311,55.16315,667.68087)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="146.10535"
+           y="766.39197"
+           id="text3896-59"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3898-31"
+             x="146.10535"
+             y="766.39197">Meteosat IODC</tspan><tspan
+             sodipodi:role="line"
+             x="146.10535"
+             y="781.39197"
+             id="tspan4021">(57.5°E)</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="196.41582"
+       y="517.8479"
+       id="text3830-81-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3924-6"
+         x="196.41582"
+         y="517.8479">Data providers</tspan></text>
+    <g
+       id="g4315"
+       transform="translate(162.48299,118.73851)">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,9.740642,412.95593)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-9"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-7"
+         y="519.87311"
+         x="100.33713"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           id="tspan4013-1"
+           y="519.87311"
+           x="100.33713"
+           sodipodi:role="line">EUMETSAT</tspan></text>
+    </g>
+    <g
+       id="g4310"
+       transform="translate(162.48299,118.73851)">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,9.740641,341.09869)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-1-2"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-3-2"
+         y="448.01587"
+         x="100.39865"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           id="tspan4015-8"
+           y="448.01587"
+           x="100.39865"
+           sodipodi:role="line">NOAA</tspan></text>
+    </g>
+    <g
+       id="g4444"
+       transform="translate(40.957715,0)">
+      <g
+         transform="translate(-45,-53.571429)"
+         id="g4438">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path4332"
+           sodipodi:cx="178.21428"
+           sodipodi:cy="669.09448"
+           sodipodi:rx="100.35714"
+           sodipodi:ry="55.714287"
+           d="m 278.57142,669.09448 c 0,30.77015 -44.93142,55.71429 -100.35714,55.71429 -55.42572,0 -100.35714,-24.94414 -100.35714,-55.71429 0,-30.77015 44.93142,-55.71428 100.35714,-55.71428 55.42572,0 100.35714,24.94413 100.35714,55.71428 z"
+           transform="translate(0,308.2677)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="178.23772"
+           y="974.33582"
+           id="text3896-7-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="178.23772"
+             y="974.33582"
+             id="tspan4013-1-6">University of Marburg</tspan><tspan
+             sodipodi:role="line"
+             x="178.23772"
+             y="989.33582"
+             id="tspan4436">LCRS</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3830-81-0-2"
+         y="1002.8951"
+         x="42.915451"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="1002.8951"
+           x="42.915451"
+           id="tspan3924-6-3"
+           sodipodi:role="line">Project data archive</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:173.87240601px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
+       x="178.56265"
+       y="502.00705"
+       id="text6133"
+       sodipodi:linespacing="125%"
+       transform="scale(0.82424363,1.2132335)"><tspan
+         sodipodi:role="line"
+         id="tspan6135"
+         x="178.56265"
+         y="502.00705">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:135.50137329px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
+       x="145.70523"
+       y="812.26239"
+       id="text6133-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0576515,0.94549102)"><tspan
+         sodipodi:role="line"
+         id="tspan6135-3"
+         x="145.70523"
+         y="812.26239">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:124.94008636px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
+       x="701.29718"
+       y="-81.738342"
+       id="text6133-2-0"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,1.1470556,-0.87179729,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6135-3-7"
+         x="701.29718"
+         y="-81.738342">}</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend);display:inline"
+       d="m 205.06097,557.38744 -20.20305,-5.05077"
+       id="path6400"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend);display:inline"
+       d="m 204.05081,628.09811 -17.17259,96.97465"
+       id="path6400-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend);display:inline"
+       d="m 96.974644,839.22 38.385796,31.31472"
+       id="path6400-5-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
