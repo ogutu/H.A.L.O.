@@ -1,0 +1,14 @@
+<Composer title="Composer 3" visible="1">
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="-9.09957e+06" xmin="-1.79741e+07" ymax="9.31324e+06" xmax="1.80017e+07"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="254" x="0" y="0" rotation="0" height="130" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="5.62745" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <Composition printResolution="300" paperWidth="254" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="130.048" printAsRaster="0"/>
+</Composer>
