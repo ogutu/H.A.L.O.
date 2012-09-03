@@ -14,9 +14,9 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="850"
+   width="880"
    height="300"
-   viewBox="0 0 850.00001 300.00002"
+   viewBox="0 0 880.00001 300.00002"
    enable-background="new 0 0 651.969 340.158"
    xml:space="preserve"
    inkscape:version="0.48.2 r9819"
@@ -655,13 +655,13 @@
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-width="1920"
-   inkscape:window-height="1153"
+   inkscape:window-height="1180"
    id="namedview215"
    showgrid="false"
    inkscape:zoom="1.4663402"
    inkscape:cx="453.87832"
    inkscape:cy="74.855682"
-   inkscape:window-x="-7"
+   inkscape:window-x="1913"
    inkscape:window-y="-10"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1"
@@ -1215,7 +1215,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
      sodipodi:end="10.306169"
      sodipodi:start="5.3825954"
      transform="matrix(1.5515774,0,0,1.1200504,48.315448,154.30793)"
-     d="M 363.29459,-33.716054 C 414.3261,-6.4204828 422.90648,43.624821 382.4594,78.063262 342.01233,112.5017 267.85429,118.29214 216.82278,90.996571 165.79127,63.701 157.21089,13.655696 197.65797,-20.782744 c 5.16022,-4.393648 10.9941,-8.406942 17.40443,-11.97301"
+     d="m 363.29459,-33.716054 a 117.90416,79.567223 0 1 1 -148.23219,0.9603"
      sodipodi:ry="79.567223"
      sodipodi:rx="117.90416"
      sodipodi:cy="28.640259"
@@ -1457,7 +1457,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
      sodipodi:cy="28.640259"
      sodipodi:rx="117.90416"
      sodipodi:ry="79.567223"
-     d="M 363.29459,-33.716054 C 414.3261,-6.4204828 422.90648,43.624821 382.4594,78.063262 342.01233,112.5017 267.85429,118.29214 216.82278,90.996571 165.79127,63.701 157.21089,13.655696 197.65797,-20.782744 c 5.16022,-4.393648 10.9941,-8.406942 17.40443,-11.97301"
+     d="m 363.29459,-33.716054 a 117.90416,79.567223 0 1 1 -148.23219,0.9603"
      transform="matrix(1.5515774,0,0,1.1200504,141.16008,185.16701)"
      sodipodi:start="5.3825954"
      sodipodi:end="10.306169"
@@ -1494,7 +1494,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
        id="tspan3335"
        style="font-weight:bold;line-height:94.99999881%;word-spacing:0px">L</tspan><tspan
        id="tspan4123"
-       style="fill:#666666">ong-term geostationary</tspan></tspan><tspan
+       style="fill:#666666">ong-term geosynchronous</tspan></tspan><tspan
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:94.99999881%;word-spacing:0px;font-family:Latin Modern Sans;-inkscape-font-specification:Latin Modern Sans"
      id="tspan3292"
      y="251.67232"
@@ -1504,5 +1504,6 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
        style="font-weight:bold;line-height:94.99999881%;word-spacing:0px">O</tspan><tspan
        id="tspan4125"
        style="fill:#666666">rbit</tspan></tspan></text>
+
 
 </g></svg>
