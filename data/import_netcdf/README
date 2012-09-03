@@ -1,0 +1,30 @@
+read_nc.c reads netCDF data and and converts it into ASCII format This should 
+make it easier to import data into GRASS GIS. The source was provided by Thomas 
+Huld of JRC.
+
+From Thomas' email:
+>I've attached the C program to read the .nc files and output ARC ASCII.
+>
+>It compiles as:
+>
+>gcc -c -O2 read_nc.c
+>gcc read_nc.o -lnetcdf  -o read_nc
+>
+>You execute it as
+>
+>./read_nc <xc> <yc> <infile>
+>
+>Here xc is the number of pixels in each row in the image, and yc is the number
+>of rows. You can get these numbers using ncdump -h <infile1, infile2....> In
+>the first few lines of the output you see:
+>
+>dimensions:
+>        xc = 5204 ;
+>        yc = 2704 ;
+>......
+>
+>I'm sure there is a way to get the program to read these values from the
+>netcdf file, but I haven't found it yet.
+>
+>The output for one time slot is called: raw_YYYYMMDD_HHmm.asc
+
