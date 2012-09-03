@@ -26,7 +26,7 @@
    inkscape:export-ydpi="90"><metadata
    id="metadata219"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs217"><radialGradient
      inkscape:collect="always"
      xlink:href="#linearGradient3233"
@@ -655,13 +655,13 @@
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-width="1920"
-   inkscape:window-height="1180"
+   inkscape:window-height="1153"
    id="namedview215"
    showgrid="false"
    inkscape:zoom="1.4663402"
-   inkscape:cx="453.87832"
+   inkscape:cx="370.337"
    inkscape:cy="74.855682"
-   inkscape:window-x="1913"
+   inkscape:window-x="-7"
    inkscape:window-y="-10"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1"
@@ -1215,7 +1215,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
      sodipodi:end="10.306169"
      sodipodi:start="5.3825954"
      transform="matrix(1.5515774,0,0,1.1200504,48.315448,154.30793)"
-     d="m 363.29459,-33.716054 a 117.90416,79.567223 0 1 1 -148.23219,0.9603"
+     d="M 363.29459,-33.716054 C 414.3261,-6.4204828 422.90648,43.624821 382.4594,78.063262 342.01233,112.5017 267.85429,118.29214 216.82278,90.996571 165.79127,63.701 157.21089,13.655696 197.65797,-20.782744 c 5.16022,-4.393648 10.9941,-8.406942 17.40443,-11.97301"
      sodipodi:ry="79.567223"
      sodipodi:rx="117.90416"
      sodipodi:cy="28.640259"
@@ -1224,7 +1224,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
      style="fill:none;stroke:#000000;stroke-width:2.80670142;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
      sodipodi:type="arc" /></g><g
    id="g4127"
-   transform="translate(-388.90307,-31.023539)"><g
+   transform="translate(-393.43307,-31.023539)"><g
    inkscape:export-ydpi="90"
    inkscape:export-xdpi="90"
    inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/logos/g5707.png"
@@ -1457,7 +1457,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
      sodipodi:cy="28.640259"
      sodipodi:rx="117.90416"
      sodipodi:ry="79.567223"
-     d="m 363.29459,-33.716054 a 117.90416,79.567223 0 1 1 -148.23219,0.9603"
+     d="M 363.29459,-33.716054 C 414.3261,-6.4204828 422.90648,43.624821 382.4594,78.063262 342.01233,112.5017 267.85429,118.29214 216.82278,90.996571 165.79127,63.701 157.21089,13.655696 197.65797,-20.782744 c 5.16022,-4.393648 10.9941,-8.406942 17.40443,-11.97301"
      transform="matrix(1.5515774,0,0,1.1200504,141.16008,185.16701)"
      sodipodi:start="5.3825954"
      sodipodi:end="10.306169"
@@ -1504,6 +1504,7 @@ a2VybgAIAAAAAQAAAAEABAACAAAAAQAIAAEAIgAEAAAAAwAQABYAHAABAAT/aAABAAH/tAABAAH/\
        style="font-weight:bold;line-height:94.99999881%;word-spacing:0px">O</tspan><tspan
        id="tspan4125"
        style="fill:#666666">rbit</tspan></tspan></text>
+
 
 
 </g></svg>
