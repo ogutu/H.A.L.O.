@@ -1,0 +1,7 @@
+document.write('');
+
+var era_rc = {
+ERADomain: 'sciencedirect.verticalsearchworks.com'
+};
+
+document.write('\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://sciencedirect.verticalsearchworks.com/ERA/Custom/sciencedirect/CSS/HtmlRelatedLinks.css\">\n<script type=\"text/javascript\" language=\"JavaScript\" src=\"http://sciencedirect.verticalsearchworks.com/ERA/era_rl.aspx\"><\/script>');document.write('\n');

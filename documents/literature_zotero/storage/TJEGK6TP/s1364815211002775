@@ -1,0 +1,715 @@
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script> var ts1 = new Date().getTime(); </script>
+<!-- static const char articletmpl_sccsId[] = "%W%  %G% %U%  Retrieved: %H% %T%"; -->
+<meta name="robots" content="NOARCHIVE">
+<meta name="robots" content="noodp" />
+<meta name="robots" content="noydir" />
+
+
+<link rel="shortcut icon" href="http://cdn.els-cdn.com/sd/faviconSD.ico" type="image/x-icon">
+<title>ScienceDirect.com - Environmental Modelling & Software - GRASS GIS: A multi-purpose open source GIS</title>
+
+<link type="text/css" rel="StyleSheet" href="http://www.sciencedirect.com/gadgetservices/gadgets/v1/css/gadgets_ext,gadgets,toolbar,SDArticleGadgetOverRide,jquery-ui-1.8.4.custom.css">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/base/jquery-ui.css" type="text/css">
+<link rel="stylesheet" Title="Default Styles" href="http://cdn.els-cdn.com/sd/css/article_121R3.css" type="text/css">
+<link rel="stylesheet" Title="Default Styles" href="http://cdn.els-cdn.com/sd/css/articleSprite_121R3.css" type="text/css">
+
+<script>
+if( typeof(ts1) == "undefined" ){ ts1= new Date().getTime(); }
+Array.prototype.rt = function(label,ts){this.push( "{lbl:"+label+",ts:"+(ts?ts:new Date().getTime())+"}" );}
+var prs = [];
+prs.rt( "head", ts1 );
+function loadPDF(){}
+</script>
+
+</head>
+
+<body>
+<script>prs.rt('body_start');</script>
+<div id="header-area">
+  <div id="header" class="outerWrapper" style="position:static;">
+<div style="background-color:#FFFFFF;position:relative;" class="outerWrapper" >
+<div id="masthead" >
+
+<!-- INSERTS THE TEMPLATE VARIABLES POPULATED FROM DB for SCIVERSE and PRODUCT labels -->
+
+<div class="logoSciVerseBlk"> <a href ="http://www.sciencedirect.com/science?_ob=RedirectURL&_method=outwardLink&_activity=SciVerse&_origin=home&_zone=logo&_targetURL=http%3A%2F%2Fhub.sciverse.com&_acct=C000228598&_version=1&_userid=10&md5=cced16da74a9da8be1eb80304e4450dc" target="_blank" title="SciVerse - Elsevier product suite for products related to knowledge discovery"> <span class="logoSciVerseImg">&nbsp;</span></a> </div> <div class="logoScienceDirectBlk"><a href="http://www.sciencedirect.com/" title="ScienceDirect -The world's leading full-text scientific database"><span class="logoScienceDirectImg" >&nbsp;</span></a></div>
+
+</div >
+<div id="suites" class="clearfix" aria-label="SciVerse" role="navigation" >
+<ul class="suites"><li><a href="http://www.hub.sciverse.com/action/home" title="Hub - SciVerse's integrated search">Hub</a></li><li><a title="ScienceDirect - the world's leading full-text scientific database" class="selected">ScienceDirect</a></li><li><a href="http://www.scopus.com" title="Scopus - the largest abstract and citation database of research literature and quality web sources">Scopus</a></li><li><a href="http://www.applications.sciverse.com/action/userhome" title=" Applications - SciVerse Applications" class="last">Applications</a></li></ul>
+</div>
+</div>		
+
+     <!-- if not logged in -->
+	   
+
+			
+
+    <div id="login" class="clearfix">
+    	<ul>
+		<li>
+    
+      <a href="https://www.sciencedirect.com/science?_ob=RegistrationURL&_method=display&_type=guest&_returnURL=http%3A%2F%2Fwww.sciencedirect.com&_acct=C000228598&_version=1&_userid=10&md5=22df896e0aa3902a38d45b0f507150a2" target="_top" title="Register a ScienceDirect username and password for using alerts and other personal features" >Register</a>
+    
+  </li>
+  <!--top right widget-->
+  <li class="login " id="loginPlus"><a href="javascript:LoginBox.flipLogin('loginBox',null);" title="Login to ScienceDirect" class="novisit plus nojs" id="loginPlusScript" >Login</a><noscript><a href="http://www.sciencedirect.com/science?_ob=HomePageURL&_method=userHomePage&_fl=y&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=fa138b10330ea810e5335bf77fe1d551" title="Open the Login Box" class="plus" id="loginPlusNoScript" >Login</a></noscript>
+  </li>
+           
+           <li class="last"><a href="http://www.scival.com" title="Go to SciVal Suite" >Go to SciVal Suite</a></li> 
+        </ul>
+    </div>
+    
+	<div id="loginBox" style="display:none;">
+        <div class="padding" style="padding-top:10px;">
+            <form name="sdLogin" method="POST" action="https://www.sciencedirect.com/science/login" id="login-box-form" style="margin:0;">
+			<input type="hidden" name="login" value="login">
+            <div>
+			<label for="username"><span style="text-align:right;">Username:</span>
+            <input id="username" type="text" name="userid" title="Please enter your username here" /></label>
+            </div>
+            
+            <div style="margin-top:2px;">
+            <label for="password"><span style="text-align:right;">Password:</span>
+            <input id="password" type="password" name="password" maxlength="20" title="Please enter your password here" onkeypress="if(13==event.keyCode)this.form.submit();if (13==event.keyCode)return false;"/></label>
+            </div>
+                   
+                       
+			
+			<div class="remember">
+			<input type="checkbox" checked name="rememberid" id="rememberMe" value="Y" class="allCheck top2fix" title="Checking this option will log you in automatically next time you visit ScienceDirect"/>
+			<label for="rememberMe" title="Checking this option will log you in automatically next time you visit ScienceDirect">Remember me</label>
+			</div>
+            
+			<input type="hidden" name="_ob" value="MiamiLogonURL">
+			<input type="hidden" name="targetURL" value="http://www.sciencedirect.com/science/article/pii/S1364815211002775" >
+			<input type="hidden" name="returnURL" value="http://www.sciencedirect.com/science/article/pii/S1364815211002775" >
+            <div class="submit" >
+			
+			<div style="float:left;padding-left:0px;"><input class="button" type="Submit" name="arrow" alt="Login to ScienceDirect" title="Login to ScienceDirect" value="Login"/></div>
+        
+			
+			
+			<div class="notRegistered" ><span class="astPad">| </span><span><a href="https://www.sciencedirect.com/science?_ob=RegistrationURL&_method=display&_type=guest&_returnURL=http%3A%2F%2Fwww.sciencedirect.com&_acct=C000228598&_version=1&_userid=10&md5=22df896e0aa3902a38d45b0f507150a2" title="Register a username and password for using alerts and other personal features" target="_top">Not Registered?</a></span></div>
+			
+			
+			
+            </div>
+			<div style="clear:both;"></div>
+            </form>
+            <div class="forgotpass">
+			<a href="http://www.sciencedirect.com/science?_ob=ReminderURL&_method=display&_acct=C000228598&_version=1&_userid=10&md5=47dd38b07cdc1f0f4c3ce0e1c7967215" target="passwd" onClick="var remindWin;remindWin=window.open('','passwd','scrollbars=yes,resizable=yes,directories=no,toolbar=n,menubar=no,status=no,width=650,height=300');" title="Click here for help in recovering your ScienceDirect access">Forgotten your username or password?</a>
+            </div>
+        </div>
+        <div class="institutiontext">
+        
+		
+		
+		<a href="/science?_ob=FederationURL&_method=display&_type=f&_acct=C000228598&_version=1&_userid=10&md5=4588277742fa8648d3a754e394556c55"title="Go to Athens/ Institution login">Go to Athens / Institution login</a>
+		
+        </div>		
+				
+		
+                  
+                    <div class="institutiontext">
+                    <a href="http://www.sciencedirect.com/science/activateaccess" title="Remote access activation">Remote access activation</a>
+                    </div>
+                  
+                
+        </div>
+
+	<!-- logged in -->
+	     
+
+
+
+<div id="navigationTop" class="clearfix" aria-label="ScienceDirect" role="navigation">
+        <ul class="nav main">
+           <li class="last"><a class=" canonHomeLink" href="http://www.sciencedirect.com" method="userHomePage" btn="Y" zone="TopNavBar" origin="home" target="_top" name="Home" title="Home" >Home</a></li>
+	    <li>
+            <!--<h1>-->
+		<a  href="http://www.sciencedirect.com/science/browse" type="all" auth="y" zone="TopNavBar" origin="article" target="_top" name="Browse"  title="Browse">Browse</a>
+		    <!--</h1>-->
+            </li>
+			
+			<li><a  href="http://www.sciencedirect.com/science?_ob=MiamiSearchURL&_method=requestForm&_btn=Y&_zone=TopNavBar&_origin=article&_acct=C000228598&_version=1&_urlVersion=1&_userid=10&md5=39b3eb2d7921081816953b8c126d4d1e" target="_top" name="Search" title="Search" >Search</a></li>
+
+
+      <li><a  href="http://www.sciencedirect.com/science?_ob=UserSubscriptionURL&_method=begin&_btn=Y&_zone=TopNavBar&_origin=article&_acct=C000228598&_version=1&_urlVersion=1&_userid=10&md5=7028052249c85a73d258a77d39038b36" target="_top" name="account" title="My settings" >My settings</a></li>
+
+
+      
+
+      <li><a  href="http://www.sciencedirect.com/science?_ob=MiamiSDIURL&_method=listAlerts&_btn=Y&_zone=TopNavBar&_origin=article&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=5713335a2ad9c5aa94441b399aa83b5e" target="_top" name="alert" title="Alerts" >My alerts</a></li>
+
+      <li><a  href="http://www.sciencedirect.com/science?_ob=ShoppingCartURL&_method=display&_zone=TopNavBar&_origin=article&_acct=C000228598&_version=1&_userid=10&md5=970884c23c786181ae7d8e5cc2a321ad" target="_top" name="cart" title="Shopping Cart" >Shopping cart</a></li>  	           
+
+        </ul>
+        
+        <ul class="nav misc">
+                           
+                 <li class="last" style="margin-right:247px;" ><a href="http://www.sciencedirect.com/science?_ob=HelpURL&_file=browse_open_doc.htm&_btn=Y&_zone=TopNavBar&_origin=article&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=00ae555385dab9ff9d6838b8a122fa9b" target="sdhelp" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('http://www.sciencedirect.com/science?_ob=HelpURL&_file=browse_open_doc.htm&_btn=Y&_zone=TopNavBar&_origin=article&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=00ae555385dab9ff9d6838b8a122fa9b','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=760,height=570'); helpWin.focus(); return false" >Help</a></li>      
+         
+        </ul> 
+                                
+    
+        
+                            
+        <div id="bannerTop">                        
+                
+                    <a href="http://info.sciencedirect.com/using/access_article_display/guest/" onclick="openNS('http://info.sciencedirect.com/using/access_article_display/guest/'); return false;">
+                        <img src="http://www.sciencedirect.com/science/page/static/science/dynamic_scidir_home_guest_user.gif" border="0" />
+                    </a>
+                
+        </div>
+            
+        
+               
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div id="page-area">
+  <div id="articleToolbar">
+    <div id="articleNav">
+  <ul aria-label="Article options" role="navigation">
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+<li>
+      <div class="icon_exportarticlesci_dir" title="Export citation">
+        <div class="icon"></div>
+        <a href="/science?_ob=DownloadURL&_method=confirm&_eidkey=1-s2.0-S1364815211002775&count=1&_docType=FLA&_zone=toolbar&_acct=C000228598&_version=1&_userid=10&md5=377d154ee876330e4ac78e10315d79ae" 
+        >Export citation</a>
+      </div>
+</li>
+  
+
+
+
+
+<li>
+  <div class="icon_pdf">
+    <div class="icon"></div>
+	<a id="pdfLink" 
+	 href="/science?_ob=ShoppingCartURL&_method=add&_eid=1-s2.0-S1364815211002775&originContentFamily=serial&_origin=article&_acct=C000228598&_version=1&_userid=10&_ts=1338404084&md5=2c1ce8c8bdb472be5a33ce9cd45a673f" target=""
+	
+     class="big pdf ext_sdlink" style="cursor:pointer" title="Purchase PDF" >Purchase </a>
+  </div>
+</li>
+ 
+ 
+
+
+
+<li class="optionsPos">
+      <div id="moreOptionsButton" title="Show article options">
+        <a href="#">More options...</a>
+        <div class="down_sci_dir"></div>
+      </div>
+
+<!-- More Options Starts-->
+<div id="moreOptionsMenu" class="articleOptions articleOptionssci_dir">
+<ul>
+
+
+
+
+
+<li>
+    <div class="emailsci_dir">
+        <div></div>
+        <a title="Email this article" href="/science?_ob=EmailFriendURL&_method=gatherInfo&refSource=abst&count=1&_eidkey=1-s2.0-S1364815211002775&_acct=C000228598&_version=1&_userid=10&md5=00d4487c250e6a74f512780851a457ec"  >Email article</a>
+    </div>
+</li>
+
+  
+
+
+
+
+   
+       <li>
+          <div id="alertOn" style="display:none;" class="alertsci_dir">
+            <div></div>
+            <span>
+            Signed up for new volumes / issues [<a href="/science?_ob=PublicationURL&newIssueAlert=2&_cid=271872&_pubType=J&_auth=y&originContentFamily=serial&_pii=S1364815211002775&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=96d181459cce869f9155e2fa0d2cf20e">remove</a>]</span>
+          </div>
+          <div id="alertOff" style="display:inline;"  class="alertsci_dir">
+            <div></div>
+            <a title="Set new Volumes / Issues alert" href="/science?_ob=PublicationURL&newIssueAlert=2&_cid=271872&_pubType=J&_auth=y&originContentFamily=serial&_pii=S1364815211002775&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=96d181459cce869f9155e2fa0d2cf20e"
+               >
+               Alert me about new volumes / issues
+            </a>
+          </div>
+          <div id="rsltInd" style="display:none;">
+            <div class="imgIcon"><h3><img src="http://cdn.els-cdn.com/sd/errorIcon.gif" alt="Failure" title="Failure"/></h3></div>
+            <div class="confirmMsgText">Your selection(s) could not be saved due to an internal error. Please try again.</div>
+          </div>          
+      </li>
+    
+
+
+</ul>
+<div id="articleOptionsAd" role="banner" class="ad"></div>
+</div>
+<!-- More options Ends -->
+</li>
+
+
+</ul>
+</div>
+
+<div class="sdSearch" aria-label="Quick search" role="search">
+    <fieldset>
+        <div class="left">
+            <input  id="quickSearch" type="text" name="quickSearch" value="" size="30" maxlength="450" title="Perform a quick search on ScienceDirect"><button class="submit"  title="Submit quick search">Search</button>
+        </div>
+        <div id="quickSearchButton" class="right" title="Show more quick search options">
+            <div  class="down_sci_dir"></div>
+        </div>
+    </fieldset>
+</div>
+<div class="clear"></div>
+<div class="quickSearch" id="sdQuickSearch" aria-label="Extended search" role="search">
+<div class="extSearch">
+
+
+<form name="qkSrch" method="get" target="_top" action="/science" style="margin:0px;">
+<input type="hidden" name="_ob" value="QuickSearchURL">
+<input type="hidden" name="_method" value="submitForm">
+<input type="hidden" name="_acct" value="C000228598">
+<input type="hidden" name="_origin" value="article">
+<input type="hidden" name="_zone" value="qSearch">
+<input type="hidden" name="md5" value="89d09e911d3872e16ae140ceae8c0b3b">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" style="margin: 0;">
+<tr valign="middle">
+
+<!-- Code related for toggling labels -->
+
+<td align="right"><label for="qs_all" id="fieldLabel">&nbsp;&nbsp;&nbsp;&nbsp;All fields</label></td>
+<td align="left"><input class="textbox qsinput xpstyle" type="text" name="qs_all" id="qs_all" value="" size="30" maxlength="450" title="For example: heart attack AND behavior?"></td>
+
+
+
+<td align="right"><label for="qs_author">&nbsp;&nbsp;&nbsp;&nbsp;Author</label></td>
+<td align="left" colspan="5"><input class="textbox qsinput xpstyle" type="text" name="qs_author" id="qs_author" value="" size="33" maxlength="450" title="e.g. J S Smith or John Smith or Smith JS" style="_width:100%"></td>
+<td nowrap="nowrap">
+
+</td><td></td><td></td>
+<td align="right" nowrap="nowrap" width="90%" valign="middle">
+<a href="http://www.sciencedirect.com/science?_ob=MiamiSearchURL&_method=requestForm&_btn=Y&_acct=C000228598&_version=1&_urlVersion=1&_userid=10&md5=18a1082f74248d90d465ee65804fd7db" style="vertical-align:bottom;font-size:0.92em;" >Advanced search</a>
+</td>
+</tr>
+<tr>
+
+<td align="right"><label for="qs_title">&nbsp;&nbsp;&nbsp;&nbsp;Journal/Book&nbsp;title</label></td>
+<td align="left"><input class="textbox qsinput xpstyle" type="text" id="qs_title" name="qs_title" value="" size="30" maxlength="450" title="For example: journal of molecular biology"></td>
+
+<td align="right" class="toggleQukSrch2"><label for="qs_vol" id="volField">&nbsp;&nbsp;&nbsp;&nbsp;Volume</label></td>
+<td align="left" class="toggleQukSrch"><input class="textbox qsinput xpstyle" type="text" name="qs_vol" id="qs_vol" value="" size="3" maxlength="10" style="width:30px;"></td>
+<td align="right" class="toggleQukSrch2"><label for="qs_issue" id="issueField">&nbsp;&nbsp;Issue</label></td>
+<td align="left" class="toggleQukSrch"><input class="textbox qsinput xpstyle" type="text" name="qs_issue" id="qs_issue" value="" size="3" maxlength="10" style="width:30px"></td>
+<td align="right" class="toggleQukSrch2"><label for="qs_pages" id="pageField">&nbsp;&nbsp;Page</label></td>
+<td align="right" class="toggleQukSrch"><input class="textbox qsinput xpstyle" type="text" name="qs_pages" id="qs_pages" value="" size="3" maxlength="10" title="For example: 14-27" style="width:30px"></td>
+
+<td  align="right" nowrap="nowrap">
+<input class="button" id="submit_search" type="Submit" alt="Submit Quick Search" title="Submit Quick Search" value="Search" name="sdSearch">
+</td> 
+<td align="right" nowrap="nowrap" colspan="8"  valign="bottom">
+<a class="icon_qmarkHelpsci_dir" href="http://www.sciencedirect.com/science?_ob=HelpURL&_file=qs_tips.htm&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=2bd779305b31602341744eaa786e2f0a" target="sdhelp" onMouseOver="window.status='Help is Available';return true" onMouseOut="window.status='';return true" onClick="var helpWin;helpWin=window.open('http://www.sciencedirect.com/science?_ob=HelpURL&_file=qs_tips.htm&_acct=C000228598&_version=1&_urlVersion=0&_userid=10&md5=2bd779305b31602341744eaa786e2f0a','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=760,height=570');helpWin.focus();return false" style="font-size:0.92em;padding-right:0;" >Search tips</a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+ 
+</div>
+
+<div style="color : #FF0000; font-weight : bold;border:0px solid red;">
+  
+  
+  
+  
+</div>
+
+
+
+
+
+  </div>
+  <div style="clear:both;"></div>
+  <div id="leftColumnSmall2">
+      <div class="closed" title="Open to view article outline"></div>
+  </div>
+  <div id="leftColumn" class="column" aria-label="table of contents" role="navigation">
+    <div id="outline" class="outline">
+      <div class="outlineMsg">Article outline is loading...</div>
+      <noscript><div class="outlineMsg">JavaScript required for article outline</div></noscript>
+    </div>
+      <div id="leftColumnSmall">
+        <div class="open" title="Open to view article outline"></div>
+      </div>
+  </div>
+  <div id="rightColumn" class="column">
+    <div id="centerPane" class="centerPane svBigBox" aria-label="Article" role="main">
+      <script>prs.rt('data_start');</script>
+      <div class="head"><div class="publisherLogo"><img alt="" src="http://cdn.els-cdn.com/sd/elsevier.gif"></div><div class="publicationHead"><div class="title"><a title="Go to Environmental Modelling &amp; Software on SciVerse ScienceDirect" href="http://www.sciencedirect.com/science/journal/13648152"><span>Environmental Modelling &amp; Software</span></a></div><p><a title="Go to table of contents for this volume/issue" href="http://www.sciencedirect.com/science/journal/13648152/31">Volume 31<!--comment--></a>, May 2012, Pages 124&#x2013;130<!--comment--></p></div><div class="publicationCover"><img alt="Cover image" src="http://ars.els-cdn.com/content/image/1-s2.0-S1364815212X00021-cov150h.gif" class="toprightlogo"></div></div><h1 class="svTitle">GRASS GIS: A multi-purpose open source GIS</h1><ul class="authorGroup"><li>Markus Neteler<a title="Affiliation: a" href="#aff1" class="intra_ref" id="baff1"><sup>a</sup></a><sup>, </sup><a title="Corresponding author contact information" href="#cor1" id="bcor1" class="intra_ref"><img alt="Corresponding author contact information" src="http://cdn.els-cdn.com/sd/entities/REcor.gif"></a><sup>, </sup><a href="mailto:markus.neteler@iasma.it"><img src="http://cdn.els-cdn.com/sd/entities/REemail.gif" alt="E-mail the corresponding author"></a>, </li><li>M. Hamish Bowman<a title="Affiliation: b" href="#aff2" class="intra_ref" id="baff2"><sup>b</sup></a><sup>, </sup><a href="mailto:hamish.bowman@otago.ac.nz"><img src="http://cdn.els-cdn.com/sd/entities/REemail.gif" alt="E-mail the corresponding author"></a>, </li><li>Martin Landa<a title="Affiliation: c" href="#aff3" class="intra_ref" id="baff3"><sup>c</sup></a><sup>, </sup><a href="mailto:martin.landa@fsv.cvut.cz"><img src="http://cdn.els-cdn.com/sd/entities/REemail.gif" alt="E-mail the corresponding author"></a>, </li><li>Markus Metz<a title="Affiliation: a" href="#aff1" class="intra_ref" id="baff1"><sup>a</sup></a><sup>, </sup><a href="mailto:markus.metz@iasma.it"><img src="http://cdn.els-cdn.com/sd/entities/REemail.gif" alt="E-mail the corresponding author"></a></li></ul><ul class="affiliation"><li id="aff1"><sup>a</sup> Biodiversity and Molecular Ecology Department, IASMA Research and Innovation Centre, Fondazione Edmund Mach, Via E. Mach 1, 38010 S. Michele all'Adige (TN), Italy</li><li id="aff2"><sup>b</sup> Department of Marine Science, University of Otago, P.O. Box 56, Dunedin, New Zealand</li><li id="aff3"><sup>c</sup> Department of Mapping and Cartography, Faculty of Civil Engineering, Czech Technical University in Prague, Thakurova 7, 166 29 Prague, Czech Republic</li></ul><ul class="articleDates"><li>Received 20 November 2010. Revised 19 November 2011. Accepted 26 November 2011. Available online 20 December 2011.</li></ul><ul class="articleDoi"><li><a id="ddDoi" href="http://dx.doi.org/10.1016/j.envsoft.2011.11.014" target="doilink" onclick="var doiWin; doiWin=window.open('http://dx.doi.org/10.1016/j.envsoft.2011.11.014','doilink','scrollbars=yes,resizable=yes,directories=yes,toolbar=yes,menubar=yes,status=yes'); doiWin.focus()">http://dx.doi.org/10.1016/j.envsoft.2011.11.014</a>, <a href="http://www.sciencedirect.com/science/help/doi.htm" target="sdhelp" onmouseover="window.status='Help is Available';return true" onclick="var helpWin; helpWin=window.open('http://www.sciencedirect.com/science/help/doi.htm','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=760,height=570'); helpWin.focus()">How to Cite or Link Using DOI</a></li><li class="citedbyscopus"><div class="boxLink"><a href="/science?_ob=RedirectURL&_method=outwardLink&_partnerName=656&_eid=1-s2.0-S1364815211002775&_pii=S1364815211002775&_origin=article&_zone=art_page&_targetURL=http%3A%2F%2Fwww.scopus.com%2Finward%2Fcitedby.url%3Feid%3D2-s2.0-84856404955%26partnerID%3D10%26rel%3DR3.0.0%26md5%3D4280ceba5dbf98e62b81e88e71bf040d&_acct=C000228598&_version=1&_userid=10&md5=9179ee723535a215f2ec776f7d7e9af6"  rel="nofollow" class="olSpawnWindow" target="outwardLink"></a> <font color="#000000"> <span class="scopus_logo_txt">Cited by in Scopus (0)</span></font></div></li></ul><ul class="articleInfo"><li class="permissions"><div class="boxLink"><a href="/science?_ob=RedirectURL&_method=outwardLink&_partnerName=936&_eid=1-s2.0-S1364815211002775&_pii=S1364815211002775&_origin=article&_zone=art_page&_targetURL=https%3A%2F%2Fs100.copyright.com%2FAppDispatchServlet%3FpublisherName%3DELS%26contentID%3DS1364815211002775%26orderBeanReset%3Dtrue&_acct=C000228598&_version=1&_userid=10&md5=f9dadc013d7bf89ab52816246c012985"  rel="nofollow" class="olSpawnWindow" target="outwardLink">Permissions & Reprints</a></div></li></ul><a class="corpReq cLink" queryStr="?_rdoc=1&amp;_fmt=full&amp;_origin=&amp;md5=22543fb95e34d36391c44b9d9cd72533" href="http://www.sciencedirect.com/science/article/pii/S1364815211002775">View full text</a><div class="unentitledMSG"><a class="purchase" href="/science?_ob=ShoppingCartURL&_method=add&_eid=1-s2.0-S1364815211002775&_acct=C000228598&_version=1&_userid=10&_ts=1338404084&md5=abd9fcd7975d1b3d67188a87924e7189"><div class="artPurchase"><div></div><span>Purchase</span></div></a><div><!--PPV_MSG--><span id="deepdyve" style="display:none">
+  <a id="dd_href" target="DeepDyve" href="#">
+    <img id="dd_img" src="" />
+  </a>
+</span></div><!--unentitledMSG--></div><div class="articleOutlineHidden"><h2>Software availability</h2><h2>1. Introduction</h2><h2>2. Background</h2><h2>3. Software capabilities</h2><h2>4. Design and technical developments</h2><h2>5. Environmental applications</h2><h2>6. Conclusions</h2><h2>Acknowledgements</h2><h2>References</h2></div><div id="refersToAndReferredToBy"><!--comment--></div><hr id="Abstract"><div class="abstract svAbstract"><h2 class="secHeading" id="section_abstract">Abstract</h2><p id="abspara0010">The GIS software sector has developed rapidly over the last ten years. Open Source GIS applications are gaining relevant market shares in academia, business, and public administration. In this paper, we illustrate the history and features of a key Open Source GIS, the Geographical Resources Analysis Support System (GRASS). GRASS has been under development for more than 28 years, has strong ties into academia, and its review mechanisms led to the integration of well tested and documented algorithms into a joint GIS suite which has been used regularly for environmental modelling. The development is community-based with developers distributed globally. Through the use of an online source code repository, mailing lists and a Wiki, users and developers communicate in order to review existing code and develop new methods. In this paper, we provide a functionality overview of the more than 400 modules available in the latest stable GRASS software release. This new release runs natively on common operating systems (MS-Windows, GNU/Linux, Mac OSX), giving basic and advanced functionality to casual and expert users. In the second part, we review selected publications with a focus on environmental modelling to illustrate the wealth of use cases for this open and free GIS.</p></div><script>prs.rt("abs_end");</script><div id="SD_BA1P" class="sgfNoTitleBar sgfNoGadgetBorder svDoNotLink"></div><h2 id="kwd_N23bc47d0N5c0d0b34">Keywords</h2><ul class="keyword"><li>GIS; </li><li>GRASS; </li><li>OSGeo; </li><li>Open source; </li><li>Spatial analysis; </li><li>Remote sensing</li></ul><h2 id="kwd_N23bc47d0N5c0d0b70">Abbreviations</h2><ul class="keyword"><li>GRASS, Geographical Resources Analysis Support System; </li><li>GIS, Geographic Information System; </li><li>GPL, General Public License; </li><li>OSGeo, Open Source Geospatial Foundation</li></ul><hr><p>Figures and tables from this article:</p><div class="figTblUpiOuter svArticle" id="figure_fig1"><div class="&#10;                    textboxdefaultfig&#10;                "><dl class="figure" id="fig1"><dt class="autoScroll"><noscript hspace="2" height="140" border="0" align="middle" width="219" vspace="2" alt="Full-size image (68K)" title="Full-size image (68K)" data-thumbsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr1.sml" data-fullsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr1.jpg"><img hspace="2" height="140" border="0" align="middle" width="219" vspace="2" alt="Full-size image (68K)" title="Full-size image (68K)" src="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr1.sml" data-thumbsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr1.sml" data-fullsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr1.jpg"></noscript></dt><dd id="labelCaptionfig1"><p class="caption">Fig.&nbsp;1.&#xA0;<span id="fspara0010">Structure of GRASS GIS project data base (&ldquo;location&rdquo;).<!--Comment--></span><!--caption--></p></dd><dd><a onmouseover="javascript:this.style.cursor='pointer'" href="/science/article/pii/S1364815211002775" class="cLink" queryStr="?_fmt=full&amp;_origin=&amp;md5=7bcf780d0ad55e08c858017474822c86" hashLoc="#fig1"><span class="viewWithinBtn">View Within Article</span></a></dd></dl></div></div><div class="figTblUpiOuter svArticle" id="figure_fig2"><div class="&#10;                    textboxdefaultfig&#10;                "><dl class="figure" id="fig2"><dt class="autoScroll"><noscript hspace="2" height="126" border="0" align="middle" width="219" vspace="2" alt="Full-size image (45K)" title="Full-size image (45K)" data-thumbsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr2.sml" data-fullsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr2.jpg"><img hspace="2" height="126" border="0" align="middle" width="219" vspace="2" alt="Full-size image (45K)" title="Full-size image (45K)" src="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr2.sml" data-thumbsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr2.sml" data-fullsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr2.jpg"></noscript></dt><dd id="labelCaptionfig2"><p class="caption">Fig.&nbsp;2.&#xA0;<span id="fspara0015">Architecture of GRASS GIS 6.4: Core system, related libraries and external file/database support.<!--Comment--></span><!--caption--></p></dd><dd><a onmouseover="javascript:this.style.cursor='pointer'" href="/science/article/pii/S1364815211002775" class="cLink" queryStr="?_fmt=full&amp;_origin=&amp;md5=7bcf780d0ad55e08c858017474822c86" hashLoc="#fig2"><span class="viewWithinBtn">View Within Article</span></a></dd></dl></div></div><div class="figTblUpiOuter svArticle" id="figure_fig3"><div class="&#10;                    textboxdefaultfig&#10;                "><dl class="figure" id="fig3"><dt class="autoScroll"><noscript hspace="2" height="163" border="0" align="middle" width="197" vspace="2" alt="Full-size image (113K)" title="Full-size image (113K)" data-thumbsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr3.sml" data-fullsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr3.jpg"><img hspace="2" height="163" border="0" align="middle" width="197" vspace="2" alt="Full-size image (113K)" title="Full-size image (113K)" src="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr3.sml" data-thumbsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr3.sml" data-fullsrc="http://ars.els-cdn.com/content/image/1-s2.0-S1364815211002775-gr3.jpg"></noscript></dt><dd id="labelCaptionfig3"><p class="caption">Fig.&nbsp;3.&#xA0;<span id="fspara0020">Potential distributional areas of <em>Aedes albopictus</em> (tiger mosquito) in Trentino, Italy, based on an analysis with GRASS GIS, cited from (<span id="fig3bbib45"><a href="#bib45" id="ancfig3bbib45" class="intra_ref">Roiz et&nbsp;al., 2011</a></span>).<!--Comment--></span><!--caption--></p></dd><dd><a onmouseover="javascript:this.style.cursor='pointer'" href="/science/article/pii/S1364815211002775" class="cLink" queryStr="?_fmt=full&amp;_origin=&amp;md5=7bcf780d0ad55e08c858017474822c86" hashLoc="#fig3"><span class="viewWithinBtn">View Within Article</span></a></dd></dl></div></div><div class="figTblUpiOuter svArticle" id="table_tbl1"><div class="textboxdefaultfig"><dl id="N23bc47d0N5c0cf210" class="table "><dd><p class="caption"><span class="label">Table&nbsp;1.
+        </span>GRASS GIS command structure.</p></dd><dd><img border="0" src="http://cdn.els-cdn.com/sd/sci_dir/tbl_icon.gif" title="View table in article" alt="View table in article"></dd><dd><a onmouseover="javascript:this.style.cursor='pointer'" href="/science/article/pii/S1364815211002775" class="cLink" queryStr="?_fmt=full&amp;_origin=&amp;md5=7bcf780d0ad55e08c858017474822c86" hashLoc="#N23bc47d0N5c0cf210"><span class="viewWithinBtn">View Within Article</span></a></dd></dl></div></div><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><span class="referenceText"></span><div class="artFooterContent"><dl class="footnote" id="cor1"><dt class="label topPadd"><a href="#bcor1" class="intra_ref"><sup><img border="0" src="http://cdn.els-cdn.com/sd/entities/REcor.gif" alt="Corresponding author contact information" title="Corresponding author contact information"></sup></a></dt><dd>Corresponding author. Tel.:&nbsp;+39 0461 615570; fax:&nbsp;+39 0461 650956.</dd></dl><!--artFooterContent--></div><p class="copyright">Copyright &copy; 2011 Elsevier Ltd. All rights reserved.</p>
+      <script>prs.rt('data_end');</script>
+       
+        
+    </div>
+    <div id="rightPane" class="rightPane" aria-label="Related content" role="complementary">
+      			 
+
+
+
+
+<div id="boxEComponent" class="aBox" data-index="1" style="display:none">
+  <div class="boxTopLeft"></div>
+  <div class="boxTopMid"><div class="boxTitle"><h2>Supplementary content</h2></div></div><div class="boxTopRight"></div>
+  <div class="boxMidMiddle">
+    <div class="boxMidLeft"></div>
+    <div class="boxLink mmTabs">
+    </div>
+    <div id="mmNotTabAudio" class="boxLink mmNotTabs"></div>
+    <div id="mmNotTabOther" class="boxLink mmNotTabs"></div>
+    <div id="mmNotTabVideo" class="boxLink mmNotTabs">
+      <div class="mmSelector">
+        <div class="mmSelectorInner">
+          <div class="mmSelectorPrev"></div>
+          <div class="mmSelectorNum">1 2 3 4 5</div>
+          <div class="mmSelectorNext"></div>
+        </div>
+      </div>
+      <div class="mmInner">
+        <div class="mmCaption">I am the caption</div>
+        <div class="mmPlayer"></div>
+        <div class="mmViewWithin"></div>
+      </div>
+    </div>
+    <div class="boxLinkSpacer">&nbsp;</div>
+    <div class="boxMidRight"></div>
+    <div class="boxBotLeft"></div><div class="boxBotMid"></div><div class="boxBotRight"></div>
+  </div>
+</div>
+<div id="boxEComponentSpacer" class="aBoxSpacer" style="display:none"></div>
+
+
+<div id="boxAppToolbarPriv" class="aBox">
+  <div class="boxMidMiddle">
+    <div id="SD_AT1P" class="boxLink sgfNoTitleBar sgfNoGadgetBorder"></div>
+    <div style="clear:both"></div>
+    <div class="boxLinkSpacer">&nbsp;</div>
+  </div>
+</div>
+<div class="aBoxSpacer"></div>
+
+
+
+
+
+
+
+<div id="boxRelatedArt"> </div>
+
+
+
+<div id="boxAppToolbar" class="aBox">
+  <div class="boxMidMiddle">
+    <div id="SD_FTA1" class="boxLink sgfHorToolbar sgfShowMyApps sgfShowMoreLessApps"></div>
+    <div style="clear:both"></div>
+    <div class="boxLinkSpacer">&nbsp;</div>
+  </div>
+</div>
+<div class="aBoxSpacer"></div>
+
+
+
+
+
+<div id="boxRelatedRef" ></div>
+
+
+
+
+<div id="boxOutward" class="aBox">
+  <div class="boxTopLeftShort"></div>
+  <div class="boxTopMidShort">
+    <div class="boxTitle"></div>
+  </div>
+  <div class="boxTopRightShort"></div>
+  <div class="boxMidMiddle" id="mlktListArt">
+    <div class="boxMidLeftShort"></div>
+    <div class="olLeftMiddle"><div class="boxLink"><a href="/science?_ob=RedirectURL&_method=outwardLink&_partnerName=5978&_eid=1-s2.0-S1364815211002775&_pii=S1364815211002775&_origin=article&_zone=art_rightCol&_targetURL=http%3A%2F%2Flinkinghub.pangaea.de%2Felsevier%2FredirectToSupplement%2F10.1016%2Fj.envsoft.2011.11.014&_acct=C000228598&_version=1&_userid=10&md5=f074f00a248560cabd8c4943a8649a8b"  rel="nofollow" class="olSpawnWindow" target="outwardLink"><img src="http://linkinghub.pangaea.de/elsevier/supplementBanner/10.1016/j.envsoft.2011.11.014" alt="PANGAEA Supplementary Data" title="PANGAEA Supplementary Data" border="0"></a></div></div><div class="olLeftMiddle"><div class="boxLink"><a href="/science?_ob=RedirectURL&_method=outwardLink&_partnerName=655&_eid=1-s2.0-S1364815211002775&_pii=S1364815211002775&_origin=article&_zone=art_rightCol&_targetURL=http%3A%2F%2Fwww.scopus.com%2Finward%2Frecord.url%3Feid%3D2-s2.0-84856404955%26partnerID%3D10%26rel%3DR3.0.0%26md5%3D4280ceba5dbf98e62b81e88e71bf040d&_acct=C000228598&_version=1&_userid=10&md5=e65c77e0c797baae86b8bd4ec02c172d"  rel="nofollow" class="olSpawnWindow" target="outwardLink">View Record in Scopus</a></div></div>
+    <div class="boxLinkSpacer">&nbsp;</div>
+    <div class="boxMidRightShort"></div>
+    <div class="boxBotLeft"></div><div class="boxBotMid"></div><div class="boxBotRight"></div>
+  </div>
+</div>
+<div class="aBoxSpacer"></div>
+
+
+
+
+<div class="aBoxSpacer"></div>
+
+<div id="articleRightAd" class="articleRightAd"></div>
+
+
+
+
+    </div>
+  </div>
+</div>
+<div style="clear:both;"></div>
+<div id="footer-area" aria-label="product support" role="contentinfo">
+  <div id="sdFoot">
+    <div id="footer">	
+  <div class="bottomArticle"></div>
+  <div class="padding">
+    <div id="linkArea"> 
+      <div class="padding">
+		    <div style="float:left;width:0;height:1px;"></div>
+        <div id="banner-bottom">
+				  <a href="http://www.elsevier.com" target="_blank"><img src="http://cdn.els-cdn.com/sd/wordmark_elsevier.png" alt="Elsevier homepage (opens in a new window)" title="Elsevier homepage (opens in a new window)"></a>
+			  </div>	
+			  <ul class="col1">
+<li><a target="_blank" href="http://www.info.sciverse.com/sciencedirect?utm_source=sciencedirect&utm_medium=link&utm_campaign=aboutsd">About ScienceDirect</a></li>
+<li><a target="_blank" href="http://www.elsevier.com/?utm_source=sciencedirect&utm_medium=link&utm_campaign=aboutelsevier">About Elsevier</a></li>
+</ul>
+<ul class="col2">
+<li> <a target="_blank" href="http://www.sciencedirect.com/science/contactus">Contact and support</a></li>
+<li><a target="_blank" href="http://www.elsevierscitech.com/forms/sd/form.html?utm_source=sciencedirect&utm_medium=link&utm_campaign=advert">Information for advertisers</a></li>
+</ul>
+<ul class="col3">
+<li><a target="_blank" href="http://www.elsevier.com/locate/termsandconditions?utm_source=sciencedirect&utm_medium=link&utm_campaign=terms">Terms and conditions</a></li>
+<li><a target="_blank" href="http://www.elsevier.com/privacypolicy?utm_source=sciencedirect&utm_medium=link&utm_campaign=privacy">Privacy policy</a></li>
+</ul>
+        <div class="clear"></div>
+		    <!-- CSAS will be providing the links-->
+      </div>
+    </div>
+    <div id="copyrightArea" >
+      <div class="padding">
+        Copyright &copy; 2012 <a href="http://www.elsevier.com" target="_blank">Elsevier B.V.</a> All rights reserved.  SciVerse&reg; is a registered trademark of Elsevier Properties S.A., used under license. ScienceDirect&reg; is a registered trademark of Elsevier B.V.
+      </div>
+    </div>
+  </div>
+</div> <!--footer-->
+
+
+
+  </div><!--sdFooter-->
+</div><!--footer-area-->
+
+<form name="citationInfo" id ="citationInfo" method="POST" action="">
+    <input type="hidden" name="art_citation" value="GRASS GIS: A multi-purpose open source GIS
+Markus Neteler, M. Hamish Bowman, Martin Landa, Markus Metz
+Published in:
+Environmental Modelling & Software
+Volume 31, May 2012, Pages 124-130
+doi: 10.1016/j.envsoft.2011.11.014"/>
+</form>
+<div id="pdfModalWindow" class="pdfModalWindow" style="display:none;" onClick="closePopup();"></div>
+<div id="suggestedPdfList" style="display:none;"></div>
+<div id="authorLinkHover" style="position:absolute;z-index:9999;background-color:#eeeeee;display:none;" onmouseover="clearAuthTimeout()" onmouseout="closeAuth()"></div>
+
+<script>
+var refLinkURL = "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S1364815211002775";
+var updatedCitedBy = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_updateCitedBy=";
+var refResolvePath = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_eid=1-s2.0-S1364815211002775&_refCnt=56&_docType=article";
+
+// these variables handle the reference resolution. Please ignore the naming.
+// the first variable myMap will hold an associative array of links by bibID
+// the second variable myXabsCounts holds the scopus counts. 
+var myMap = []; // html of links for references.
+var myXabsCounts = []; // scopus counts
+</script>
+<script src="http://cdn.els-cdn.com/sd/js/sdX_121R3.js"></script>
+<script src="http://cdn.els-cdn.com/sd/js/sd_121R3.js"></script>
+
+<script>
+var sciverse="empty";
+var SDM=new Object;
+SDM.urlPrefix = "http://www.sciencedirect.com/science";
+SDM.refLinkURL = "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S1364815211002775";
+SDM.updatedCitedBy = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_updateCitedBy=";
+SDM.refResolvePath = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_eid=1-s2.0-S1364815211002775&_refCnt=56&_docType=article";
+SDM.prodColor="sci_dir";if(SDM.prodColor=="sci_dir")SDM.prodColor="";
+SDM.pageTransKey = "05/30/2012 14:54:43 EDT#1845_004#215565#92.50.99.221";
+SDM.pageType = "article_abs";
+SDM.pii = "S1364815211002775";
+SDM.keOriginContentFamily = "serial"
+SDM.userActionURL = "http://www.sciencedirect.com/science/UserActions"
+SDM.svShindigLib="http://sciverse-shindig.elsevier.com/gadgets/js/shindig-container:pubsub-2.js?c=1";
+SDM.svSciverseLib="http://www.sciencedirect.com/gadgetservices/gadgets/v1/js/SciverseShindigService,GadgetToolBar,jquery-outside,jquery.ba-bbq.min,SciverseShindigContainer,ScienceDirectShindigServices.js";
+SDM.sciverseJsonObject='{%22locationsOnPage%22%3A[%22SD_BA1P%22,%22SD_AT1P%22,%22SD_FTA1%22],%22smapiVars%22%3A{%22gadgetAddUrl%22%3A%20%22http%3A%2F%2Fwww.applications.sciverse.com%2Faction%2Fgallery%3Fref%3Dhttp%25253A%25252F%25252Fwww.sciencedirect.com%25252Fscience%25252Farticle%25252Fpii%25252FS1364815211002775%22%20,%22gadgetManagePage%22%3A%20%22%2Fscience%3F_ob%3DRedirectURL%26_method%3DoutwardLink%26_origin%3Darticle%26_targetURL%3Dhttp%253A%252F%252Fwww.applications.sciverse.com%252Faction%252FmyApps%253Fzone%253D%253Corigin%253E%2526pageOrigin%253DSD%2526partnerID%253D2%2526ref%253Dhttp%25253A%25252F%25252Fwww.sciencedirect.com%25252Fscience%25252Farticle%25252Fpii%25252FS1364815211002775%26_acct%3DC000228598%26_version%3D1%26_userid%3D10%26md5%3D0cdea00b256105c0bd87b96d82019415%22%20,%22searchQueryURL%22%3A%20%22%2Fscience%3F_ob%3DMiamiSearchURL%26_method%3DsubmitForm%26_temp%3Dall_boolSearch.tmpl%26_acct%3DC000228598%26_version%3D1%26_urlVersion%3D1%26_userid%3D10%26md5%3D7580ea6ca83d0c54dabd51a5ca6799d3%26searchtype%3Da%26test_alid%3D%26SearchText%3D%26source%3DsrcJrl%26source%3DsrcBk%26srcSel%3D1%26DateOpt%3D2%26fromDate%3D2001%26toDate%3DPresent%26RegularSearch%3DSearch%22%20,%22gsUrl%22%3A%20%22http%3A%2F%2Fwww.sciencedirect.com%2Fgadgetservices%22},%22userInfo%22%3A{%22authToken%22%3A%20%228487-a98911f9731ba42b0052d841ab70ad67914%22%20,%22sessionId%22%3A%20%22d78b501e-aa87-11e1-8ea4-00000aab0f27%22%20,%22pathId%22%3A%20%2271108%22%20,%22sessionAffinity%22%3A%20%220000f2l90BjDbQrbLztsrlKuEGu%3A1593os007%22%20,%22userAnonymity%22%3A%20%22GUEST%22%20,%22platformCode%22%3A%22SD%22,%22webUserId%22%3A%20%2210%22%20,%22clientIPAddress%22%3A%20%2292.50.99.221%22},%22contextInfo%22%3A{%22LinkTextClassesToIgnore%22%3A%20%22nbApiHighlight,reflect_%22%20,%22pageContentDivTagName%22%3A%20%22sciverseCanvasArea%22%20,%22docType%22%3A%20%22article%22%20,%22fmt%22%3A%20%22abst%22%20,%22docSubtype%22%3A%20%22fla%22%20,%22itemStage%22%3A%20%22S300%22%20,%22entitlement%22%3A%20%22UNSUBSCRIBED%22%20,%22accountId%22%3A%20%22228598%22%20,%22ePage%22%3A%20%22130%22%20,%22sPage%22%3A%20%22124%22%20,%22au1Init1%22%3A%20%22M%22%20,%22au1Sur%22%3A%20%22NETELER%22%20,%22au1Sur_N%22%3A%20%22Markus%20Neteler,%20M.%20Hamish%20Bowman,%20Martin%20Landa,%20Markus%20Metz%22%20,%22authorKeywords%22%3A%20%22GISGRASSOSGeoOpen%20sourceSpatial%20analysisRemote%20sensing%22%20,%22docTitle%22%3A%20%22GRASS%20GIS%3A%20A%20multi-purpose%20open%20source%20GIS%22%20,%22docTitle_N%22%3A%20%22GRASS%20GIS%3A%20A%20multi-purpose%20open%20source%20GIS%22%20,%22doi%22%3A%20%2210.1016%2Fj.envsoft.2011.11.014%22%20,%22eid%22%3A%20%221-s2.0-S1364815211002775%22%20,%22indexTerms%22%3A%20%22%22%20,%22issn%22%3A%20%2213648152%22%20,%22subjectCategories%22%3A%20[11,17]%20,%22isbn%22%3A%20%22%22%20,%22issue%22%3A%20%22%22%20,%22keywords%22%3A%20%22GISGRASSOSGeoOpen%20sourceSpatial%20analysisRemote%20sensing%3BGISGRASSOSGeoOpen%20sourceSpatial%20analysisRemote%20sensing%3B%22%20,%22otherKeywords%22%3A%20%22GISGRASSOSGeoOpen%20sourceSpatial%20analysisRemote%20sensing%22%20,%22partTitle%22%3A%20%22%22%20,%22partValue%22%3A%20%22%22%20,%22pii%22%3A%20%22S1364815211002775%22%20,%22originPage%22%3A%22Full%20Text%20Article%20page%22,%22pageType%22%3A%22article%22,%22srcTitle%22%3A%20%22Environmental%20Modelling%20%26%20Software%22%20,%22timestamp%22%3A%20%2220120530185444%22%20,%22volume%22%3A%20%2231%22%20,%22year%22%3A%20%222012%22%20,%22searchTerms%22%3A%20%22%22%20,%22searchNonNormTerms%22%3A%20%22%22%20,%22platform%22%3A%22SD%22,%22searchQuery%22%3A%20%22%22},%22usageInfo%22%3A{%22appName%22%3A%20%22ScienceDirect%22%20,%22currObj%22%3A%20%22SciVerseBrowserStateChangeURL%22%20,%22destKey%22%3A%20%2214705%22%20,%22indUserId%22%3A%20%22169c7606-a0ca-11e1-9b02-00000aacb35d%22%20,%22isShortURL%22%3A%20%221%22%20,%22origin%22%3A%20%22article%22%20,%22refHost%22%3A%20%22http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1364815211002775%22%20,%22primary%22%3A%20%22(10,U|71108,D|228598,A|3,P|2,PL)(SCIDIR,CON|7487-a98911f9731ba42b0052d841ab70ad67914,SSO)%22}}';
+SDM.imageLazyLoading = true;
+SDM.fullSize = true;
+SDM.outlineGraphics = true;
+SDM.outlineImgFence = true;
+SDM.entitled = false;
+SDM.urlTOCLink="http://www.sciencedirect.com/science/article/pii/S1364815211002775";
+SDM.urlTOCLinkQueryStr="?_rdoc=1&_fmt=full&_origin=&md5=22543fb95e34d36391c44b9d9cd72533";
+
+SDM.suppContentInline=true;
+SDM.suppContentBox=true;
+SDM.displayGadgets=true;
+SDM.adArticleLeftURL="/science/advertisement/left/num/695830/mainCat/general/cat/general/acct/ddd49027ac058c4db14dac8cc0563abc/isn/13648152/doi/10.1016_j.envsoft.2011.11.014/page/article";
+SDM.adArticleOptionsURL="/science/advertisement/options/num/695830/mainCat/general/cat/general/acct/ddd49027ac058c4db14dac8cc0563abc/isn/13648152/doi/10.1016_j.envsoft.2011.11.014/page/article";
+SDM.adReqBoombox=true;
+SDM.adReqOutline=true;
+SDM.adReqOptions=true;
+SDM.relatedRefAvail=true;
+SDM.mlktAvail = true;
+SDM.citedByScAvail = false;
+SDM.crawlerAvail = false;
+</script>
+
+
+
+<script>
+
+initializeArticlePage();
+</script>
+
+
+<div style="display:none" id="right_ad_content"><script type="text/javascript"> 
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+if(typeof(tile) == "undefined"){var tile = 1} else {tile++}
+document.write('<script src="http://ad.doubleclick.net/adj/els.SDguest/ISSN13648152;ISSN=13648152;doi=10.1016/j.envsoft.2011.11.014;searchterms=;pg=article;' + dcopt + ';tile=1;pos=right;sz=180x150,250x250,250x300,270x450,272x450,272x1200;ord=' + cachebuster + '?"></scr'+'ipt>');
+ArticlePage.showRightAd = function() {
+    $("#articleRightAd")[0].appendChild( $("#right_ad_content")[0] );
+    $("#right_ad_content").css("display","block");
+  }
+</script></div><script>$(document).ready( ArticlePage.showRightAd() );</script>
+<script>$(document).ready( ArticlePage.showLeftAd() );</script>
+<script>$(document).ready( ArticlePage.showOptionsAd() );</script>
+
+
+
+
+<script>prs.rt('ggcon_start');</script>
+<div class="googleAds">
+  <script language="javascript"> google_ad_client='ca-sciencedirect_b_js'; google_ad_output='js'; google_ad_type='text'; google_page_url='http://www.sciencedirect.com/science/article/1-s2.0-S1364815211002775/2/4001bca40398ccac7686f2e27a4f60ee'; google_encoding='utf8'; google_feedback='on'; google_safe='high'; google_max_num_ads='3';</script><script language="javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+
+
+
+<script>prs.rt('speedTrap_start');</script>
+<script>
+var noOutline = function() {
+  if(SDM.entitled==true && $(ArticlePage.selectorE).length<1) {
+      $('#outline').css('top', 0);
+      $('#outline .outlineMsg').html('This document does not have an outline.')
+      .css('padding-left',5)
+      .css('margin-bottom', 10)
+      .css('margin-top', 5)
+      .show();
+  }
+}
+function getIssnIsbn() {
+  var ddJrnlStr = $(".publicationHead .title a").attr("href");
+  if(ddJrnlStr) {
+    var parts = ddJrnlStr.split("/");
+    return parts[parts.length-1];
+  }
+  return null;
+}
+function getDOI() {
+  var ddDOIStr = $("#ddDoi").attr("href");
+  if(ddDOIStr) {
+    return ddDOIStr.replace("http://dx.doi.org/", "");
+  }
+  return null;
+}
+function buildDD() {
+var issn = getIssnIsbn();
+var doi = unescape(getDOI());
+if(issn==null || doi== null) {return;}
+var prices = new Array();
+prices["4.99"]="/scidirimg/DeepDyve_SD_499.gif";
+prices["3.99"]="/scidirimg/DeepDyve_SD_399.gif";
+prices["2.99"]="/scidirimg/DeepDyve_SD_299.gif";
+prices["1.99"]="/scidirimg/DeepDyve_SD_199.gif";
+prices["0.99"]="/scidirimg/DeepDyve_SD_099.gif";
+
+ var dd = "http://www.deepdyve.com/rental-link";
+dd += "?docId=" + doi;
+dd += "&journal=" + issn;
+dd += "&fieldName=journal_doi";
+dd += "&affiliateId=elsevier&format=jsonp&callback=?";
+
+$.getJSON(dd, function(data) {
+  if (data.status === "ok") {
+   if (prices[data.price]) {
+    $("#dd_img").attr("src",prices[data.price]);
+    $("#dd_href").attr("href",data.url);
+    $("#deepdyve").show();
+   }
+  }
+}
+);
+}
+
+if( typeof SDM=='object' && SDM ) {
+  if(SDM.pageType=='article_full' && $('#outline .outlineMsg').css('display')=='none') { noOutline(); }
+  if(SDM.pageType=='article_abs' && $('#deepdyve').length==1) { buildDD();}
+}
+</script>
+<script>prs.rt('speedTrap_end');</script>
+
+
+
+
+<script>
+  prs.rt('body_end');
+  
+</script>
+</body></html>

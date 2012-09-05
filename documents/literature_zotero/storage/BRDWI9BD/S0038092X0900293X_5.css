@@ -1,0 +1,8 @@
+
+/* ::::: null ::::: */
+
+body, td, div, span, p { font-family: arial,sans-serif; }
+a { color: rgb(0, 0, 204); }
+a:visited { color: rgb(85, 26, 139); }
+a:active { color: rgb(255, 0, 0); }
+body { margin: 0px; padding: 0px; background-color: white; }

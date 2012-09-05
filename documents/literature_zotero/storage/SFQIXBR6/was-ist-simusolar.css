@@ -1,0 +1,172 @@
+
+/* ::::: http://www.simusolar.de/css/im-base/im-reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0pt; padding: 0pt; border: 0pt none; outline: 0pt none; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; }
+:focus { outline: 0pt none; }
+body { line-height: 1; color: black; background: none repeat scroll 0% 0% white; }
+ol, ul { list-style: none outside none; }
+table { border-collapse: separate; border-spacing: 0pt; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+html * { font-size: 100.01%; }
+
+/* ::::: http://www.simusolar.de/css/im-base/im-default-styles.css ::::: */
+
+body { font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 75%; line-height: 125%; }
+#page-wrapper { margin: 0pt auto; width: 960px; }
+.italic { font-style: italic; }
+
+/* ::::: http://www.simusolar.de/css/simusolar.css ::::: */
+
+html { background: none repeat scroll 0% 0% rgb(207, 214, 217); }
+body { background: none repeat scroll 0% 0% transparent; position: relative; }
+#page-wrapper { background: none repeat scroll 0% 0% transparent; margin-top: 20px; margin-bottom: 40px; }
+#page { background: url('simusolar-page-bg.jpg') no-repeat scroll left top transparent; border: 1px solid rgb(255, 255, 255); }
+#header, #content-wrapper, #main-menu { padding: 0pt 20px; }
+#header { margin-bottom: 18px; }
+p#lang-nav { height: 19px; color: rgb(255, 255, 255); font-size: 90%; padding-top: 0.4em; text-align: right; }
+p#lang-nav a, p#lang-nav a:hover { color: rgb(255, 255, 255); padding-right: 1em; text-decoration: none; }
+p#lang-nav a:hover { color: rgb(255, 155, 4); }
+#content a, a.textlink { color: rgb(255, 155, 4); text-decoration: none; }
+#content a.textlink:hover, a.textlink:hover { color: rgb(255, 155, 4); text-decoration: underline; }
+.orange { color: rgb(255, 155, 4); }
+#logo-panel { background: none repeat scroll 0% 0% rgb(255, 255, 255); height: 120px; overflow: hidden; width: 100%; }
+#logo-panel img { float: left; padding-left: 104px; padding-top: 19px; }
+dl.header-news { border: 1px solid rgb(130, 137, 144); color: rgb(130, 137, 144); float: right; margin-right: 19px; margin-top: 19px; width: 400px; }
+dl.header-news dt span { border-bottom: 1px solid rgb(130, 137, 144); border-right: 1px solid rgb(130, 137, 144); padding: 0pt 4px 2px; }
+dl.header-news dd { font-size: 91.67%; padding: 6px; }
+dl.header-news a { color: rgb(130, 137, 144); text-decoration: none; }
+dl.header-news a:hover { color: rgb(255, 155, 4); }
+#main-menu { overflow: hidden; }
+ul#menue { overflow: hidden; text-align: center; width: 100%; }
+ul#menue li { float: right; padding: 4px 0pt 2px; }
+ul#menue li a { border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; color: rgb(51, 51, 51); margin-left: 4px; padding: 2px 4px 3px; text-decoration: none; }
+ul#menue li a:hover, #startseite li#t-startseite a, #news li#t-news a, #was-ist-simusolar li#t-was-ist-simusolar a, #stadtweite-analysen li#t-stadtweite-analysen a, #einzelobjekt-analyse li#t-einzelobjekt-analyse a, #links li#t-links a, #impressum li#t-impressum a, #kontakt li#t-kontakt a { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); }
+ul#menue li.left, ul#menue li.left-first, ul#menue li.middle, ul#menue li.middle-first { float: left; }
+ul#menue li.left-first a { margin: 0pt; }
+ul#menue li.middle-first { margin-left: 9em; }
+#content-wrapper { background: none repeat scroll 0% 0% transparent; }
+#content { background: none repeat scroll 0% 0% transparent; border: 1px solid rgb(255, 255, 255); color: rgb(0, 0, 0); margin-bottom: 20px; overflow: hidden; padding: 19px 19px 18px; position: relative; }
+#col-container, #col-container-startseite { overflow: hidden; }
+#col-container { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#col-container-startseite { background: url('col-bg.gif') no-repeat scroll left bottom transparent; }
+#col-left { background: none repeat scroll 0% 0% rgb(255, 255, 255); float: left; padding: 19px; width: 350px; }
+#col-right, #col-right-transparent { background: none repeat scroll 0% 0% rgb(255, 255, 255); float: right; padding: 19px; width: 490px; }
+#col-right { width: 452px; }
+#col-right-transparent { background: none repeat scroll 0% 0% transparent; padding: 0pt; }
+#col-right h2, #col-right-transparent h2, #kontakt h2, #impressum h2 { font-size: 200%; font-weight: normal; padding-top: 0.5em; margin-bottom: 1em; }
+.padding { padding: 19px; }
+.clear-right { clear: right; }
+.clear-both { clear: both; }
+.space { display: none; }
+p { line-height: 1.5em; margin-bottom: 1.2em; }
+h1, h2, h3, h4, h5, h6 { font-family: Georgia,"Times New Roman",Times,serif; }
+h3 { color: rgb(255, 155, 4); font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 150%; line-height: normal; margin-bottom: 0.5em; padding-top: 0pt; }
+#startseite #content h1 { font-size: 200%; font-weight: normal; line-height: 1.2em; margin-bottom: 1em; }
+#content-startseite { background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 100%; }
+.simusolar { font-family: Verdana,Arial,Helvetica,sans-serif; font-weight: bold; }
+#footer { color: rgb(130, 137, 144); font-weight: bold; overflow: hidden; }
+#footer #info-download { float: right; width: 520px; }
+#footer #info-download img { float: left; padding-right: 8px; }
+#footer #info-download p { line-height: 1.5em; margin-bottom: 2em; }
+#footer p.info { font-size: 95%; font-weight: normal; letter-spacing: -1px; }
+#footer a, #footer a:hover { color: rgb(130, 137, 144); text-decoration: none; }
+#footer a:hover { color: rgb(255, 155, 4); }
+dl.partner { border: 1px solid rgb(255, 255, 255); float: left; margin-bottom: 20px; width: 300px; }
+dl.partner dt span { border-bottom: 1px solid rgb(255, 255, 255); border-right: 1px solid rgb(255, 255, 255); padding: 0pt 4px 2px; }
+dl.partner dd img { margin-left: 165px; padding: 3px; position: relative; }
+dl.partner dd.last { clear: right; }
+dl.award { border: 1px solid rgb(255, 255, 255); float: left; margin-bottom: 10px; width: 150px; }
+dl.award dt span { border-bottom: 1px solid rgb(255, 255, 255); border-right: 1px solid rgb(255, 255, 255); padding: 0pt 4px 2px; }
+dl.award dd img { margin-left: 20px; padding: 3px; position: relative; }
+dl.award dd.last { clear: right; }
+#content ul { float: none; font-size: 110%; list-style-image: url('bullet-square.gif'); line-height: 1.5em; margin-bottom: 1.5em; margin-left: 1.2em; }
+#content ul li { float: none; margin-bottom: 1em; }
+#simusolargallery { color: rgb(130, 137, 144); background: none repeat scroll 0% 0% rgb(255, 255, 255); height: auto; position: relative; }
+#simusolargallery h2 { color: rgb(0, 0, 0); font-size: 200%; font-weight: normal; margin-bottom: 1em; padding-top: 275px; }
+#simusolargallery span.default { color: rgb(130, 137, 144); display: block; position: absolute; width: 348px; height: 250px; top: 0pt; left: 0pt; text-align: center; font-size: 100%; cursor: default; z-index: 1; }
+#simusolargallery span.default img { border: 1px solid rgb(0, 0, 0); position: relative; z-index: 1; }
+#content ul a { color: rgb(0, 0, 0); float: none; text-decoration: none; }
+#simusolargallery ul { float: none; line-height: 1em; padding-left: 0pt; padding-top: 0pt; }
+#content ul a.gallery-list { float: none; }
+#content ul a.gallery-list span { color: rgb(130, 137, 144); visibility: hidden; display: block; position: absolute; left: 0pt; top: 0pt; width: 348px; height: 250px; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-size: 100%; text-align: center; cursor: default; }
+#content ul a.gallery-list:hover { border: medium none; color: rgb(255, 155, 4); white-space: normal; z-index: 100; }
+#content ul a.gallery-list:hover span { visibility: visible; z-index: 100; }
+#content ul a.gallery-list:hover span img { border: 1px solid rgb(0, 0, 0); margin: 0pt 0pt 10px; position: relative; z-index: 99; }
+#content ul a.gallery-list:active, #content ul a.gallery-list:focus { z-index: 99; }
+#content ul a.gallery-list:active span img, #content ul a.gallery-list:focus span img { border: 1px solid rgb(0, 0, 0); position: relative; margin: 0pt 0pt 10px; z-index: 99; }
+#content ul a.gallery-list2 { float: none; }
+#content ul a.gallery-list2 span { color: rgb(130, 137, 144); visibility: hidden; display: block; position: absolute; left: 0pt; top: 0pt; width: 348px; height: 250px; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-size: 100%; text-align: center; cursor: default; }
+#content ul a.gallery-list2:hover { border: medium none; color: rgb(0, 0, 0); white-space: normal; z-index: 100; }
+#content ul a.gallery-list2:hover span { visibility: visible; z-index: 100; }
+#content ul a.gallery-list2:hover span img { border: 1px solid rgb(0, 0, 0); margin: 0pt 0pt 10px; position: relative; z-index: 99; }
+#content ul a.gallery-list2:active, #content ul a.gallery-list2:focus { z-index: 99; }
+#content ul a.gallery-list2:active span img, #content ul a.gallery-list2:focus span img { border: 1px solid rgb(0, 0, 0); position: relative; margin: 0pt 0pt 10px; z-index: 99; }
+#stadtweite-analysen #simusolargallery a.thumb-01 { border: 1px solid rgb(0, 0, 0); background: url('stadt1-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 0pt; }
+#stadtweite-analysen #simusolargallery a.thumb-02 { border: 1px solid rgb(0, 0, 0); background: url('stadt2-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#stadtweite-analysen #simusolargallery a.thumb-03 { visibility: visible; border: 1px solid rgb(0, 0, 0); background: url('stadt3-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#stadtweite-analysen #simusolargallery a.thumb-04 { border: 1px solid rgb(0, 0, 0); background: url('stadt4-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 0pt; }
+#stadtweite-analysen #simusolargallery a.thumb-05 { border: 1px solid rgb(0, 0, 0); background: url('stadt5-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#stadtweite-analysen #simusolargallery a.thumb-06 { visibility: visible; border: 1px solid rgb(0, 0, 0); background: url('stadt6-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#einzelobjekt-analyse #simusolargallery a.thumb-01 { border: 1px solid rgb(0, 0, 0); background: url('einzel1-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 0pt; }
+#einzelobjekt-analyse #simusolargallery a.thumb-02 { border: 1px solid rgb(0, 0, 0); background: url('einzel2-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#einzelobjekt-analyse #simusolargallery a.thumb-03 { visibility: visible; border: 1px solid rgb(0, 0, 0); background: url('einzel3-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#einzelobjekt-analyse #simusolargallery a.thumb-04 { border: 1px solid rgb(0, 0, 0); background: url('einzel4-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 0pt; }
+#einzelobjekt-analyse #simusolargallery a.thumb-05 { border: 1px solid rgb(0, 0, 0); background: url('einzel5-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#einzelobjekt-analyse #simusolargallery a.thumb-06 { border: 1px solid rgb(0, 0, 0); background: url('einzel6-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#thumbs { overflow: hidden; }
+#simusolargallery a.gallery, #simusolargallery a.gallery:visited { display: inline; color: rgb(130, 137, 144); text-decoration: none; width: 100px; height: 54px; float: left; cursor: default; }
+#simusolargallery a.thumb-01 { border: 1px solid rgb(0, 0, 0); background: url('methodik-horizont-th.jpg') repeat scroll 0% 0% transparent; margin-top: 10px; margin-left: 0pt; }
+#simusolargallery a.thumb-02 { border: 1px solid rgb(0, 0, 0); background: url('methodik-flaechenorientierung-th.jpg') repeat scroll 0% 0% transparent; margin-top: 10px; margin-left: 21px; }
+#simusolargallery a.thumb-03 { visibility: hidden; border: 1px solid rgb(0, 0, 0); background: url('gallery-03th.gif') repeat scroll 0% 0% transparent; margin-top: 10px; margin-left: 21px; }
+#simusolargallery a.thumb-04 { border: 1px solid rgb(0, 0, 0); background: url('methodik-raster-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 0pt; }
+#simusolargallery a.thumb-05 { border: 1px solid rgb(0, 0, 0); background: url('methodik-ergebnis-th.jpg') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#simusolargallery a.thumb-06 { border: 1px solid rgb(0, 0, 0); background: url('gallery-06th.gif') repeat scroll 0% 0% transparent; margin-top: 20px; margin-left: 21px; }
+#simusolargallery a.gallery span { color: rgb(130, 137, 144); visibility: hidden; display: block; position: absolute; left: 0pt; width: 348px; height: 250px; top: 0pt; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-size: 100%; text-align: center; cursor: default; }
+#simusolargallery a.gallery:hover { z-index: 100; }
+#simusolargallery a.gallery:hover span { background: none repeat scroll 0% 0% rgb(255, 255, 255); visibility: visible; z-index: 100; }
+#simusolargallery a.gallery:hover span img { border: 1px solid rgb(0, 0, 0); margin: 0pt 0pt 10px; position: relative; z-index: 100; }
+#simusolargallery a.gallery:active, #simusolargallery a.gallery:focus { z-index: 99; }
+#simusolargallery a.gallery:active span, #simusolargallery a.gallery:focus span { visibility: visible; z-index: 99; }
+#simusolargallery a.gallery:active span img, #simusolargallery a.gallery:focus span img { border: 1px solid rgb(0, 0, 0); position: relative; margin: 0pt; z-index: 99; }
+#beispiel-analyse { color: rgb(0, 0, 0); overflow: hidden; padding-left: 0pt; padding-top: 280px; }
+#beispiel-analyse p { line-height: 1.5em; margin-bottom: 1em; }
+#beispiel-analyse img { float: left; margin: 0pt 4px 10px 0pt; padding: 4px 4px 4px 0pt; }
+p.small { font-size: 80%; }
+#kontakt #col-left, #kontakt #col-right { background: none repeat scroll 0% 0% transparent; padding: 0pt; }
+#kontakt #col-left { width: 530px; }
+#kontakt #col-right { width: 348px; }
+#kontaktformular p { margin-bottom: 0.6em; }
+#kontaktformular label { background: none repeat scroll 0% 0% transparent; border-bottom: 1px solid rgb(255, 255, 255); color: rgb(255, 255, 255); cursor: pointer; float: left; font-size: 100%; font-weight: bold; width: 120px; }
+#kontaktformular label span { border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; display: block; padding: 0pt 4px 4px; width: 94px; }
+#kontaktformular label.planung { border: medium none; color: rgb(0, 0, 0); padding-left: 4px; padding-right: 0pt; width: 250px; }
+#kontaktformular label.bemerkungen { border-width: medium medium medium 1px; border-style: none none none solid; border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; padding: 0pt 0pt 1.2em; width: 260px; }
+#kontaktformular label.bemerkungen span { border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; display: block; padding: 0.2em; width: 94px; }
+#kontaktformular input, #kontaktformular select { border: 1px solid rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 100%; width: 300px; padding: 4px; }
+#kontaktformular select { width: 310px; }
+#kontaktformular input[type="checkbox"], #kontaktformular input.checkbox { border: medium none; background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(255, 155, 4); float: left; height: 12px; width: 12px; padding-left: 0pt; }
+#kontaktformular p.nachricht { clear: left; margin-top: 4em; }
+#kontaktformular textarea { border: 1px solid rgb(255, 255, 255); font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 1em; padding: 3px; width: 340px; margin: 0pt; }
+#kontaktformular input[type="submit"], #kontaktformular input[type="submit"]:hover, #kontaktformular input[type="submit"]:focus { color: rgb(0, 0, 0); float: right; font-weight: bold; margin-right: 0pt; margin-top: 2em; width: auto; }
+#kontaktformular input:hover, #kontaktformular input:focus, #kontaktformular select:hover, #kontaktformular select:focus, #kontaktformular textarea:hover, #kontaktformular textarea:focus { background: none repeat scroll 0% 0% rgb(239, 224, 211); }
+#kontaktformular input[type="submit"]:hover, #kontaktformular input[type="submit"]:focus { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(255, 155, 4); }
+.clear-left { clear: left; }
+p.error { border: 1px solid red; margin-top: 1em; padding: 4px; width: 420px; }
+p.gruss { margin-bottom: 18em; }
+#impressum #col-left { background: none repeat scroll 0% 0% transparent; padding: 0pt; width: 148px; }
+#impressum #col-right { background: none repeat scroll 0% 0% rgb(255, 255, 255); float: right; margin-top: 0pt; padding: 0pt; width: 730px; }
+p.caption { background: none repeat scroll 0% 0% transparent; border-bottom: 1px solid rgb(255, 255, 255); color: rgb(255, 255, 255); font-weight: bold; padding-top: 0pt; }
+p.caption span { border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; display: block; padding: 0.2em; width: 6.5em; }
+#impressum #col-right p { line-height: 1.5em; margin-bottom: 1.2em; }
+#impressum #col-right #contact { float: left; width: 30%; }
+#haftungsausschluss { float: right; width: 65%; }
+#haftungsausschluss p { font-size: 91.67%; font-weight: normal; line-height: 1.2em; margin-bottom: 1em; }
+#haftungsausschluss p.first { margin-top: 1.7em; }
+.teltab { float: left; width: 2.5em; }
+#haftungsausschluss p.design-copyright { color: rgb(130, 137, 144); margin-top: 1.5em; }
+#haftungsausschluss p.design-copyright span { float: left; width: 10em; }
+#haftungsausschluss p.design-copyright a { color: rgb(130, 137, 144); text-decoration: none; }
+#haftungsausschluss p.design-copyright a:hover { color: rgb(255, 155, 4); }
+.sub { font-size: 70%; line-height: 70%; vertical-align: sub; }
+#news #content h3 { color: rgb(130, 137, 144); font-size: 100%; font-weight: bold; }

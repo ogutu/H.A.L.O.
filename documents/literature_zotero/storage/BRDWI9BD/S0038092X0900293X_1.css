@@ -1,0 +1,21 @@
+
+/* ::::: null ::::: */
+
+body, td, div, span, p { font-family: arial,sans-serif; }
+a { color: rgb(0, 0, 204); }
+a:visited { color: rgb(85, 26, 139); }
+a:active { color: rgb(255, 0, 0); }
+body { margin: 0px; padding: 0px; background-color: white; }
+
+/* ::::: null ::::: */
+
+body { padding: 0pt; color: rgb(46, 46, 46); font-size: 10pt; }
+#oaMainFrame { width: 273px; }
+#oaTitleBox { color: rgb(92, 92, 92); height: 28px; line-height: 28px; background-color: rgb(249, 251, 252); border-width: 1px 1px 0pt; border-style: solid solid none; border-color: rgb(215, 215, 215) rgb(215, 215, 215) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; border-top-left-radius: 3px; border-top-right-radius: 3px; font-size: 1.1em; padding: 3px 0pt 0pt 6px; }
+#oaTitleBox img { float: left; border: medium none; }
+#oaTitle { line-height: 20px; padding-left: 6px; }
+#oaImage { border: medium none; }
+#oaBody { border: 1px solid rgb(215, 215, 215); padding: 9px; }
+#oaMore { text-decoration: none; color: rgb(49, 108, 157); padding-top: 8px; display: block; font-size: 0.9em; }
+#oaMore:hover { text-decoration: underline; color: rgb(126, 137, 146); font-size: 0.9em; }
+#oaMore:active { color: rgb(126, 137, 146); }

@@ -1,0 +1,718 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://istgeo.ist.supsi.ch/site/?q=node/3">
+<meta name="wpd_url" content="http://istgeo.ist.supsi.ch/site/?q=node/3">
+<meta name="wpd_date" content="2012-04-30T18:45Z">
+
+  <title>Solar Lab | Division of geomatics</title>
+  <meta name="verify-v1" content="VwVNc/W7DONt1idwrUpUCs+Aa6Cg02rkpUZ8Cbu/Mmg=">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  
+<link rel="shortcut icon" href="about:blank?favicon_1.png" type="image/x-icon">
+  
+  <script src="urchin.js" type="text/javascript">
+</script><script type="text/javascript">
+
+try {
+_uacct = "UA-9124700-2";
+urchinTracker();
+} catch(err) {}</script>
+<link rel="stylesheet" type="text/css" href="site.css" media="all">
+</head>
+<body bgcolor="#ffffff">
+
+<div class="hide"><a href="#content" title="Skip navigation." accesskey="2">Skip navigation</a>.</div>
+
+<table id="primary-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td id="home" width="10%">
+              <a href="http://istgeo.ist.supsi.ch/site/" title="Home"><img src="logo.png" alt="Home" border="0"></a>
+          </td>
+
+    <td id="site-info" width="20%">
+              <div class="site-name"><a href="http://istgeo.ist.supsi.ch/site/" title="Home">Division of geomatics</a></div>
+                    <div class="site-slogan">Istituto Scienze della Terra - SUPSI</div>
+          </td>
+    <td class="primary-links" align="center" valign="bottom" width="70%">
+      <ul class="links" id="navlist"><li class="menu-127 first"><a href="http://istgeo.ist.supsi.ch/site/about" title="About us">About us</a></li>
+<li class="menu-128"><a href="http://istgeo.ist.supsi.ch/site/contactus" title="Contact">Contact</a></li>
+<li class="menu-136"><a href="http://istgeo.ist.supsi.ch/site/education" title="Education" class="active-trail">Education</a></li>
+<li class="menu-159"><a href="http://istgeo.ist.supsi.ch/site/foss4g-it" title="XI Meeting degli utenti di lingua Italiana di GRASS e FOSS4G">Foss4G-it</a></li>
+<li class="menu-137 last"><a href="http://istgeo.ist.supsi.ch/site/projects" title="Projects">Projects</a></li>
+</ul>    </td>
+  </tr>
+</tbody></table>
+
+<table id="secondary-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td class="secondary-links" align="center" valign="middle" width="75%">
+          </td>
+    <td align="center" valign="middle" width="25%">
+          </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div></div></td>
+  </tr>
+</tbody></table>
+
+<table id="content" border="0" cellpadding="15" cellspacing="0" width="100%">
+  <tbody><tr>
+    
+    <td valign="top">
+      
+      <div id="main">
+                  <div class="breadcrumb"><a href="http://istgeo.ist.supsi.ch/site/">Home</a></div>          <h1 class="title">Solar Lab</h1>
+
+          
+        
+        
+        
+      <!-- start main content -->
+      <div class="node">
+        <span class="submitted"></span>
+    <div class="taxonomy"></div>
+    <div class="content"><p>The Lab proposes the computation of solar energy production by using OSGeo (Open Source Geospatial) software,and specifically the GRASS GIS (<a href="http://grass.itc.it/" title="http://grass.itc.it/">http://grass.itc.it/</a>).</p>
+<p>&nbsp;</p>
+<p>The Lab is organized in three main steps:</p>
+<ul>
+<li>
+<h3>Computation of solar irradiation map</h3>
+</li>
+</ul>
+<p>The basic GRASS command used is r.sun; as the computed result corresponds to beam (direct), diffuse and ground reflected solar  irradiation raster maps for a given day, latitude, surface and atmospheric conditions, we have implemented a script named r.sun.mean that allows the computation of monthly and yearly maps.</p>
+<p>In order to make such&nbsp; kind of computation, we need</p>
+<ul>
+<li>the ground albedo map (albedo is&nbsp; the ratio of diffusely reflected to incident electromagnetic radiation)</li>
+</ul>
+<p class="rteindent1">which is derived from the landuse map</p>
+<ul>
+<li>the Linke turbidity maps (Linke turbidity factor is a measure of atmospheric turbidity)</li>
+</ul>
+<p class="rteindent1">which are already derived from the landuse map but are specifically computed for each month.</p>
+<ul>
+<li>slope and aspect DSM maps</li>
+</ul>
+<p>Therefore firstly we derive the albedo, the Linke maps, the DSM slope and aspect and then we launch the r.sun.mean command.</p>
+<p>&nbsp;</p>
+<ul>
+<li>
+<h3>Computation of total energy per year for each building</h3>
+</li>
+</ul>
+<p>Before computing the solar energy corresponding to single building, we need to calculate the total irradiation solar map (corresponding to the sum of the three contributes - direct, diffuse and ground reflected). Unfortunately we don't have any direct information about cloudiness, another factor that can strongly influence the global irradiation.</p>
+<p>Anyway we have available monthly mean average solar irradiation values for the area of interest&nbsp; obtained by ENEA from remote-sensed data (Meteosat - visible band) (<a href="http://clisun.casaccia.enea.it/Pagine/TabelleRadiazione.htm#RadiazioneTabelle">http://clisun.casaccia.enea.it/Pagine/TabelleRadiazione.htm#RadiazioneTabelle</a>).</p>
+<p>We consider the mean monthly irradiation values corresponding to period 1994-1999.</p>
+<p>For Olbia we have the following daily mean irradiation values for each month:</p>
+<table border="1" cellpadding="1" cellspacing="1" width="200">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>Feb</td>
+<td>Mar</td>
+<td>Apr</td>
+<td>May</td>
+<td>Jun</td>
+<td>Jul</td>
+<td>Aug</td>
+<td>Sep</td>
+<td>Oct</td>
+<td>Nov</td>
+<td>Dec</td>
+</tr>
+<tr>
+<td>7.1</td>
+<td>10.0</td>
+<td>14.8</td>
+<td>18.2</td>
+<td>22.0</td>
+<td>24.0</td>
+<td>24.0</td>
+<td>21.0</td>
+<td>16.2</td>
+<td>11.9</td>
+<td>7.9</td>
+<td>6.3</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;Data are&nbsp; in [MJ m-2 d-1]; the conversion to&nbsp; [kWh m-2 d-1] is given by:</p>
+<p>I [kWh m-2 d-1] = (3.6)<sup>-1</sup>I [MJ m-2 d-1]</p>
+<p>Considering the mean of the irradiation obtained by r.sun.mean, we can derive the monthly correction factor we have to consider in order to account for cloudiness.</p>
+<p>We recalibrate the monthly maps we obtained at step 1 multiplying each value of the map by a calibration factor, corresponding&nbsp; to the monthly ratio between the ENEA and GRASS monthly mean irradiation values.</p>
+<p>(Note that the output of r.sun.mean is given in [Wh m-2 d-1] and therefore a 1000 conversion factor has to be taken into account).</p>
+<p>The last aspect we have to be aware of is the dimension of the DSM cells. In the Lab case we have a resolution of 2 m x 2m (the same as the DSM); therefore in order to obtain the mean irradiation for each cell, we have to multiply the solar irradiation per square meter by 4.&nbsp; Now the mean solar irradiation per cell is available.</p>
+<p>At this point we compute the total energy per year per building, taking into consideration the area of each building.</p>
+<p>&nbsp;</p>
+<ul>
+<li>
+<h3>Computation of solar installation parameters</h3>
+</li>
+</ul>
+<p>We can&nbsp; compute the installation parameters, based on the characteristics of the buildings and evaluate costs and efficiency of the installation.</p>
+<p>Hereafter please keep in mind that we are mainly interested in a global evaluation, that is in understanding which are the areas of the city or the buidings that are more suitable to be equipped by photovoltaic panels.</p>
+<p>&nbsp;For such a kind of analysis, we have decided, for each buiding, to consider:</p>
+<ol>
+<li>the energy provided by the solar installation</li>
+<li>the installation dimensioning</li>
+<li>the economic evaluation of the installation</li>
+</ol>
+<p>&nbsp;</p>
+<h2><strong><strong>1. Computation of solar irradiation map<br></strong></strong></h2>
+<div>First of all create a new Mapset named "solar".</div>
+<div>Then set the region resolution and bounding box as:</div>
+<div>
+<pre>g.region n=4530358 s=4529364 e=542604 w=541054 res=2 </pre></div>
+<div>Copy the follwing layers from the PERMANENT mapset:</div>
+<div>&nbsp;</div>
+<pre>g.copy rast=corine@PERMANENT,corine
+
+g.copy rast=dsm@PERMANENT,dsm
+
+g.copy vect=buildings@PERMANENT,buildings</pre><div>&nbsp;</div>
+<div><strong>Albedo map</strong><br>This map can be derived from the landuse map by means of reclassification.</div>
+<div>Each category can be associated with an albedo value.</div>
+<div>&nbsp;</div>
+<div>
+<table style="width: 308px; height: 114px;" align="center" border="1" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td class="rtecenter" bgcolor="#0066ff"><strong>Corine values<br>             </strong></td>
+<td class="rtecenter" bgcolor="#0066ff"><strong>Albedo value</strong></td>
+</tr>
+<tr>
+<td class="rtecenter"><strong>521<br></strong></td>
+<td class="rtecenter">0.05</td>
+</tr>
+<tr>
+<td class="rtecenter">
+<div><strong>111, 112, 121, 1</strong><strong>22, 123,133</strong></div>
+</td>
+<td class="rtecenter">0.1</td>
+</tr>
+<tr>
+<td class="rtecenter"><strong>322, 323</strong></td>
+<td class="rtecenter">0.2</td>
+</tr>
+<tr>
+<td class="rtecenter"><strong>141, 142, 243<br></strong></td>
+<td class="rtecenter">0.25</td>
+</tr>
+</tbody>
+</table>
+<div>&nbsp;</div>
+</div>
+<div>In order to build the albedo map we have to use the following map algebra command:</div>
+<pre>r.mapcalc 'albedo = \
+if(corine==521,0.05, \
+if(corine==111||corine==112||corine==121||corine==122|| \
+corine==123||corine==133,0.1, \
+if( corine==322||corine==323,0.2, \
+if( corine==141 || corine==142 ||corine==243, \
+0.25, null() ))))'
+</pre><div>&nbsp;</div>
+<div>&nbsp;</div>
+<div><strong>Linke maps</strong><br>These maps can be derived from the landuse map by means of reclassification. First the landuse is classified into three categories following the rule:</div>
+<div>&nbsp;</div>
+<div>
+<table style="width: 308px; height: 114px;" align="center" border="1" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td class="rtecenter" bgcolor="#0066ff"><strong>Corine values<br>             </strong></td>
+<td class="rtecenter" bgcolor="#0066ff"><strong>Typology</strong></td>
+</tr>
+<tr>
+<td class="rtecenter">
+<div><strong>1</strong><strong>21, 123</strong><strong>, </strong><strong>133</strong></div>
+</td>
+<td class="rtecenter">Industrial</td>
+</tr>
+<tr>
+<td class="rtecenter"><strong>111, 112, 122, 141, 142, 521<br></strong></td>
+<td class="rtecenter">Urban</td>
+</tr>
+<tr>
+<td class="rtecenter"><strong>243, 322, 323<br></strong></td>
+<td class="rtecenter">Rural</td>
+</tr>
+</tbody>
+</table>
+<div>&nbsp;</div>
+</div>
+<div>&nbsp;Then the linke map is computed for each month following the correspondences:</div>
+<div>&nbsp;</div>
+<div>
+<table style="width: 308px; height: 114px;" align="center" border="1" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td class="rtecenter" bgcolor="#0066ff"><strong>Typology<br>             </strong></td>
+<td class="rtecenter" bgcolor="#0066ff">Jan</td>
+<td class="rtecenter" bgcolor="#0066ff">Feb</td>
+<td class="rtecenter" bgcolor="#0066ff">Mar</td>
+<td class="rtecenter" bgcolor="#0066ff">Apr</td>
+<td class="rtecenter" bgcolor="#0066ff">May</td>
+<td class="rtecenter" bgcolor="#0066ff">Jun</td>
+<td class="rtecenter" bgcolor="#0066ff">Jul</td>
+<td class="rtecenter" bgcolor="#0066ff">Aug</td>
+<td class="rtecenter" bgcolor="#0066ff">Sep</td>
+<td class="rtecenter" bgcolor="#0066ff">Oct</td>
+<td class="rtecenter" bgcolor="#0066ff">Nov</td>
+<td class="rtecenter" bgcolor="#0066ff">Dec</td>
+</tr>
+<tr>
+<td class="rtecenter">
+<div><strong>Industrial<br></strong></div>
+</td>
+<td class="rtecenter">4.1</td>
+<td class="rtecenter">&nbsp;4.3</td>
+<td class="rtecenter">4.7&nbsp;</td>
+<td class="rtecenter">5.3&nbsp;</td>
+<td class="rtecenter">&nbsp;5.5</td>
+<td class="rtecenter">5.7&nbsp;</td>
+<td class="rtecenter">5.8&nbsp;</td>
+<td class="rtecenter">5.7&nbsp;</td>
+<td class="rtecenter">5.3&nbsp;</td>
+<td class="rtecenter">4.9&nbsp;</td>
+<td class="rtecenter">4.5&nbsp;</td>
+<td class="rtecenter">4.2</td>
+</tr>
+<tr>
+<td class="rtecenter"><strong>Urban<br></strong></td>
+<td class="rtecenter">3.1&nbsp;</td>
+<td class="rtecenter">&nbsp;3.2</td>
+<td class="rtecenter">3.5&nbsp;</td>
+<td class="rtecenter">4.0&nbsp;</td>
+<td class="rtecenter">&nbsp;4.2</td>
+<td class="rtecenter">&nbsp;4.3</td>
+<td class="rtecenter">4.4&nbsp;</td>
+<td class="rtecenter">4.3&nbsp;</td>
+<td class="rtecenter">4.0&nbsp;</td>
+<td class="rtecenter">3.6&nbsp;</td>
+<td class="rtecenter">3.3&nbsp;</td>
+<td class="rtecenter">3.1</td>
+</tr>
+<tr>
+<td class="rtecenter">Rural</td>
+<td class="rtecenter">2.1&nbsp;</td>
+<td class="rtecenter">2.2&nbsp;</td>
+<td class="rtecenter">2.5&nbsp;</td>
+<td class="rtecenter">2.9&nbsp;</td>
+<td class="rtecenter">&nbsp;3.2</td>
+<td class="rtecenter">3.4&nbsp;</td>
+<td class="rtecenter">&nbsp;3.5</td>
+<td class="rtecenter">3.3&nbsp;</td>
+<td class="rtecenter">2.9&nbsp;</td>
+<td class="rtecenter">&nbsp;2.6</td>
+<td class="rtecenter">2.3&nbsp;</td>
+<td class="rtecenter">2.2</td>
+</tr>
+</tbody>
+</table>
+<div>&nbsp;</div>
+</div>
+<div>&nbsp;To compute the linke maps we use r.mapcalc, reassigning the corine values to the specific values for each month:</div>
+<p><strong>January</strong></p>
+<pre>r.mapcalc 'Linke.Jan = \
+if(corine==123||corine==133||corine==121,4.1,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,3.1, \
+if(corine==243||corine==322||corine==323,2.1, null())))'</pre><p><strong>February</strong></p>
+<pre>r.mapcalc 'Linke.Feb = \
+if(corine==123||corine==133||corine==121,4.3,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,3.2, \
+if(corine==243||corine==322||corine==323,2.2, null())))'</pre><p><strong>March</strong></p>
+<pre>r.mapcalc 'Linke.Mar = \
+if(corine==123||corine==133||corine==121,4.7,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,3.5, \
+if(corine==243||corine==322||corine==323,2.5, null())))'</pre><p><strong>April</strong></p>
+<pre>r.mapcalc 'Linke.Apr = \
+if(corine==123||corine==133||corine==121,5.3,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,4.0, \
+if(corine==243||corine==322||corine==323,2.9, null())))'</pre><p><strong>May</strong></p>
+<pre>r.mapcalc 'Linke.May = \
+if(corine==123||corine==133||corine==121,5.5,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,4.2, \
+if(corine==243||corine==322||corine==323,3.2, null())))'</pre><p><strong>June</strong></p>
+<pre>r.mapcalc 'Linke.Jun = \
+if(corine==123||corine==133||corine==121,5.7,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,4.3, \
+if(corine==243||corine==322||corine==323,3.4, null())))'</pre><p><strong>July</strong></p>
+<pre>r.mapcalc 'Linke.Jul = \
+if(corine==123||corine==133||corine==121,5.8,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,4.4, \
+if(corine==243||corine==322||corine==323,3.5, null())))'</pre><p><strong>August</strong></p>
+<pre>r.mapcalc 'Linke.Aug = \
+if(corine==123||corine==133||corine==121,5.7,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,4.3, \
+if(corine==243||corine==322||corine==323,3.3, null())))'</pre><p><strong>September</strong></p>
+<pre>r.mapcalc 'Linke.Sep = \
+if(corine==123||corine==133||corine==121,5.3,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,4.0, \
+if(corine==243||corine==322||corine==323,2.9, null())))'</pre><p><strong>October</strong></p>
+<pre>r.mapcalc 'Linke.Oct = \
+if(corine==123||corine==133||corine==121,4.9,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,3.6, \
+if(corine==243||corine==322||corine==323,2.6, null())))'</pre><p><strong>November</strong></p>
+<pre>r.mapcalc 'Linke.Nov = \
+if(corine==123||corine==133||corine==121,4.5,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,3.3, \
+if(corine==243||corine==322||corine==323,2.3, null())))'</pre><p><strong>December</strong></p>
+<pre>r.mapcalc 'Linke.Dec = \
+if(corine==123||corine==133||corine==121,4.2,\
+if(corine==111||corine==112||corine==122||corine==141|| \
+corine==142||corine==521,3.1, \
+if(corine==243||corine==322||corine==323,2.2, null())))'</pre><p>&nbsp;Instead of running twelwe times the command, we can use the simple script &nbsp; /root/Linke.script</p>
+<p>As last step we need to compute DSM slope and aspect.</p>
+<p>To perform this task it is enough to use the r.slope.aspect command:</p>
+<pre>r.slope.aspect elevation=dsm slope=slope_dsm aspect=aspect_dsm
+</pre><p>&nbsp;</p>
+<p>Now we are "theoretically" ready to launch the command r.sun.mean. We say "theoretically" because that computation requires a lot of time (many hours) and therefore we provide you directly the results of the computation. From those results we consider:</p>
+<ul>
+<li>the twelwe&nbsp; mean_Jan,..., mean_Dec maps, giving the mean monthly value for each square meter</li>
+<li>the sum_year map, containing&nbsp; the total solar energy for&nbsp; square meter corresponding to one year.</li>
+</ul>
+<p>Anyway if you want to repeat by yourself all the computations, the command to be used is the following:</p>
+<div>
+<pre>r.sun.mean elevin=dsm aspin=aspect_dsm slopein=slope_dsm albedo=albedo linkein=Linke -m -y</pre><div>&nbsp;Instead of running&nbsp; the command, we simply copy the map that we have available in the mapset solar_res&nbsp; (map that we already computed):</div>
+<pre> g.copy rast=sum_year@solar_res,sum_year</pre><h2>2. Computation of total energy per year for each building</h2>
+<div>We compare the computed monthly mean solar energy with the mean values&nbsp; estimated&nbsp; by ENEA for the Olbia area, values that consider also cloudiness.</div>
+<div>To do that, we compute the mean of the values of each map by using the command r.univar</div>
+<div>Here is the example for mean_Jan map:</div>
+<div>&nbsp;</div>
+<pre>r.univar mean_Jan</pre><p>The results that we obtain are:</p>
+<p>total null and non-null cells: 385175<br>total null cells: 79266</p>
+<p>Of the non-null cells:<br>----------------------<br>n: 305909<br>minimum: 238.438<br>maximum: 7284<br>range: 7045.56<br>mean: 2148.87<br>mean of absolute values: 2148.87<br>standard deviation: 1306.5<br>variance: 1.70694e+06<br>variation coefficient: 60.7994 %<br>sum: 657357632.4974517822<br>&nbsp;</p>
+<p>&nbsp;Therefore we can build up a table of comparisons between our statistics and those obtained by ENEA:</p>
+<div>&nbsp;</div>
+<table style="width: 388px; height: 80px;" align="center" border="1" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td align="center" bgcolor="#0033ff"><strong>Month<br>             </strong></td>
+<td align="center" bgcolor="#0033ff"><strong>computed (Wh/m2)</strong></td>
+<td align="center" bgcolor="#0033ff"><strong>ENEA (kWh/m2)</strong></td>
+<td align="center" bgcolor="#0033ff"><strong>conversion factor</strong></td>
+</tr>
+<tr>
+<td class="rtecenter">Jan</td>
+<td class="rtecenter">2149</td>
+<td class="rtecenter">1,972</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Feb</td>
+<td class="rtecenter">3055</td>
+<td class="rtecenter">2,778</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Mar</td>
+<td class="rtecenter">4339</td>
+<td class="rtecenter">4,111</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Apr</td>
+<td class="rtecenter">5587</td>
+<td class="rtecenter">5,056</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">May</td>
+<td class="rtecenter">6487</td>
+<td class="rtecenter">6,111</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Jun</td>
+<td class="rtecenter">6842</td>
+<td class="rtecenter">6,667</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Jul</td>
+<td class="rtecenter">6603</td>
+<td class="rtecenter">6,667</td>
+<td class="rtecenter">0,0010</td>
+</tr>
+<tr>
+<td class="rtecenter">Aug</td>
+<td class="rtecenter">5849</td>
+<td class="rtecenter">5,833</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Sep</td>
+<td class="rtecenter">4720</td>
+<td class="rtecenter">4,500</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Oct</td>
+<td class="rtecenter">3425</td>
+<td class="rtecenter">3,306</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Nov</td>
+<td class="rtecenter">2360</td>
+<td class="rtecenter">2,194</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+<tr>
+<td class="rtecenter">Dec</td>
+<td class="rtecenter">1886</td>
+<td class="rtecenter">1,750</td>
+<td class="rtecenter">0,0009</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As we can see, the conversion factor is almost the same for all months (exception only represented by the month of July). The conclusion is that&nbsp; we can use for each month as conversion factor the value 0.0009 and it can also be applied to the yearly energy.</p>
+<p>Moreover we want to obtain the total solar energy for each cell (and not for square meter) and each cell, in our case,&nbsp; has dimension of 2 m x 2m&nbsp; = 4 m<sup>2</sup>.</p>
+<p>By using the command</p>
+<pre>r.mapcalc 'sum_year_cell=sum_year*0.0009*4'</pre><p>we obtain the total energy, recalibrated for cloudiness, corresponding to each individual cell.</p>
+<p>The computation of the total&nbsp; energy per year for each building is given by:</p>
+<pre>v.sample.class input=buildings raster=sum_year_cell pre=solar mode=sum</pre><p>A new column (attribute) of the building vector map is created containing for each cell the sum of&nbsp; total energy in a year (E<sub>build </sub>in kWh, corresponding to solar_sum&nbsp; new column).</p>
+<p>&nbsp;</p>
+<h2>&nbsp;3. Computation of solar installation parameters</h2>
+<h3>3.1 Energy provided by the solar installation</h3>
+<p>We want to add each building with an attribute&nbsp; (column) containing the energy consumption corresponding to one year.</p>
+<p>Unfortunately we don't have available such an information. We try to infer that value considering an average situation (data refers to Italy). The only information we have till now is the total area of each building.</p>
+<p>The annual consumption of electric energy for a residential dwelling is estimated around 2500 kWh and a mean residential dwelling has dimension of about 90-100 m<sup>2</sup>. Therefore the consumption for square meter is 25-28 kWh. We have decided to round the value, taking as acceptable 30 kWh/m<sup>2</sup>.</p>
+<p>Another approximation is due to the fact that the buildings we have are only in part residential. It means that such a kind of estimate is not true for industrial and rural buildings, which anyway are the minority of our dataset and can be counted out at the end of the process.</p>
+<p>To compute building consumptions (cons), as usual,&nbsp; we add before a new column, named 'cons' in kWh</p>
+<pre>v.db.addcol map=buildings layer=1 'columns=cons DOUBLE'</pre><p>and then we fill the new column:</p>
+<pre>v.db.update map=buildings layer=1 column=cons value=AREA*FL_NUMBER*30
+</pre><p>Moreover <span style="" lang="EN-GB">solar power is not available at night and less available in cloudy weather conditions: a&nbsp;</span><span style="" lang="EN-GB">percentage complementary power system (integration in percentage) is usually&nbsp; adopted.&nbsp; </span></p>
+<p><span style="" lang="EN-GB">We decided to&nbsp; use&nbsp; 70 %. In the script we will put: integration= 70.</span></p>
+<p>The annual electric energy we need is:</p>
+<p>E<sub>cons</sub>= cons * integration (given in kWh)</p>
+<p>At the same time the unitary energy E<sub>del</sub> (in kWh/m<sup>2</sup>) that we can produce depends on the efficiency of the photovoltaic module (eff1 in percentage) and on the efficiency of the installation (eff2 in percentage). The former relies on the specific materials the cells are made: amorphous silicon (4-7 %), multicrystalline silicon (10-15 %),... The second is due to the loss of energy in converting direct&nbsp; current produced by solar cells to alternating current in the distribution grids.</p>
+<p class="MsoNormal"><span style="" lang="EN-GB"><o:p></o:p></span></p>
+<p>We propose to&nbsp; use as values those provided by Regione Lombardia</p>
+<p>(<a href="http://www.ambiente.regione.lombardia.it/webqa/dgri/bandofotovoltaico/guida_che.htm">http://www.ambiente.regione.lombardia.it/webqa/dgri/bandofotovoltaico/guida_che.htm</a>)</p>
+<p>eff1 = 12</p>
+<p>eff2 = 80</p>
+<p>We have already computed the incident energy E<sub>build</sub>; to obtain the mean annual energy per square meter for each building it is enough to compute:</p>
+<p>E<sub>mean</sub> = E<sub>build</sub>/ area (in kWh/m<sup>2</sup>)</p>
+<p>Now we have:</p>
+<p><strong>E<sub>del</sub> </strong>= E<sub>mean</sub> * eff1 * eff2</p>
+<p>&nbsp;</p>
+<h3>3.2 The installation dimensioning</h3>
+<p>Now we can calculate the installation required surface:</p>
+<p><strong>surface<sub>instal</sub> </strong>= E<sub>cons</sub> / E<sub>del&nbsp;</sub>(in m<sup>2</sup>)<sub> </sub></p>
+<p>To compute the other installation parameters, we need dimension (dim in m<sup>2</sup>) and peak power&nbsp; (P in Wp) of a photovoltaic panel.</p>
+<p>At the&nbsp; website of Regione Lombardia we find:</p>
+<p>dim = 0.9&nbsp; (rounding the found value 0.87)</p>
+<p>P = 110</p>
+<p>The number of panels we need and the installation peak power  are given by:</p>
+<p><strong>number </strong>= surface<sub>inst</sub> / dim</p>
+<p><strong>Peak</strong> = P * number (in kW<sub>p</sub>).</p>
+<p>At this point we can also compute the annual energy delivered by the installation (E<sub>inst</sub> in kWh/year).</p>
+<p>Remark:&nbsp; <span style="" lang="EN-GB">Since solar cell output power depends on&nbsp; multiple factors,</span><span style="" lang="EN-GB"> for comparison purposes between different cells,panels and installations&nbsp; the measure of watts peak (Wp) is used. It corresponds to: </span><span style="" lang="FR">solar </span><span style="" lang="FR">irradiance</span><span style="" lang="FR"> = 1000 W/m&sup2;, <o:p></o:p></span>solar reference spectrum AM =      1.5 and cell temperature&nbsp; = 25&deg;C.</p>
+<p>&nbsp;</p>
+<h3>&nbsp;3.3 The economic evaluation of the installation</h3>
+<p><span style="" lang="EN-GB"> <o:p></o:p></span></p>
+<p>We want to compute the<span style="" lang="EN-GB"> economic profit, which happens when </span><span style="" lang="EN-GB">revenue</span><span style="" lang="EN-GB"> exceeds the total cost. <o:p></o:p></span></p>
+<p class="MsoNormal"><span style="" lang="EN-GB">It is interesting to estimate for which buildings there is an economic profit, what is the time of economic profit (given in year) and, in case, <o:p></o:p></span> the <span style="" lang="EN-GB">amount of economic profit, hypothesizing&nbsp; a certain installation lifespan.<o:p></o:p></span></p>
+<p>Hereafter we refer to the italian case.</p>
+<p>In the economic evaluation we consider</p>
+<p><strong>outflow:</strong> capital cost, VAT, operating costs, handling costs and insurance.</p>
+<p><strong>inflow: </strong>discounts on the bill, incentives, sale of electricity.</p>
+<p>&nbsp;</p>
+<p><strong>Outflow:</strong></p>
+<p>The capital cost (inst_cost in &euro;/kWp) can be obtained from the Regione Lombardia website:</p>
+<p>inst_cost = 7250.</p>
+<p>The VAT is a percentage of the capital cost:</p>
+<p>VAT = 10.</p>
+<p>The operating cost (maint_cost) is usually considered as a percentage of the capital cost and; consulting photovoltaic installers we got the value:</p>
+<p>maint_cost=1</p>
+<p>The handling cost (run_expenses in &euro;) corresponds to administratives expenses (payed to the electricity utilities). In case of "net metering" (<a href="http://en.wikipedia.org/wiki/Net_metering">http://en.wikipedia.org/wiki/Net_meteringhttp://en.wikipedia.org/wiki/Net_metering</a>)</p>
+<p>run_expenses = 60</p>
+<p>The insurance (insur_cost in &euro;/kWp), especially against hail, corresponds to</p>
+<p>insur_cost = 35.</p>
+<p>&nbsp;</p>
+<p><strong>Inflow:</strong></p>
+<p>In Italy <span style="" lang="EN-GB">&nbsp;electricity rates strictly&nbsp; depend on the&nbsp; annual consumption. We have the following classes</span>, based on min and max consumption:</p>
+<table style="width: 388px; height: 80px;" align="center" border="1" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td align="center" bgcolor="#0033ff"><strong>min consuption (kW)<br></strong></td>
+<td align="center" bgcolor="#0033ff"><strong>max consumption(kW)<br></strong></td>
+<td align="center" bgcolor="#0033ff"><strong>rate (&euro;/kWh)<br></strong></td>
+</tr>
+<tr>
+<td class="rtecenter">0</td>
+<td class="rtecenter">900</td>
+<td class="rtecenter">0.11127</td>
+</tr>
+<tr>
+<td class="rtecenter">901</td>
+<td class="rtecenter">1800</td>
+<td class="rtecenter">0.1244</td>
+</tr>
+<tr>
+<td class="rtecenter">1801</td>
+<td class="rtecenter">2640</td>
+<td class="rtecenter">0.18169</td>
+</tr>
+<tr>
+<td class="rtecenter">2641</td>
+<td class="rtecenter">3540</td>
+<td class="rtecenter">0.26512</td>
+</tr>
+<tr>
+<td class="rtecenter">3541</td>
+<td class="rtecenter">4440</td>
+<td class="rtecenter">0.26061</td>
+</tr>
+<tr>
+<td class="rtecenter">4441</td>
+<td class="rtecenter">1000000</td>
+<td class="rtecenter">0.17656</td>
+</tr>
+</tbody>
+</table>
+<p>(source the largest italian electric utility <a href="http://www.enel.it/sportello_online/elettricita/tariffeelettriche/domestiche_monoorarie/D2/" title="http://www.enel.it/sportello_online/elettricita/tariffeelettriche/domestiche_monoorarie/D2/">http://www.enel.it/sportello_online/elettricita/tariffeelettriche/domest...</a>)</p>
+<p>&nbsp;</p>
+<p>In order to run the command to perform the computation we need to prepare a text file containing those values. But in case you use the USB key, the file is already available in the folder /root/parameter_tables/&nbsp; and the name is consumption_rate.txt.</p>
+<pre>0:900 0.11127
+901:1800 0.1244
+1801:2640 0.18169
+2641:3540 0.26512
+3541:4440 0.26061
+4441:1000000 0.17656</pre><p>Moreover&nbsp; we have for some years (incent_length in years) also incentives based on the&nbsp; power installed, that we can summarize in the following table</p>
+<table style="width: 388px; height: 80px;" align="center" border="1" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td align="center" bgcolor="#0033ff"><strong>min power (kW)<br></strong></td>
+<td align="center" bgcolor="#0033ff"><strong>max power (kW)<br></strong></td>
+<td align="center" bgcolor="#0033ff"><strong>rate (&euro;/kWh)<br></strong></td>
+</tr>
+<tr>
+<td class="rtecenter">0</td>
+<td class="rtecenter">3</td>
+<td class="rtecenter">0.44</td>
+</tr>
+<tr>
+<td class="rtecenter">3</td>
+<td class="rtecenter">20</td>
+<td class="rtecenter">0.42</td>
+</tr>
+<tr>
+<td class="rtecenter">20</td>
+<td class="rtecenter">1000000</td>
+<td class="rtecenter">0.40</td>
+</tr>
+</tbody>
+</table>
+<p>We prepare a text file (that in your case is already available: incentive_rate.txt in the folder /root/parameter_tables/) containing the previous data:</p>
+<pre>0:3 0.44
+3:20 0.42
+20:1000000 0.40</pre><p>The incentive period is</p>
+<p>incent_length = 20.</p>
+<p>Finally the sale of electricity is not considered in this case because we suppose that a net metering policy is applied.</p>
+<p>The last factor we can compute with the v.pv command is the total amount of CO<sub>2</sub> that is unemitted by using photovoltaic technology, value that nowadays is not a direct gain for the owner but a global gain for the community.</p>
+<p>The emission of CO<sub>2</sub> depends on the electric mix. As an example, if the electric energy is obtained from</p>
+<p>Coal (50 %)</p>
+<p>Nuclear (47 %)</p>
+<p>Natural gas (2 %)</p>
+<p>Hydro and renewable energy (1 %)</p>
+<p>the emission corresponds to 0.50 kg CO<sub>2</sub> / kWh.</p>
+<p>If heavy coal is used the emission corresponds to 0.90 kg CO2 / kWh.</p>
+<p>From the website of the Italian Minister for the Environment&nbsp; and the Protection of Land and Sea (<a href="http://www.minambiente.it/index.php?id_sezione=1186" title="http://www.minambiente.it/index.php?id_sezione=1186">http://www.minambiente.it/index.php?id_sezione=1186</a>) we obtain for the electric mix (electric _mix in kg CO2/kWh)</p>
+<p>electric_mix = 0.531</p>
+<p>The environmental gain (G) ,due to unemitted CO<sub>2</sub>, is given by:</p>
+<p>G = E<sub>inst</sub> * electric mix *&nbsp; lifespan</p>
+<p>where lifespan (in years) is the installation lifespan, which approximately is</p>
+<p>lifespan = 25.</p>
+<p>Now we are ready to run the command v.pv:</p>
+<pre>v.pv building=buildings total_energy=solar_sum eff1=12 eff2=80 area=AREA \
+output=buildings_pv consumption=cons integration=70 dim=0.9 P=110 \
+rate_cons=/root/parameter_tables/consumption_rate.txt \
+rate_incentive=/root/parameter_tables/incentive_rate.txt inst_cost=7250 VAT=10 \
+run_expenses=60 maint_cost=1 insur_cost=35 inst_lifespan=25 incent_length=20 \
+electric_mix=0.531
+</pre><p>&nbsp;</p>
+<p class="rtecenter">&nbsp;<img src="pay_back.png" alt="" height="257" width="400"></p>
+<p class="rtecenter">pay_back&nbsp; (years):  min = 8.15,&nbsp;  max = 31.12</p>
+<p class="rtecenter"><img src="env_gain.png" alt="" height="257" width="400"></p>
+<p class="rtecenter">&nbsp;environmental gain (kgCO<sub>2</sub>):  min = 5361.4&nbsp;  max = 2.3 x 10<sup>6</sup></p>
+<p class="rtecenter">&nbsp;</p>
+</div>
+    </div>
+            <!-- end main content -->
+
+      </div><!-- main -->
+    </td>
+        <td id="sidebar-right">
+      <div class="block block-menu" id="block-menu-primary-links">
+  <div class="title"><h3>Geomatics</h3></div>
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="http://istgeo.ist.supsi.ch/site/about" title="About us">About us</a></li>
+<li class="leaf"><a href="http://istgeo.ist.supsi.ch/site/contactus" title="Contact">Contact</a></li>
+<li class="expanded active-trail"><a href="http://istgeo.ist.supsi.ch/site/education" title="Education">Education</a><ul class="menu"><li class="leaf first"><a href="http://istgeo.ist.supsi.ch/site/education/C111.01" title="Corso Geomatica (G111)">G111.01</a></li>
+<li class="leaf"><a href="http://istgeo.ist.supsi.ch/site/node/25" title="Corso Geoserver (15-16-17-18 Dic. 2008)">Corso Geoserver</a></li>
+<li class="expanded active-trail"><a href="http://istgeo.ist.supsi.ch/site/node/2" title="OSGeo2008 lab">OSGeo2008 lab</a><ul class="menu"><li class="leaf first"><a href="http://istgeo.ist.supsi.ch/site/node/18" title="Getting started">Getting started</a></li>
+<li class="leaf"><a href="http://istgeo.ist.supsi.ch/site/node/17" title="Demo dataset">Dataset info</a></li>
+<li class="leaf"><a href="http://istgeo.ist.supsi.ch/site/node/4" title="Tsunami Risk Lab">Tsunami Lab</a></li>
+<li class="leaf last active-trail"><a href="http://istgeo.ist.supsi.ch/site/node/3" title="Solar Lab" class="active">Solar Lab</a></li>
+</ul></li>
+<li class="collapsed last"><a href="http://istgeo.ist.supsi.ch/site/node/36" title="Tematiche Geomatica">Geomatica [IT]</a></li>
+</ul></li>
+<li class="collapsed"><a href="http://istgeo.ist.supsi.ch/site/foss4g-it" title="XI Meeting degli utenti di lingua Italiana di GRASS e FOSS4G">Foss4G-it</a></li>
+<li class="collapsed last"><a href="http://istgeo.ist.supsi.ch/site/projects" title="Projects">Projects</a></li>
+</ul></div>
+</div><div class="block block-user" id="block-user-0">
+  <div class="title"><h3>User login</h3></div>
+  <div class="content"><form action="http://istgeo.ist.supsi.ch/site/node/3?destination=node%2F3" accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" type="text">
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input name="pass" id="edit-pass" maxlength="60" size="15" class="form-text required" type="password">
+</div>
+<input name="op" id="edit-submit" value="Log in" class="form-submit" type="submit">
+<div class="item-list"><ul><li class="first last"><a href="http://istgeo.ist.supsi.ch/site/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input name="form_build_id" id="form-8c15a26ff439b3de58b30ac95d86c6fb" value="form-8c15a26ff439b3de58b30ac95d86c6fb" type="hidden">
+<input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+
+</div></form>
+</div>
+</div><div class="block block-user" id="block-user-3">
+  <div class="title"><h3>Who's online</h3></div>
+  <div class="content">There are currently <em>0 users</em> and <em>0 guests</em> online.</div>
+</div>    </td>
+      </tr>
+</tbody></table>
+
+<table id="footer-menu" summary="Navigation elements." border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td align="center" valign="middle">
+          <ul class="links primary-links"><li class="menu-127 first"><a href="http://istgeo.ist.supsi.ch/site/about" title="About us">About us</a></li>
+<li class="menu-128"><a href="http://istgeo.ist.supsi.ch/site/contactus" title="Contact">Contact</a></li>
+<li class="menu-136"><a href="http://istgeo.ist.supsi.ch/site/education" title="Education" class="active-trail">Education</a></li>
+<li class="menu-159"><a href="http://istgeo.ist.supsi.ch/site/foss4g-it" title="XI Meeting degli utenti di lingua Italiana di GRASS e FOSS4G">Foss4G-it</a></li>
+<li class="menu-137 last"><a href="http://istgeo.ist.supsi.ch/site/projects" title="Projects">Projects</a></li>
+</ul>                      </td>
+  </tr>
+</tbody></table>
+
+
+
+</body>
+</html>

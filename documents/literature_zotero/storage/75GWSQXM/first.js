@@ -1,0 +1,1 @@
+(function(){(function(){var b,a;b={};a=function(d,c){if(c!=null){return b[d]=c}else{return b[d]}};return window.mdpiConfig=a})()}).call(this);
