@@ -1,0 +1,1730 @@
+
+/* ::::: http://www.cambridge.org/generated_files/pub_module/css/c1.css ::::: */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, b { margin: 0px; padding: 0px; }
+img { border: 0px none; }
+ol, ul { list-style: none outside none; }
+caption, th { text-align: left; }
+q:before, q:after { content: ""; }
+abbr, acronym { border: 0px none; }
+.clear { clear: both; }
+.clearL { clear: left; }
+.clearR { clear: right; }
+.hide { display: none; }
+.show { display: block; }
+.inline { display: inline; }
+.left { float: left; }
+.right { float: right; }
+.pointer { cursor: pointer; }
+.margin0 { margin: 0px; }
+.padding0 { padding: 0px; }
+li.clear { height: 0px; overflow: hidden; }
+.clear.gutter { height: 15px; border: 0px none; overflow: hidden; margin-top: -1px; padding: 0px; }
+.clear.nbsp { float: none ! important; height: 1px; border: 0px none; overflow: hidden; margin-top: -1px; padding: 0px; display: block; }
+.vyre_navigator H2 { display: none; }
+
+/* ::::: http://www.cambridge.org/generated_files/pub_module/css/c966.css ::::: */
+
+body { margin: 0px; padding: 0px; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 70%; }
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, th { margin: 0px; padding: 0px; }
+.required { color: red; }
+.clear { margin: 0px; padding: 0px; clear: both; height: 0px; overflow: hidden; }
+.hide { position: absolute; top: 0px; left: 0px; text-indent: -9999px; }
+.performancehide { display: none; }
+.goBack { margin: 0px 0px 10px; }
+img { border: medium none; }
+ul, li { list-style: none outside none; }
+form, fieldset { margin: 0px; padding: 0px; border: 0px none; }
+legend { margin: 0px; padding: 0px; font-size: 1.2em; font-weight: bold; }
+input { font-size: 1em; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+label { display: block; margin: 0px 0px 3px; }
+select { margin: 3px 0px; padding: 0px; font-size: 1em; }
+a.external:link, a.external:visited, a.external:hover, a.external:active { background: url('generic_standard_externallink_icon.gif') no-repeat scroll 50% 100% transparent; }
+#wrapper { margin: 0px auto; padding: 0px; width: 974px; background: none repeat scroll 0% 0% rgb(255, 255, 255); height: 1%; }
+#wrapper_popup { margin: 0px auto; padding: 0px; width: 580px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#corporateToolbar { margin: 0px; padding: 5px 0px; font-size: 0.93em; background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 100%; font-weight: 700; }
+#corporateToolbar a:link, #corporateToolbar a:visited { color: rgb(102, 102, 102); font-weight: 700; text-decoration: none; }
+#corporateToolbar a:hover, #corporateToolbar a:active { color: rgb(51, 153, 204); font-weight: 700; text-decoration: underline; }
+.corporateToolbarHome { float: left; }
+#portalLink a:link, #portalLink a:visited { padding: 0px 0px 0px 25px; background: url('corporatehomeicon.gif') no-repeat scroll 8px 0px transparent; display: block; }
+#portalLink a:hover, #portalLink a:active { background: url('corporatehomeiconhover.gif') no-repeat scroll 8px 0px transparent; display: block; }
+.corporateToolbarTools { float: right; }
+#corporateToolbar #toolbox { float: left; }
+#corporateToolbar #toolbox ul, #corporateToolbar #toolbox ul li { float: left; list-style: none outside none; }
+#corporateToolbar #toolbox ul li { margin: 0px; padding: 0px 7px; border-right: 1px solid rgb(204, 204, 204); }
+#corporateToolbar #toolbox ul li.toolSupportLastItem { border-right: medium none; }
+#corporateToolbar #toolbox ul li.toolUserEmail { padding: 0px 7px 0px 3px; }
+#corporateToolbar #toolbox ul li a:link, #corporateToolbar #toolbox ul li a:visited { display: block; float: left; }
+#corporateToolbar #toolbox ul li a:hover, #corporateToolbar #toolbox ul li a:active {  }
+#corporateToolbar #toolbox ul li.toolMyBasket a:link, #corporateToolbar #toolbox ul li.toolMyBasket a:visited { background: url('corporatebasketicon.gif') no-repeat scroll 100% 50% transparent; padding-right: 24px; }
+#corporateToolbar #toolbox ul li.toolMyBasket a:hover, #corporateToolbar #toolbox ul li.toolMyBasket a:active { background: url('corporatebasketiconhover.gif') no-repeat scroll 100% 50% transparent; padding-right: 24px; }
+#corporateToolbar #toolbox ul li.toolMyCart a:link, #corporateToolbar #toolbox ul li.toolMyCart a:visited { background: url('corporatecarticon.gif') no-repeat scroll 100% 50% transparent; padding-right: 24px; }
+#corporateToolbar #toolbox ul li.toolMyCart a:hover, #corporateToolbar #toolbox ul li.toolMyCart a:active { background: url('corporatecarticonhover.gif') no-repeat scroll 100% 50% transparent; padding-right: 24px; }
+#corporateToolbar #countryselect { margin: 0px 10px 0px 5px; padding: 0px 0px 0px 5px; float: left; }
+#corporateToolbar #countryselect ul { list-style: none outside none; }
+#corporateToolbar #countryselect ul li { margin: 0px 0px 0px 3px; display: inline; }
+#corporateToolbar #countryselect ul li a:link, #corporateToolbar #countryselect ul li a:visited { padding: 0px 0px 0px 3px; color: rgb(102, 102, 102); }
+#corporateToolbar .corporateToolbarLogout { padding: 0px 5px 0px 7px; float: right; }
+#corporateToolbar .corporateToolbarLogout a:link, #corporateToolbar .corporateToolbarLogout a:visited { display: block; float: left; }
+#corporateToolbar .corporateToolbarLogout a:hover, #corporateToolbar .corporateToolbarLogout a:active {  }
+#crumbTrail { margin: 0px; padding: 7px 0px 7px 15px; background: none repeat scroll 0% 0% rgb(240, 240, 240); font-size: 0.93em; color: rgb(102, 102, 102); }
+#crumbTrail ul { margin: 0px; padding: 0px; list-style: none outside none; }
+#crumbTrail ul li { margin: 0px; padding: 0px; display: inline; }
+#crumbTrail a:link, #crumbTrail a:visited { padding: 0px 8px 0px 0px; color: rgb(51, 51, 51); text-decoration: underline; background: url('generic_standard_locationarrow.gif') no-repeat scroll 100% 60% transparent; }
+#crumbTrail a:hover, #crumbTrail a:active { color: rgb(51, 51, 51); text-decoration: none; }
+#qsearch { font-size: 0.93em; width: 280px; }
+#qsearch fieldset { margin: 0px; padding: 0px 0px 0px 10px; height: 23px; background: url('generic_qsearch_bg.png') no-repeat scroll 0% 0% transparent; }
+#qsearch legend { display: none; }
+#qsearch input { margin: 0px; padding: 4px 0px 0px; font-size: 11px; width: 180px; border: medium none; background: none repeat scroll 0% 0% transparent; }
+#qsearch .hide, #search .hide { display: none; }
+#qsearch button { margin: 0px; padding: 0px; border: medium none; text-indent: -9999px ! important; background: url('generic_qsearch_button.png') no-repeat scroll 0% 0% transparent; width: 83px; height: 23px; color: rgb(255, 255, 255); vertical-align: top; cursor: pointer; }
+#footer { margin: 0px; padding: 0px 10px 20px 35px; font-size: 0.93em; background: none repeat scroll 0% 0% rgb(237, 237, 237); color: rgb(102, 102, 102); clear: both; border-top: 1px solid rgb(204, 204, 204); }
+#footer ul { margin: 0px; padding: 0px; list-style: none outside none; }
+#footer ul li { margin: 0px 0px 10px; padding: 0px; display: inline; }
+#footer a:link { text-decoration: underline; color: rgb(102, 102, 102); padding: 0px 0px 0px 5px; }
+#footer a:visited { text-decoration: underline; color: rgb(102, 102, 102); padding: 0px 0px 0px 5px; }
+#footer a:hover, #footer a:active { text-decoration: none; color: rgb(0, 0, 0); }
+#footer li a:link, #footer li a:visited { border-left: 1px solid rgb(102, 102, 102); }
+#footer li.privacy a:link, #footer li.privacy a:visited { border-left: medium none; padding: 0px; }
+#footerlinksWrap { padding: 20px 20px 20px 0px; }
+#footer li.first a:link, #footer li.first a:visited { border-left: medium none; }
+
+/* ::::: http://www.cambridge.org/generated_files/pub_module/css/c1648.css ::::: */
+
+body { background: none repeat scroll 0% 0% rgb(51, 51, 51); }
+#corporateToolbar .testingUserMessage { padding: 5px; background: none repeat scroll 0% 0% red; color: rgb(255, 255, 255); margin: 0px 0px 5px; font-weight: normal; }
+#corporateToolbar .testingUserMessage a:link, #corporateToolbar .testingUserMessage a:visited, #corporateToolbar .testingUserMessage a:hover, #corporateToolbar .testingUserMessage a:active { color: rgb(255, 255, 255); text-decoration: underline; }
+#windowClose { float: right; padding: 10px; }
+#header { height: 130px; position: relative; border-bottom: 1px solid rgb(255, 255, 255); }
+#logo { position: absolute; top: 15px; left: 25px; }
+.bibles #logo { top: 0px; left: 0px; }
+#logo a:link, #logo a:visited, #logo a:hover, #logo a:active { display: block; width: 170px; height: 40px; }
+.bibles #logo a:link, .bibles #logo a:visited, .bibles #logo a:hover, .bibles #logo a:active { width: 180px; height: 100px; }
+#logo img { display: none; }
+#title { position: absolute; top: 75px; left: 25px; }
+#title img { display: none; }
+#landingPages { position: absolute; top: 10px; right: 8px; }
+#landingPages ul { margin: 0px; float: right; }
+#landingPages ul li { float: left; }
+#landingPages ul li a:link, #landingPages ul li a:visited { margin: 0px 0px 0px 3px; padding: 1px 5px; text-decoration: none; font-weight: 700; float: left; color: rgb(255, 255, 255); font-size: 1.2em; }
+#landingPages ul li a:hover, #landingPages ul li a:active { text-decoration: underline; }
+#landingPages ul li.landingbooksellers a:link, #landingPages ul li.landingbooksellers a:visited { border-right: 1px solid rgb(255, 255, 255); }
+#landingPages ul li.landinglibrarians a:link, #landingPages ul li.landinglibrarians a:visited { border-right: 1px solid rgb(255, 255, 255); }
+table.editors-list { border-bottom: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); margin-bottom: 10px; }
+table.editors-list td { border-top: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); padding: 5px; vertical-align: bottom; }
+#qsearch { margin: 0px; padding: 0px; position: absolute; bottom: 10px; right: 10px; font-size: 0.93em; width: 280px; }
+.bibles #qsearch { top: 90px; }
+#qsearch ul { margin: 0px; padding: 3px 0px 0px 5px; }
+#qsearch ul li { margin: 0px; padding: 0px; }
+#qsearch ul li a:link, #qsearch ul li a:visited { color: rgb(255, 255, 255); }
+#qsearch ul li a:hover, #qsearch ul li a:active { color: rgb(255, 255, 255); text-decoration: none; }
+#contentwrapper_1col { margin: 0px; padding: 0px; }
+#contentwrapper_1col #content { margin: 0px; padding: 30px 40px 50px; height: 1%; }
+#popup #contentwrapper_1col #content { padding-bottom: 30px; }
+#contentwrapper_2col { margin: 0px -215px 0px 0px; padding: 0px; float: left; width: 100%; }
+#contentwrapper_2col #content { margin: 0px 220px 0px 0px; padding: 15px 10px 10px 24px; }
+#contentwrapper_3col { float: right; width: 100%; margin-left: -215px; }
+#container_3col { float: left; width: 100%; margin-right: -215px; }
+#container_3col #content { margin: 0px 215px; padding: 15px 10px 10px; height: 1%; }
+#panel { margin: 0px 0px 0px 10px; padding: 15px 0px 0px; float: left; display: inline; width: 200px; position: relative; z-index: 20; }
+#column { margin: 0px 15px 0px 0px; padding: 15px 0px 0px; float: right; width: 200px; display: inline; }
+#contentwrapper_3col #column { margin: 0px 12px 0px 0px; }
+#contentwrapper_popup {  }
+#contentwrapper_popup #content { padding: 30px; height: 1%; position: relative; }
+#popup #wrapper { width: 502px; }
+#popup #footer { padding-top: 20px; }
+#popup #headerbrand { background: url('acpro_header_small.jpg') no-repeat scroll 0px 0px rgb(37, 96, 155); height: 100px; padding-bottom: 0px; }
+#popup #forgotten_pwd { display: none; }
+#popup #autocomplete-off-two { display: none; }
+#content h1 { margin: 0px 0px 15px; padding: 0px; font-size: 1.4em; font-weight: 700; color: rgb(0, 79, 154); }
+#content h2 { margin: 0px 0px 10px; padding: 0px; font-size: 1.3em; font-weight: 700; color: rgb(0, 79, 154); }
+#content h3 { margin: 0px 0px 6px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(0, 79, 154); }
+#content h4 { margin: 0px 0px 5px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(0, 79, 154); }
+#content h5 { margin: 0px 0px 3px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(0, 0, 0); }
+#content h6 { margin: 0px 0px 2px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+#content p { margin: 0px 0px 10px; padding: 0px; }
+#content ul { margin: 0px; padding: 0px; }
+#content ul li { margin: 0px; padding: 0px; list-style: none outside none; }
+#content a:link { color: rgb(0, 79, 154); text-decoration: underline; }
+#content a:visited { color: rgb(102, 102, 102); text-decoration: underline; }
+#content a:hover, #content a:active { color: rgb(0, 79, 154); text-decoration: none; }
+.externalLink a:link, .externalLink a:visited, .externalLink a:hover, .externalLink a:active { margin: 0px; padding: 1px 18px 1px 0px; background: url('generic_standard_externallink_icon.gif') no-repeat scroll 100% 50% transparent; }
+a.externalLink:link, a.externalLink:visited, a.externalLink:hover, a.externalLink:active { margin: 0px; padding: 1px 18px 1px 0px; background: url('generic_standard_externallink_icon.gif') no-repeat scroll 100% 50% transparent; }
+.changeLocationMsg { margin: 0px 0px 30px; }
+#contentLocationsAll { margin: 0px 0px 10px; padding: 0px; float: left; }
+#contentLocationsAll .contentlocationitem { margin: 0px 0px 10px 10px; padding: 0px; width: 110px; float: left; display: inline; }
+#contentLocationsAll h2 { font-size: 1em; }
+#contentLocationsAll ul li { margin: 0px 0px 5px; }
+#content .contentbox { margin: 0px 0px 15px; padding: 25px 15px 15px; height: 1%; line-height: 1.3; }
+#content .contentbox h2 { margin: 20px 0px 10px; }
+#content .contentbox ul { margin: 0px 0px 20px 20px; padding: 0px; }
+#content .contentbox li { margin: 0px 0px 5px; list-style: disc outside none; }
+#content .contentbox ol li { list-style: decimal inside none; }
+#content .contentBoxTextbooks { margin: 0px 0px 15px; padding: 15px; height: 1%; line-height: 1.3; border: 1px solid rgb(245, 248, 250); }
+#content .contentBoxTextbooks h2 { margin: 20px 0px 10px; }
+#content .contentBoxTextbooks ul { margin: 0px 0px 20px 20px; padding: 0px; }
+#content .contentBoxTextbooks li { margin: 0px 0px 5px; list-style: disc outside none; }
+#content .contentBoxTint { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; position: relative; }
+#content .contentBoxTint div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .contentBoxTint div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .contentBoxTint div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 20px 15px 10px; }
+#content .contentBoxTint div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .contentBoxTint ul { margin: 0px 0px 0px 20px; padding: 0px; }
+#content .contentBoxTint ul li { margin: 0px 0px 4px; padding: 0px; list-style: disc outside none; }
+#content .dashboardSubject, #content .dashboardHome, #content .dashboardFeature { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; }
+#content .dashboardSubject div, #content .dashboardHome div, #content .dashboardFeature div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .dashboardSubject div div, #content .dashboardHome div div, #content .dashboardFeature div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .dashboardSubject div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .dashboardHome div div div, #content .dashboardFeature div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .dashboardSubject div div div div, #content .dashboardHome div div div div, #content .dashboardFeature div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .dashboardHome h1, #content .dashboardSubject h1 { margin: 0px 0px 8px; }
+#content .dashboardHome p, #content .dashboardSubject p { margin: 0px 0px 15px; padding: 0px; }
+#content .dashboardSubject .pagecontrol, #content .dashboardSubject .nonpagecontrol { margin: 0px 10px 0px 0px; padding: 0px; float: left; width: 30%; font-size: 0.93em; }
+#content .dashboardSubject h3 { margin: 0px 0px 5px; color: rgb(0, 0, 0); }
+#content .dashboardSubject .nonpagecontrol h3 { margin: 0px 0px 5px; padding: 0px; }
+#content .dashboardSubject ul { margin: 0px; padding: 0px; }
+#content .dashboardSubject li { margin: 0px 0px 6px; padding: 0px 0px 0px 10px; font-weight: 700; }
+#content .dashboardSubject .nonpagecontrol li { padding: 0px; }
+#content .dashboardSubject .nonpagecontrol li span { padding: 0px 0px 0px 5px; font-weight: normal; }
+#content .dashboardSubject li.selected { background: url('acpro_standard_bullet.gif') no-repeat scroll 0px 3px transparent; }
+#content .dashboardSubject li a:link, #content .dashboardSubject li a:visited {  }
+#content .dashboardSubject li.selected a:link, #content .dashboardSubject li.selected a:visited { color: rgb(0, 0, 0); }
+#content .dashboardSubject #subjectsearch { margin: 10px 0px 0px; padding: 0px 10px; background: none repeat scroll 0% 0% transparent; }
+#content .dashboardSubject #subjectsearch legend { display: none; }
+#content .dashboardSubject input { float: left; vertical-align: middle; }
+#content .dashboardSubject input.subjectsearchfield { margin: 0px 5px 0px 0px; padding: 3px; width: 200px; }
+#content .browse { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; position: relative; }
+#content .browse div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .browse div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .browse div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 20px 0px 10px; }
+#content .browse div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .browse h2 { margin: 0px 10px 10px 15px; padding: 0px; font-weight: 700; font-size: 1.1em; }
+#content .browse h3 { margin: 0px 10px 10px 20px; padding: 0px; font-size: 1em; font-weight: 700; }
+#content .browse div.opts li a:visited { font-weight: 700; color: rgb(102, 102, 102); }
+#content .browseTextbooksSubjects { position: relative; height: 1%; margin: 0px 0px 10px; background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top rgb(245, 248, 250); }
+#content .browseTextbooksSubjects div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .browseTextbooksSubjects div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 20px 0px 10px; }
+#content .browseTextbooksSubjects div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .browseTextbooksSubjects h2 { margin: 0px 10px 15px 15px; padding: 0px; font-weight: 700; }
+#content .browseTextbooksSubjects h3 { margin: 0px 10px 10px 20px; padding: 0px; font-size: 1em; font-weight: 700; }
+#content .browseTextbooksSubjects div.opts li a:visited { font-weight: 700; color: rgb(102, 102, 102); }
+#content .browseTextbooksTabs { height: 1%; }
+#content .browseTextbooksTabs ul.tabs {  }
+#content .browseTextbooksTabs ul.tabs li { list-style: none outside none; margin: 0px 1px 0px 0px; float: left; }
+#content .browseTextbooksTabs ul.tabs li a:link, #content .browseTextbooksTabs ul.tabs li a:visited { margin: 0px; padding: 10px 1em; border-bottom: 1px solid rgb(255, 255, 255); text-decoration: none; font-weight: 700; float: left; font-size: 0.93em; background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top rgb(211, 223, 235); color: rgb(0, 79, 154); }
+#content .browseTextbooksTabs ul.tabs li a:hover, #content .browseTextbooksTabs ul.tabs li a:active { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top rgb(245, 248, 250); color: rgb(0, 0, 0); }
+#content .browseTextbooksTabs ul.tabs li.selected a:link, #content .browseTextbooksTabs ul.tabs li.selected a:visited { border-bottom: 1px solid rgb(245, 248, 250); color: rgb(0, 0, 0); background-color: rgb(245, 248, 250); }
+#content ul.resource_centre_isbns { margin: 10px 0px; }
+#content ul.resource_centre_isbns li { padding: 0px 0px 10px 20px; font-size: 0.93em; }
+.toggleButton { position: absolute; top: 15px; right: 10px; }
+.toggleButton a { background: url('acpro_toggle_button.gif') no-repeat scroll 100% 50% transparent; padding: 3px 40px 3px 0px; font-size: 0.93em; }
+#content .browse #toggleGroup, #content .browseTexbooksSubjects #toggleGroup { padding: 5px 0px 0px; }
+#content div.browseGroup { margin: 0px 0px 5px; }
+#content .browse div.optswrap, #content .browseTextbooksSubjects div.optswrap { margin: 0px; padding: 0px 25px 10px 20px; height: 1%; }
+#content div.opts { margin: 0px 10px 0px 0px; padding: 0px; float: left; width: 30%; font-size: 0.93em; }
+#content div.opts ul { margin: 0px; padding: 0px; }
+#content div.opts ul li { margin: 0px 0px 6px; padding: 0px; color: rgb(102, 102, 102); }
+#content div.opts li a:link { font-weight: 700; }
+#content .examCopyRequestLanding { margin: 0px 0px 10px; border: 1px solid rgb(245, 248, 250); padding: 20px; }
+.windowClose { float: right; padding: 10px; }
+#content .examCopyRequestForm {  }
+#content .examCopyRequestForm label { display: block; margin: 0px 0px 3px; }
+#content .examCopyRequestForm input { font-size: 1em; margin: 0px 0px 10px; }
+#content .examCopyRequestForm select { margin: 3px 0px 15px; padding: 0px; font-size: 1em; }
+#content .examCopyRequestForm .checkbox { margin: 0px 0px 20px; vertical-align: middle; }
+#content .examCopyRequestForm .checkbox input { margin: 0px 10px 0px 0px; }
+#content .examCopyRequestForm .radio { margin: 0px 0px 20px; vertical-align: middle; }
+#content .examCopyRequestForm .radio input { margin: 0px 10px 0px 0px; }
+.examCopyRequestForm table {  }
+.examCopyRequestForm table td {  }
+.examCopyRequestForm form { padding: 20px 0px 0px; }
+#content .examCopyRequestForm .buttons { padding: 20px 0px 0px; }
+#content .examCopyRequestForm .buttons input { margin: 0px; }
+.listing { margin: 0px 0px 15px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); width: 100%; }
+#content .listing div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .listing div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .listing div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .listing div div div div { padding: 0px; background: none repeat scroll 0% 0% transparent; }
+#content .listing h2 { font-size: 1.1em; }
+#content .listing .listingitem { margin: 0px 0px 15px; padding: 0px 0px 15px; border-bottom: 1px solid rgb(238, 238, 238); }
+#content .listing .listingitem .inactive, #content .listing .listingitem .inactive h2 { color: rgb(143, 143, 143); }
+#content .listing .jacketWrap { margin: 0px; padding: 0px; float: left; display: inline; width: 72px; }
+#content .listing .jacketWrap img { width: 70px; border: 1px solid rgb(0, 0, 0); }
+#content .listing .jacketWrap span img { border: medium none; }
+#content .textWrap { margin: 0px 0px 0px 85px; }
+#content .listingitem h3 { margin: 0px 10px 3px 0px; padding: 3px 0px 0px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .listingitem h3 a:link { color: rgb(0, 0, 0); text-decoration: underline; }
+#content .listingitem h3 a:visited { color: rgb(102, 102, 102); text-decoration: underline; }
+#content .listingitem h3 a:hover, #content .listingitem h3 a:active { color: rgb(0, 0, 0); text-decoration: none; }
+#content .listingitem .subtitle { margin: 0px 10px 5px 0px; padding: 0px; font-size: 0.93em; }
+#content .listingitem ul.biblioDetails { margin: 0px 0px 8px; }
+#content .listingitem li.volNumber, #content .listingitem li.partNumTitle { margin: 0px 10px 3px 0px; padding: 0px; font-size: 0.93em; }
+#content .listingitem li.seriesNumber { margin: 0px 0px 5px; padding: 0px; font-size: 0.93em; }
+#content .listingitem li.edition { margin: 0px 0px 3px; padding: 0px; font-size: 0.93em; }
+#content .listingitem li.format { margin: 0px 0px 3px; font-size: 0.93em; }
+#content .listingitem div.othformatblock { margin: 0px 0px 8px; }
+#content .listingitem li.author { margin: 0px 0px 8px; }
+#content .listingitem li.author li { margin: 0px 0px 2px; }
+#content .listingitem li.availability { margin: 0px 0px 3px; font-size: 0.93em; }
+#content .listingitem li.published { margin: 0px 0px 3px; font-size: 0.93em; }
+#content .listingitem li.pubDate { margin: 0px 0px 3px; font-size: 0.93em; }
+#content .listingitem li.subject { margin: 0px 0px 3px; font-size: 0.93em; }
+#content .listingitem p.shortDescription { margin: 0px 0px 8px; padding: 0px; }
+#content .listingitem .seriesDetails { margin: 0px 0px 8px; padding: 0px; font-size: 0.93em; }
+#content .listingitem .seriesDetails a:link, #content .listingitem li.series a:visited {  }
+#content .listingitem .seriesDetails a:hover, #content .listingitem li.series a:active {  }
+#content .listingitem .examCopyRequest { margin: 0px 0px 10px; }
+#content .listingitem .examCopyRequest a:hover, #content .listingitem .examCopyRequest a:active {  }
+#content .listingitem .othformatblock { margin: 0px; font-size: 0.93em; }
+#content .listingitem .othformatblock ul { display: inline; line-height: 1.3; }
+#content .listingitem .othformatblock li { padding: 0px 4px 0px 0px; display: inline; }
+#content .listingitem .othformatblock li.primary { border-left: medium none; padding: 0px; }
+#content .listingitem ul.priceDetails { margin: 0px; }
+#content .listingitem li.price { margin: 0px; padding: 0px; font-size: 1.1em; font-weight: 700; }
+#content .listing .librarians { margin-top: 20px; }
+#content .listing .conferences ul li { margin-bottom: 5px; }
+#content .listingitem .buttons { margin: 0px; padding: 10px 0px 0px ! important; }
+#content #containerNamespace1 { background: none repeat scroll 0% 0% rgb(245, 248, 250); margin: 0px 0px 10px; padding: 15px; position: relative; }
+#content #containerNamespace1 .round_topcorner_left { background: url('acpro_sprites.png') no-repeat scroll -934px -279px transparent; width: 6px; height: 6px; position: absolute; top: 0px; left: 0px; }
+#content #containerNamespace1 .round_topcorner_right { background: url('acpro_sprites.png') no-repeat scroll -949px -279px transparent; width: 6px; height: 6px; position: absolute; top: 0px; right: 0px; }
+#content #containerNamespace1 .round_bottomcorner_left { background: url('acpro_sprites.png') no-repeat scroll -934px -294px transparent; width: 6px; height: 6px; position: absolute; bottom: 0px; left: 0px; }
+#content #containerNamespace1 .round_bottomcorner_right { background: url('acpro_sprites.png') no-repeat scroll -949px -294px transparent; width: 6px; height: 6px; position: absolute; bottom: 0px; right: 0px; }
+#content .ajaxPagination .pagination { margin: 0px; padding: 0px; overflow: hidden; }
+#content .ajaxPagination p, #content .ajaxPagination b, #content .ajaxPagination a { float: left; margin-right: 10px; }
+#content .ajaxPagination a { cursor: pointer; text-decoration: underline; color: rgb(0, 79, 154); }
+#atoz ul li { float: left; margin-right: 10px; }
+#atoz ul li a.active:link, #atoz ul li a.active:visited { text-decoration: none; font-weight: bold; }
+#atoz ul li a.active:hover, #atoz ul li a.active:active { text-decoration: none; font-weight: bold; }
+.listing .filter { margin-bottom: 20px; }
+.listing .filter select#conFilterOrder { margin-right: 10px; float: left; }
+#content .ebookBrowseProcessText { margin: 0px 0px 20px; font-size: 0.93em; }
+#content .listing .bestsellerDescriptor { margin: 0px; }
+#content .newsPromo { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; }
+#content .newsPromo div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .newsPromo div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .newsPromo div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .newsPromo div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .newsPromo p.flag { margin: 0px 0px 4px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .newsPromo .larger p.flag { font-size: 1em; }
+#content .newsPromoBanner { margin: -10px 5px 2px 10px; padding: 0px; float: right; width: 102px; }
+#content .newsPromoBanner img { border: 1px solid rgb(0, 0, 0); width: 100px; }
+#content .newsPromo h2 { margin: 0px 0px 5px; padding: 0px; font-size: 1.1em; }
+#content .newsPromo .larger h2 { margin: 0px 0px 8px; font-size: 1.2em; }
+#content .newsPromo p { margin: 0px 0px 8px; padding: 0px; }
+#content .newsPromo a:link, #content .newsPromo a:visited { color: rgb(0, 79, 154); }
+#content .newsPromo a:hover, #content .newsPromo a:active { text-decoration: none; }
+#content .listingNews { margin: 0px 0px 15px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); width: 100%; }
+#content .listingNews div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .listingNews div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .listingNews div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 20px 15px 10px; }
+#content .listingNews div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .listingNews .listingNewsItemWrap { margin: 0px 0px 10px; padding: 20px 0px 10px 10px; border-top: 1px solid rgb(238, 238, 238); border-bottom: 1px solid rgb(238, 238, 238); }
+#content .listingNewsItem { margin: 0px 0px 10px; }
+#content .listingNews h3 { margin: 0px 0px 3px; }
+#content .listingNews .newListItemDate { margin: 0px 0px 5px; color: rgb(102, 102, 102); font-size: 0.93em; }
+#content .listingNews p {  }
+#content .newsFeatureFlag { margin: 0px 0px 3px; padding: 0px; font-size: 0.93em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .newsFeatureDate { margin: -12px 0px 10px; color: rgb(102, 102, 102); }
+#content .newsFeature p {  }
+#content .newsFeatureBanner { margin: 0px 0px 6px 6px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(255, 255, 255); height: 1%; float: right; display: inline; width: 190px; border: 1px solid rgb(238, 238, 238); }
+#content .newsFeatureBanner div {  }
+#content .newsFeatureBanner div div {  }
+#content .newsFeatureBanner div div div { padding: 4px; }
+#content .newsFeatureBanner div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .newsFeatureBanner img { border: 1px solid rgb(0, 0, 0); width: 180px; }
+#content .newsFeatureBanner .newsFeatureBannerDescription { margin: 0px; padding: 5px; font-size: 0.93em; }
+#content .newsDownloads { margin: 0px; padding: 10px 0px; }
+#content .newsDownloads ul { margin: 0px 0px 0px 20px; }
+#content .newsFeatureURL { margin: 0px; padding: 10px 0px; }
+#content .dashboardFeature .featureFlag { margin: 0px 0px 3px; padding: 0px; font-size: 0.93em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .dashboardFeature h1 { margin: 0px 0px 5px; }
+#content .dashboardFeature p { margin: 0px 0px 5px; }
+#content .listingFeature { margin: 0px 0px 15px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); width: 100%; }
+#content .listingFeature div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .listingFeature div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .listingFeature div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 20px 15px 10px; }
+#content .listingFeature div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .listingFeature .listingFeatureHomeItemWrap { margin: 0px 0px 10px; padding: 20px 0px 10px 10px; border-top: 1px solid rgb(238, 238, 238); border-bottom: 1px solid rgb(238, 238, 238); }
+#content .listingFeatureItem { margin: 0px 0px 10px; }
+#content .listingFeature h3 { margin: 0px 0px 5px; }
+#content .listingFeature p {  }
+#content .featureHeader { margin: 0px 0px 10px; }
+#column .sidebrowse li.secondary { margin-left: 5px; }
+#content .listing .listingItemWrap { margin: 0px; padding: 20px 0px 0px; }
+#content .listing .listingItemWrap .seriesCategory { margin-bottom: 30px; }
+#content .listing .listingItemWrap .seriesCategory ul li { margin-bottom: 10px; }
+.inlineEdit { margin: 0px 0px 10px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll left top rgb(245, 248, 250); }
+.inlineEdit div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+.inlineEdit div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+.inlineEdit div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 12px 0px 10px 10px; }
+.inlineEdit img { vertical-align: middle; margin: 0px 5px 0px 0px; }
+#content .highlight_update { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204); }
+#content .highlight_update h2 { margin: 5px 0px; }
+#content .highlight_update ul li { margin-top: 8px; }
+.primaryhltwrapper { margin: 0px; padding: 0px; height: 1%; }
+.primaryhlt1 { margin: 0px 0px 10px; padding: 0px; float: left; width: 49%; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll left top rgb(245, 248, 250); }
+.primaryhlt2 { margin: 0px 0px 10px; padding: 0px; float: right; width: 49%; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll left top rgb(245, 248, 250); }
+#content .primaryhlt1 div, #content .primaryhlt2 div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .primaryhlt1 div div, #content .primaryhlt2 div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .primaryhlt1 div div div, #content .primaryhlt2 div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .primaryhlt1 div div div div, #content .primaryhlt2 div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .primaryhltwrapper h2 a:link { color: rgb(0, 0, 0); text-decoration: none; }
+#content .primaryhltwrapper h2 a:visited { color: rgb(102, 102, 102); text-decoration: none; }
+#content .primaryhltwrapper h2 a:hover, #content .primaryhltwrapper h2 a:active { color: rgb(0, 0, 0); text-decoration: underline; }
+#content .primaryhltwrapper .jacketMedium { margin: 0px 0px 5px; padding: 0px; float: left; display: inline; width: 122px; }
+#content .primaryhltwrapper .jacketMedium img { margin: 0px; padding: 0px; width: 120px; border: 1px solid rgb(0, 0, 0); }
+#content .primaryhltwrapper .jacketMedium span img { border: medium none; }
+#content .primaryhltwrapper .jacketLarge { margin: 0px 0px 10px; padding: 0px; width: 182px; }
+#content .primaryhltwrapper .jacketLarge img { margin: 0px; width: 180px; height: 270px; border: 1px solid rgb(0, 0, 0); }
+#content .primaryhltwrapper .jacketLarge span img { border: medium none; }
+#content .primaryhltwrapper p.flag { margin: 0px 0px 6px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .primaryhltwrapper .larger p.flag { font-size: 1.3em; margin: 0px 0px 8px; }
+#content .primaryhltwrapper .jacketLargeText { margin: 0px 0px 0px 5px; }
+#content .primaryhltwrapper .jacketMediumText { margin: 0px 0px 0px 132px; }
+#content .primaryhltwrapper h2 { margin: 0px 10px 2px 0px; padding: 5px 0px 0px; font-size: 1.1em; }
+#content .primaryhltwrapper .subtitle { margin: 0px 10px 5px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper ul.biblioDetails { margin: 0px 10px 6px 0px; }
+#content .primaryhltwrapper li.volNumber { margin: 0px 10px 3px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper li.edition { margin: 0px 10px 3px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper li.author { margin: 0px 10px 0px 0px; padding: 0px; }
+#content .primaryhltwrapper li.seeall { margin: 0px 10px 4px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper p.shortDescription { margin: 0px 10px 8px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper p.highlightReview { margin: 0px 10px 8px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper .examCopyRequest { margin: 0px 0px 10px; }
+#content .primaryhltwrapper .examCopyRequest a:hover, #content .listingitem .examCopyRequest a:active {  }
+#content .primaryhltwrapper .seriesDetails { margin: 0px 10px 0px 0px; padding: 0px; font-size: 0.93em; }
+#content .primaryhltwrapper .seriesDetails a:link, #content .primaryhltwrapper li.series a:visited { text-decoration: underline; }
+#content .primaryhltwrapper .seriesDetails a:hover, #content .primaryhltwrapper li.series a:active { text-decoration: none; }
+#content .primaryhltwrapper ul.priceDetails { margin: 0px 10px 6px 0px; }
+#content .primaryhltwrapper li.price { margin: 0px 10px 8px 0px; padding: 0px; font-weight: 700; font-size: 1em; }
+#content .primaryhltwrapper .buttons { margin: 0px; padding: 10px 0px 0px; }
+.secondaryhltwrapper { margin: 0px; padding: 0px; height: 1%; }
+#content .secondaryhltwrapper h3 a:link { color: rgb(0, 0, 0); text-decoration: none; }
+#content .secondaryhltwrapper h3 a:visited { color: rgb(102, 102, 102); text-decoration: none; }
+#content .secondaryhltwrapper h3 a:hover, #content .primaryhltwrapper h3 a:active { color: rgb(0, 0, 0); text-decoration: underline; }
+.secHltWrapFullWidth { margin: 0px 0px 10px; height: 1%; }
+.secHltWrapPartialWidth { margin: 0px 0px 10px; float: left; width: 68%; }
+.secondaryMediumJacketWrapper, .secondarySmallJacketWrapper { margin: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll left top rgb(245, 248, 250); }
+#content .secondarySmallJacketWrapper p.flag { margin: 0px 0px 10px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .secondaryMediumJacketWrapper p.flag { margin: 0px 0px 10px; padding: 0px; font-size: 1.3em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .secondarySmallJacketWrapper div, #content .secondaryMediumJacketWrapper div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .secondarySmallJacketWrapper div div, #content .secondaryMediumJacketWrapper div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .secondarySmallJacketWrapper div div div, #content .secondaryMediumJacketWrapper div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px 5px 15px 15px; }
+#content .secondarySmallJacketWrapper div div div div, #content .secondaryMediumJacketWrapper div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .secHltWrapFullWidth .secondaryMediumItem { margin: 0px; float: left; width: 33%; }
+#content .secHltWrapFullWidth .secondarySmallItem { margin: 0px; float: left; width: 33%; }
+#content .secHltWrapPartialWidth .secondarySmallItem { margin: 0px 17px 0px 0px; float: left; width: 46%; }
+#content .secondaryhltwrapper .secondarySmallJacket { margin: 0px 0px 5px; padding: 0px; float: left; display: inline; width: 72px; }
+#content .secondaryhltwrapper .secondarySmallJacket img { margin: 0px; padding: 0px; width: 70px; height: 100px; border: 1px solid rgb(0, 0, 0); }
+#content .secondaryhltwrapper .secondarySmallJacket span img { border: medium none; }
+#content .secondaryhltwrapper .secondaryMediumJacket { margin: 0px 0px 5px; padding: 0px; float: left; display: inline; width: 122px; }
+#content .secondaryhltwrapper .secondaryMediumJacket img { margin: 0px; padding: 0px; width: 120px; height: 180px; border: 1px solid rgb(0, 0, 0); }
+#content .secondaryhltwrapper .secondaryMediumJacket span img { border: medium none; }
+#content .secondaryhltwrapper span img { border: medium none; }
+#content .secondaryhltwrapper span img { border: medium none; }
+#content .secondaryhltwrapper .secondaryMediumText { margin: 0px 0px 0px 132px; }
+#content .secondaryhltwrapper .secondarySmallText { margin: 0px 0px 0px 80px; height: 1%; }
+#content .secondaryhltwrapper h3 { margin: 0px 10px 2px 0px; padding: 5px 0px 0px; font-size: 1em; }
+#content .secondaryhltwrapper .subtitle { margin: 0px 10px 5px 0px; padding: 0px; font-size: 0.93em; }
+#content .secondaryhltwrapper ul.biblioDetails { margin: 0px 10px 6px 0px; }
+#content .secondaryhltwrapper li.author { margin: 0px 10px 0px 0px; font-size: 0.93em; }
+#content .secondaryhltwrapper ul.priceDetails { margin: 0px 10px 6px 0px; }
+#content .secondaryhltwrapper li.price { margin: 0px 10px 8px 0px; padding: 0px; font-weight: 700; font-size: 1em; }
+.secondaryBannerWrapper { margin: 0px 0px 10px; padding: 0px; float: right; width: 30%; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll left top rgb(245, 248, 250); }
+#content .secondaryBannerWrapper div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .secondaryBannerWrapper div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .secondaryBannerWrapper div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px 15px 30px; }
+#content .secondaryBannerWrapper div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .secondaryBannerWrapper p.flag { margin: 0px 0px 10px; padding: 0px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .secondaryBannerWrapper img { margin: 0px; width: 180px; height: 90px; border: 1px solid rgb(0, 0, 0); }
+#content .resourcesfor { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); width: 100%; }
+#content .resourcesfor div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .resourcesfor div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .resourcesfor div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px 15px 15px 10px; }
+#content .resourcesfor div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px ! important; }
+#content .resourcesfor h2 { margin: 0px 0px 3px 5px; padding: 0px; font-size: 1em; }
+#content .resourcesfor ul { margin: 0px; padding: 0px; list-style: none outside none; }
+#content .resourcesfor li { margin: 0px ! important; padding: 0px; display: inline; border-right: 1px solid rgb(102, 102, 102); float: left; }
+#content .resourcesfor li.last { border: medium none; }
+#content .resourcesfor li a:link, #content .resourcesfor li a:visited { text-decoration: underline; padding: 0px 5px; display: block; float: left; }
+#content .resourcesfor li a:hover, #content .resourcesfor li a:active { text-decoration: none; }
+.promoBanner { margin: 0px 0px 10px; padding: 10px 0px 20px; display: none; }
+.promoBanner img { margin: 0px 0px 6px 10px; }
+.promoBanner p.flag { margin: 0px 0px 6px; padding: 10px 0px 0px 10px; font-size: 1em; font-weight: 700; color: rgb(102, 102, 102); }
+.banner { margin: 0px 0px 10px; padding: 10px 0px 20px; }
+.library { margin: 0px 0px 10px; padding: 10px 0px 20px; }
+.highlight { margin: 0px 0px 10px; padding: 0px 0px 30px; background: none repeat scroll 0% 0% rgb(245, 248, 250); height: 90px; display: none; }
+.highlight p.flag { margin: 0px 0px 6px; padding: 10px 0px 0px 10px; font-size: 0.93em; font-weight: 700; color: rgb(102, 102, 102); }
+#column h2, #panel h2 { margin: 0px 0px 10px; padding: 0px; font-size: 1.2em; font-weight: normal; color: rgb(0, 79, 154); }
+#column h3, #panel h3 { margin: 0px 0px 5px; padding: 0px; font-size: 1em; font-weight: normal; color: rgb(0, 79, 154); }
+#column a, #panel a { color: rgb(0, 0, 0); text-decoration: underline; font-weight: normal; cursor: pointer; }
+#column a:link, #panel a:link { color: rgb(0, 0, 0); text-decoration: underline; font-weight: normal; }
+#column a:visited, #panel a:visited { color: rgb(102, 102, 102); text-decoration: underline; font-weight: normal; }
+#column a:hover, #column a:active, #panel a:hover, #panel a:active { color: rgb(0, 0, 0); text-decoration: none; font-weight: normal; }
+#miniBasket { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_solid_cap_bot.gif') no-repeat scroll center bottom transparent; position: relative; height: 1%; }
+#miniBasket #miniBasketTop { margin: 0px; padding: 10px 0px 0px; background: url('acpro_standard_solid_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+#miniBasket #miniBasketWrapper { background: url('acpro_standard_solid_bg.gif') repeat-y scroll 0% 0% rgb(247, 247, 247); }
+#miniBasket h2 { margin: 0px 0px 5px; padding: 0px 24px 0px 10px; }
+#miniBasket h2.headingBasket { background: url('corporatebasketicon.gif') no-repeat scroll 50% 50% transparent; }
+#miniBasket h2.headingCart { background: url('corporatecarticon.gif') no-repeat scroll 40% 50% transparent; }
+#miniBasket p.qty { margin: 0px 0px 5px; padding: 0px 10px; }
+#column #miniBasket #showDiscounts { margin: 0px 0px 10px; padding: 0px 10px; }
+#column #miniBasket #showLines { margin: 0px 0px 10px; padding: 0px 10px; }
+#miniBasket #subtotal { margin: 0px 0px 5px; padding: 0px 10px 5px; }
+#column #miniBasket .buttons { margin: 0px 0px 0px 7px; }
+#miniBasketHoverWrapper {  }
+#miniBasketHover { margin: 0px 10px 8px; border-bottom: 1px solid rgb(238, 238, 238); }
+.miniBasketHoverItem { margin: 0px 0px 10px; padding: 6px 0px 0px; border-top: 1px solid rgb(238, 238, 238); }
+.miniBasketHoverItem h3 { margin: 0px 0px 3px; padding: 5px 0px 0px; font-size: 0.93em; }
+.miniBasketHoverItem ul {  }
+.miniBasketHoverItem ul li.format { margin: 0px 0px 2px; padding: 0px; display: block; font-size: 0.93em; }
+.miniBasketHoverItem ul li.qty { margin: 0px 0px 4px; padding: 0px; font-size: 0.93em; }
+.miniBasketHoverItem ul li.price { margin: 0px 0px 4px; padding: 0px; font-size: 0.93em; }
+.featureBrowse { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+.featureBrowseWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+#column .featureBrowse h2 { margin: 0px; padding: 10px 10px 6px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+.featureBrowse p { margin: 0px 0px 8px; padding: 0px 10px; }
+.featureBrowse ul { margin: 0px; padding: 0px 10px; }
+.featureBrowse li { margin: 0px 0px 6px; padding: 0px; font-size: 1em; font-weight: 700; }
+.sidebrowse { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+.sidebrowsewrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+#column .sidebrowse h2 { margin: 0px; padding: 10px 10px 5px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+#column .sidebrowse h3 { padding: 10px 0px 0px; }
+.sidebrowse ul { margin: 0px 0px 10px; padding: 0px 10px; }
+.sidebrowse ul.bottom { margin: 0px; }
+.sidebrowse li { margin: 0px 0px 6px; padding: 0px; font-size: 1em; font-weight: 700; }
+.sidebrowse li.catalogueDownload span { font-weight: normal; font-size: 0.93em; }
+.sidebrowse ul.parentSubjectLink { margin: 15px 10px 0px; padding: 8px 0px 0px; border-top: 1px solid rgb(238, 238, 238); }
+.helpBrowse { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+.helpBrowseWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+.helpBrowseSection { margin: 0px 0px 10px; }
+#column .helpBrowse h2 { margin: 0px; padding: 10px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+#column .helpBrowse h3 { padding: 0px 10px; }
+.helpBrowse ul { margin: 0px 0px 10px; padding: 0px 10px; }
+.helpBrowse li { margin: 0px 0px 6px; padding: 0px; font-size: 1em; font-weight: 700; }
+.bannerList { margin: 0px 0px 10px; padding: 10px 0px 0px 8px; }
+.bannerList ul {  }
+.bannerList li { margin: 0px 0px 10px; }
+.bannerList li img { width: 180px; border: 1px solid rgb(0, 0, 0); }
+#content #sitemap h2 { margin-bottom: 5px; }
+#content #sitemap ul li { margin-bottom: 8px; list-style-type: disc; }
+#content #sitemap ul ul { margin-left: 20px; margin-top: 8px; }
+#content #sitemap ul.subjects1 li { font-weight: bold; font-size: 9pt; }
+#content #sitemap ul.subjects2 li { font-weight: normal; font-size: 8pt; }
+#content .faqItem { padding-bottom: 10px; }
+#content .faqItem h3 { padding-top: 10px; }
+#loadingDiv, .loadingDiv { position: absolute; top: 60%; left: 35%; height: 110px; width: 200px; opacity: 0.5; background: url('loading.gif') no-repeat scroll center center white; z-index: 1000; border: 1px solid rgb(204, 204, 204); }
+#navigation { margin: 0px 0px 1px; padding: 0px; background: url('acpro_nav_bg.jpg') repeat-x scroll center bottom rgb(202, 202, 202); height: 1%; position: relative; z-index: 30; }
+#navigation ul { margin: 0px; padding: 0px; }
+#navigation ul li { margin: 0px; padding: 0px; list-style: none outside none; float: left; position: relative; }
+#navigation ul li a:link, #navigation ul li a:visited { margin: 0px; padding: 0.7em 10px; float: left; display: block; text-decoration: none; font-weight: 700; color: rgb(0, 0, 0); border-right: 1px solid rgb(153, 153, 153); background: none repeat scroll 0% 0% transparent; }
+#navigation ul li a:hover, #navigation ul li a:active, #navigation ul li a:focus { background: none repeat scroll 0% 0% rgb(40, 91, 136); color: rgb(255, 255, 255); text-decoration: underline; }
+#navigation ul li.hums a:link, #navigation ul li.hums a:visited { background: url('acpro_navigation_arrow.gif') no-repeat scroll 6px 52% transparent; padding-left: 16px; }
+#navigation ul li.socsciences a:link, #navigation ul li.socsciences a:visited { background: url('acpro_navigation_arrow.gif') no-repeat scroll 6px 52% transparent; padding-left: 16px; }
+#navigation ul li.medicine a:link, #navigation ul li.medicine a:visited { background: url('acpro_navigation_arrow.gif') no-repeat scroll 6px 52% transparent; padding-left: 16px; }
+#navigation ul li.scieng a:link, #navigation ul li.scieng a:visited { background: url('acpro_navigation_arrow.gif') no-repeat scroll 6px 52% transparent; padding-left: 16px; }
+#navigation ul li.law a:link, #navigation ul li.law a:visited { background: url('acpro_navigation_arrow.gif') no-repeat scroll 6px 52% transparent; padding-left: 16px; }
+#navigation ul li.hums a:hover, #navigation ul li.hums a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 6px 52% rgb(40, 91, 136); padding-left: 16px; }
+#navigation ul li.socsciences a:hover, #navigation ul li.socsciences a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 6px 52% rgb(40, 91, 136); padding-left: 16px; }
+#navigation ul li.medicine a:hover, #navigation ul li.medicine a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 6px 52% rgb(40, 91, 136); padding-left: 16px; }
+#navigation ul li.scieng a:hover, #navigation ul li.scieng a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 6px 52% rgb(40, 91, 136); padding-left: 16px; }
+#navigation ul li.law a:hover, #navigation ul li.law a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 6px 52% rgb(40, 91, 136); padding-left: 16px; }
+.home #navigation ul li.home a:link, .home #navigation ul li.home a:visited, .home #navigation ul li.home a:hover, .home #navigation ul li.home a:active { background: none repeat scroll 0% 0% rgb(40, 91, 136); color: rgb(255, 255, 255); }
+.hums #navigation ul li.hums a:link, .hums #navigation ul li.hums a:visited, .hums #navigation ul li.hums a:hover, .hums #navigation ul li.hums a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 5px 52% rgb(40, 91, 136); padding-left: 15px; color: rgb(255, 255, 255); }
+.medicine #navigation ul li.medicine a:link, .medicine #navigation ul li.medicine a:visited, .medicine #navigation ul li.medicine a:hover, .medicine #navigation ul li.medicine a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 5px 52% rgb(40, 91, 136); padding-left: 15px; color: rgb(255, 255, 255); }
+.scieng #navigation ul li.scieng a:link, .scieng #navigation ul li.scieng a:visited, .scieng #navigation ul li.scieng a:hover, .scieng #navigation ul li.scieng a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 5px 52% rgb(40, 91, 136); padding-left: 15px; color: rgb(255, 255, 255); }
+.law #navigation ul li.law a:link, .law #navigation ul li.law a:visited, .law #navigation ul li.law a:hover, .law #navigation ul li.law a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 5px 52% rgb(40, 91, 136); padding-left: 15px; color: rgb(255, 255, 255); }
+.socsciences #navigation ul li.socsciences a:link, .socsciences #navigation ul li.socsciences a:visited, .socsciences #navigation ul li.socsciences a:hover, .socsciences #navigation ul li.socsciences a:active { background: url('acpro_navigation_arrow_over.gif') no-repeat scroll 5px 52% rgb(40, 91, 136); padding-left: 15px; color: rgb(255, 255, 255); }
+.textbooks #navigation ul li.textbooks a:link, .textbooks #navigation ul li.textbooks a:visited, .textbooks #navigation ul li.textbooks a:hover, .textbooks #navigation ul li.textbooks a:active { background: none repeat scroll 0% 0% rgb(40, 91, 136); color: rgb(255, 255, 255); }
+.series #navigation ul li.series a:link, .series #navigation ul li.series a:visited, .series #navigation ul li.series a:hover, .series #navigation ul li.series a:active { background: none repeat scroll 0% 0% rgb(40, 91, 136); color: rgb(255, 255, 255); }
+#navigation ul div { margin: 0px; padding: 0px; position: absolute; top: 2.55em; left: 0px; display: none; }
+#navigation ul li.open div { display: block; }
+#navigation ul div ul { margin: 0px; padding: 10px 0px; list-style: none outside none; width: 200px; background: none repeat scroll 0% 0% rgb(40, 91, 136); position: relative; z-index: 100; }
+#navigation ul div ul li { margin: 0px; padding: 0px; list-style: none outside none; float: none; height: 1%; }
+#wrapper #navigation ul div ul li a:link, #wrapper #navigation ul div ul li a:visited { margin: 0px; padding: 3px 6px 3px 15px; float: none; width: auto; text-indent: 0px; color: rgb(255, 255, 255); height: auto; font-weight: normal; border: medium none; background: none repeat scroll 0% 0% transparent; }
+#wrapper #navigation ul div ul li.more a:link, #wrapper #navigation ul div ul li.more a:visited { padding: 10px 6px 3px 16px; }
+#navigation ul div ul li a:hover, #navigation ul div ul li a:active { text-decoration: underline; }
+.buttons { margin: 0px; padding: 1px 0px; height: 1%; }
+.buttons span { margin: 0px 6px 0px 0px; padding: 0px 0px 0px 10px; float: left; }
+.buttons span.primaryaction { background: url('acpro_btnprimary_left.gif') no-repeat scroll left center transparent; }
+.buttons span.secondaryaction { background: url('acpro_btnsecondary_left.gif') no-repeat scroll left center transparent; }
+.buttons span a { margin: 0px; padding: 5px 23px 0px 6px; border: 0px none; height: 18px; font-weight: 700; color: rgb(255, 255, 255); display: block; text-decoration: none ! important; float: left; cursor: pointer; }
+.buttons span.primaryaction a { background: url('acpro_btnprimary_right.gif') no-repeat scroll right center transparent; color: rgb(255, 255, 255) ! important; }
+.buttons span.secondaryaction a { background: url('acpro_btnsecondary_right.gif') no-repeat scroll right center transparent; color: rgb(0, 0, 0) ! important; }
+.buttons span input { margin: 0px; padding: 0px 20px 1px 3px; border: 0px none; height: 23px; font-weight: 700; color: rgb(255, 255, 255); cursor: pointer; }
+.primaryhltwrapper .buttons span input {  }
+* html .buttons span input { padding: 1px 20px 0px 3px; }
+.buttons span.primaryaction input { background: url('acpro_btnprimary_right.gif') no-repeat scroll right center transparent; color: rgb(255, 255, 255); }
+.buttons span.secondaryaction input { background: url('acpro_btnsecondary_right.gif') no-repeat scroll right center transparent; color: rgb(0, 0, 0); }
+#subjectsearch span.primaryaction, .advsearch_quick span.primaryaction, #searchResultsNew span.primaryaction { margin: 0px 4px 0px 0px; padding: 0px 0px 0px 10px; float: left; background: url('acpro_btnprimary_left.gif') no-repeat scroll left center transparent; }
+#subjectsearch span.primaryaction input, .advsearch_quick span.primaryaction input, #searchResultsNew span.primaryaction input { margin: 0px; padding: 0px 20px 1px 3px; border: 0px none; height: 23px; font-weight: 800 ! important; background: url('acpro_btnprimary_right.gif') no-repeat scroll right center transparent; color: rgb(255, 255, 255); cursor: pointer; }
+* html #subjectsearch span.primaryaction input { padding: 1px 20px 0px 3px; }
+#header { background: url('acpro_header_generic.jpg') no-repeat scroll 0% 0% rgb(37, 96, 155); }
+.anthropology #header { background: url('acpro_header_anthropology.jpg') no-repeat scroll 0% 0% rgb(179, 138, 0); }
+.archaeology #header { background: url('acpro_header_archaeology.jpg') no-repeat scroll 0% 0% rgb(182, 83, 18); }
+.art #header { background: url('acpro_header_art.jpg') no-repeat scroll 0% 0% rgb(123, 133, 138); }
+.astronomy #header { background: url('acpro_header_astronomy.jpg') no-repeat scroll 0% 0% rgb(0, 24, 112); }
+.chemistry #header { background: url('acpro_header_chemistry.jpg') no-repeat scroll 0% 0% rgb(171, 161, 0); }
+.classical #header { background: url('acpro_header_classicalstudies.jpg') no-repeat scroll 0% 0% rgb(168, 104, 58); }
+.compscience #header { background: url('acpro_header_computerscience.jpg') no-repeat scroll 0% 0% rgb(75, 112, 45); }
+.drama #header { background: url('acpro_header_drama.jpg') no-repeat scroll 0% 0% rgb(131, 27, 41); }
+.earthscience #header { background: url('acpro_header_earthscience.jpg') no-repeat scroll 0% 0% rgb(6, 129, 101); }
+.economics #header { background: url('acpro_header_economics.jpg') no-repeat scroll 0% 0% rgb(47, 87, 114); }
+.engineering #header { background: url('acpro_header_engineering.jpg') no-repeat scroll 0% 0% rgb(152, 30, 58); }
+.film #header { background: url('acpro_header_film.jpg') no-repeat scroll 0% 0% rgb(202, 138, 41); }
+.genscience #header { background: url('acpro_header_genscience.jpg') no-repeat scroll 0% 0% rgb(145, 150, 46); }
+.history #header { background: url('acpro_header_history.jpg') no-repeat scroll 0% 0% rgb(165, 35, 0); }
+.language #header { background: url('acpro_header_linguistics.jpg') no-repeat scroll 0% 0% rgb(154, 111, 135); }
+.law #header { background: url('acpro_header_law.jpg') no-repeat scroll 0% 0% rgb(96, 37, 155); }
+.lifesciences #header { background: url('acpro_header_lifesciences.jpg') no-repeat scroll 0% 0% rgb(79, 138, 16); }
+.literature #header { background: url('acpro_header_literature.jpg') no-repeat scroll 0% 0% rgb(146, 98, 64); }
+.management #header { background: url('acpro_header_management.jpg') no-repeat scroll 0% 0% rgb(134, 94, 88); }
+.maths #header { background: url('acpro_header_mathematics.jpg') no-repeat scroll 0% 0% rgb(75, 99, 165); }
+.medicine #header { background: url('acpro_header_medicine.jpg') no-repeat scroll 0% 0% rgb(34, 153, 151); }
+.music #header { background: url('acpro_header_music.jpg') no-repeat scroll 0% 0% rgb(82, 42, 173); }
+.philosophy #header { background: url('acpro_header_philosophy.jpg') no-repeat scroll 0% 0% rgb(116, 148, 102); }
+.physics #header { background: url('acpro_header_physics.jpg') no-repeat scroll 0% 0% rgb(113, 31, 123); }
+.politics #header { background: url('acpro_header_politicalscience.jpg') no-repeat scroll 0% 0% rgb(218, 36, 21); }
+.psychology #header { background: url('acpro_header_psychology.jpg') no-repeat scroll 0% 0% rgb(183, 24, 73); }
+.religion #header { background: url('acpro_header_religion.jpg') no-repeat scroll 0% 0% rgb(124, 111, 83); }
+.sociology #header { background: url('acpro_header_sociology.jpg') no-repeat scroll 0% 0% rgb(121, 42, 68); }
+.bibles #header { background: url('bibles_header_generic.jpg') no-repeat scroll 0% 0% rgb(102, 0, 51); }
+.anthropology #content .dashboardSubject, .anthropology #content .newsPromo, .anthropology #content .primaryhlt1, .anthropology #content .primaryhlt2, .anthropology #content .listing, .anthropology #content .listingjacket, .anthropology #content .socialbookmarks, .anthropology #content .resourcesfor, .anthropology #content .titleBlock, .anthropology .inlineEdit, .anthropology .secondarySmallJacketWrapper, .anthropology .secondaryLargeJacketWrapper, .anthropology .secondaryBannerWrapper, .anthropology #content .cathlt1, .anthropology #content .cathlt2 { background-color: rgb(248, 245, 235); }
+.anthropology #content h1, .anthropology #content h2, .anthropology #content a:link, .anthropology #content a:visited { color: rgb(141, 109, 1); }
+.anthropology #content span.primaryaction { background: url('acpro_btnsubmit_anthropology_left.gif') no-repeat scroll 0% 0% transparent; }
+.anthropology #content span.primaryaction input { background: url('acpro_btnsubmit_anthropology_right.gif') no-repeat scroll right center transparent; }
+.anthropology #content span.primaryaction a { background: url('acpro_btnsubmit_anthropology_right.gif') no-repeat scroll right center transparent; }
+.anthropology #content .catnav ul.tabs li a:link, .anthropology #content .catnav ul.tabs li a:visited { background-color: rgb(240, 232, 204); color: rgb(141, 109, 1); }
+.anthropology #content .catnav ul.tabs li a:hover, .anthropology #content .catnav ul.tabs li a:active, .anthropology #content div.catnavwrap, .anthropology #content .catnav div.catNavHeaderCap, .anthropology #content .catalogueUtilities { background-color: rgb(248, 245, 235); }
+.anthropology #content .catnav ul.tabs li a.current:link, .anthropology #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(248, 245, 235); background-color: rgb(248, 245, 235); }
+.anthropology #content .catcont { border-color: rgb(248, 245, 235); }
+.archaeology #content .dashboardSubject, .archaeology #content .newsPromo, .archaeology #content .primaryhlt1, .archaeology #content .primaryhlt2, .archaeology #content .listing, .archaeology #content .listingjacket, .archaeology #content .socialbookmarks, .archaeology #content .resourcesfor, .archaeology #content .titleBlock, .archaeology .inlineEdit, .archaeology .secondarySmallJacketWrapper, .archaeology .secondaryLargeJacketWrapper, .archaeology .secondaryBannerWrapper, .archaeology #content .cathlt1, .archaeology #content .cathlt2 { background-color: rgb(248, 243, 240); }
+.archaeology #content h1, .archaeology #content h2, .archaeology #content a:link, .archaeology #content a:visited { color: rgb(152, 68, 13); }
+.archaeology #content span.primaryaction { background: url('acpro_btnsubmit_archaeology_left.gif') no-repeat scroll 0% 0% transparent; }
+.archaeology #content span.primaryaction input { background: url('acpro_btnsubmit_archaeology_right.gif') no-repeat scroll right center transparent; }
+.archaeology #content span.primaryaction a { background: url('pro_btnsubmit_archaeology_right.gif') no-repeat scroll right center transparent; }
+.archaeology #content .catnav ul.tabs li a:link, .archaeology #content .catnav ul.tabs li a:visited { background-color: rgb(240, 221, 208); color: rgb(152, 68, 13); }
+.archaeology #content .catnav ul.tabs li a:hover, .archaeology #content .catnav ul.tabs li a:active, .archaeology #content div.catnavwrap, .archaeology #content .catnav .catNavHeaderCap, .archaeology #content .catalogueUtilities { background-color: rgb(248, 243, 240); }
+.archaeology #content .catnav ul.tabs li a.current:link, .archaeology #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(248, 243, 240); background-color: rgb(248, 243, 240); }
+.archaeology #content .catcont { border-color: rgb(248, 243, 240); }
+.art #content .dashboardSubject, .art #content .newsPromo, .art #content .primaryhlt1, .art #content .primaryhlt2, .art #content .listing, .art #content .listingjacket, .art #content .socialbookmarks, .art #content .resourcesfor, .art #content .titleBlock, .art .inlineEdit, .art .secondarySmallJacketWrapper, .art .secondaryLargeJacketWrapper, .art .secondaryBannerWrapper, .art #content .cathlt1, .art #content .cathlt2 { background-color: rgb(237, 240, 242); }
+.art #content h1, .art #content h2, .art #content a:link, .art #content a:visited { color: rgb(123, 133, 138); }
+.art #content span.primaryaction { background: url('acpro_btnsubmit_art_left.gif') no-repeat scroll 0% 0% transparent; }
+.art #content span.primaryaction input { background: url('acpro_btnsubmit_art_right.gif') no-repeat scroll right center transparent; }
+.art #content span.primaryaction a { background: url('acpro_btnsubmit_art_right.gif') no-repeat scroll right center transparent; }
+.art #content .catnav ul.tabs li a:link, .art #content .catnav ul.tabs li a:visited { background-color: rgb(229, 231, 232); color: rgb(123, 133, 138); }
+.art #content .catnav ul.tabs li a:hover, .art #content .catnav ul.tabs li a:active, .art #content div.catnavwrap, .art #content .catnav .catNavHeaderCap, .art #content .catalogueUtilities { background-color: rgb(237, 240, 242); }
+.art #content .catnav ul.tabs li a.current:link, .art #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(237, 240, 242); background-color: rgb(237, 240, 242); }
+.art #content .catcont { border-color: rgb(237, 240, 242); }
+.astronomy #content .dashboardSubject, .astronomy #content .newsPromo, .astronomy #content .primaryhlt1, .astronomy #content .primaryhlt2, .astronomy #content .listing, .astronomy #content .listingjacket, .astronomy #content .socialbookmarks, .astronomy #content .resourcesfor, .astronomy #content .titleBlock, .astronomy .inlineEdit, .astronomy .secondarySmallJacketWrapper, .astronomy .secondaryLargeJacketWrapper, .astronomy .secondaryBannerWrapper, .astronomy #content .cathlt1, .astronomy #content .cathlt2 { background-color: rgb(240, 242, 249); }
+.astronomy #content h1, .astronomy #content h2, .astronomy #content a:link, .astronomy #content a:visited { color: rgb(0, 24, 112); }
+.astronomy #content span.primaryaction { background: url('acpro_btnsubmit_astronomy_left.gif') no-repeat scroll 0% 0% transparent; }
+.astronomy #content span.primaryaction input { background: url('acpro_btnsubmit_astronomy_right.gif') no-repeat scroll right center transparent; }
+.astronomy #content span.primaryaction a { background: url('acpro_btnsubmit_astronomy_right.gif') no-repeat scroll right center transparent; }
+.astronomy #content .catnav ul.tabs li a:link, .astronomy #content .catnav ul.tabs li a:visited { background-color: rgb(204, 209, 226); color: rgb(0, 24, 112); }
+.astronomy #content .catnav ul.tabs li a:hover, .astronomy #content .catnav ul.tabs li a:active, .astronomy #content div.catnavwrap, .astronomy #content .catnav .catNavHeaderCap, .astronomy #content .catalogueUtilities { background-color: rgb(240, 242, 249); }
+.astronomy #content .catnav ul.tabs li a.current:link, .astronomy #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(240, 242, 249); background-color: rgb(240, 242, 249); }
+.astronomy #content .catcont { border-color: rgb(240, 242, 249); }
+.chemistry #content .dashboardSubject, .chemistry #content .newsPromo, .chemistry #content .primaryhlt1, .chemistry #content .primaryhlt2, .chemistry #content .listing, .chemistry #content .listingjacket, .chemistry #content .socialbookmarks, .chemistry #content .resourcesfor, .chemistry #content .titleBlock, .chemistry .inlineEdit, .chemistry .secondarySmallJacketWrapper, .chemistry .secondaryLargeJacketWrapper, .chemistry .secondaryBannerWrapper, .chemistry #content .cathlt1, .chemistry #content .cathlt2 { background-color: rgb(250, 249, 236); }
+.chemistry #content h1, .chemistry #content h2, .chemistry #content a:link, .chemistry #content a:visited { color: rgb(132, 124, 2); }
+.chemistry #content span.primaryaction { background: url('acpro_btnsubmit_chemistry_left.gif') no-repeat scroll 0% 0% transparent; }
+.chemistry #content span.primaryaction input { background: url('acpro_btnsubmit_chemistry_right.gif') no-repeat scroll right center transparent; }
+.chemistry #content span.primaryaction a { background: url('acpro_btnsubmit_chemistry_right.gif') no-repeat scroll right center transparent; }
+.chemistry #content .catnav ul.tabs li a:link, .chemistry #content .catnav ul.tabs li a:visited { background-color: rgb(238, 236, 204); color: rgb(132, 124, 2); }
+.chemistry #content .catnav ul.tabs li a:hover, .chemistry #content .catnav ul.tabs li a:active, .chemistry #content div.catnavwrap, .chemistry #content .catnav .catNavHeaderCap, .chemistry #content .catalogueUtilities { background-color: rgb(250, 249, 236); }
+.chemistry #content .catnav ul.tabs li a.current:link, .chemistry #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(250, 249, 236); background-color: rgb(250, 249, 236); }
+.chemistry #content .catcont { border-color: rgb(250, 249, 236); }
+.classical #content .dashboardSubject, .classical #content .newsPromo, .classical #content .primaryhlt1, .classical #content .primaryhlt2, .classical #content .listing, .classical #content .listingjacket, .classical #content .socialbookmarks, .classical #content .resourcesfor, .classical #content .titleBlock, .classical .inlineEdit, .classical .secondarySmallJacketWrapper, .classical .secondaryLargeJacketWrapper, .classical .secondaryBannerWrapper, .classical #content .cathlt1, .classical #content .cathlt2 { background-color: rgb(249, 241, 235); }
+.classical #content h1, .classical #content h2, .classical #content a:link, .classical #content a:visited { color: rgb(138, 82, 42); }
+.classical #content span.primaryaction { background: url('acpro_btnsubmit_classicalstudies_left.gif') no-repeat scroll 0% 0% transparent; }
+.classical #content span.primaryaction input { background: url('acpro_btnsubmit_classicalstudies_right.gif') no-repeat scroll right center transparent; }
+.classical #content span.primaryaction a { background: url('acpro_btnsubmit_classicalstudies_right.gif') no-repeat scroll right center transparent; }
+.classical #content .catnav ul.tabs li a:link, .classical #content .catnav ul.tabs li a:visited { background-color: rgb(238, 225, 216); color: rgb(138, 82, 42); }
+.classical #content .catnav ul.tabs li a:hover, .classical #content .catnav ul.tabs li a:active, .classical #content div.catnavwrap, .classical #content .catnav .catNavHeaderCap, .classical #content .catalogueUtilities { background-color: rgb(249, 241, 235); }
+.classical #content .catnav ul.tabs li a.current:link, .classical #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(249, 241, 235); background-color: rgb(249, 241, 235); }
+.classical #content .catcont { border-color: rgb(249, 241, 235); }
+.compscience #content .dashboardSubject, .compscience #content .newsPromo, .compscience #content .primaryhlt1, .compscience #content .primaryhlt2, .compscience #content .listing, .compscience #content .listingjacket, .compscience #content .socialbookmarks, .compscience #content .resourcesfor, .compscience #content .titleBlock, .compscience .inlineEdit, .compscience .secondarySmallJacketWrapper, .compscience .secondaryLargeJacketWrapper, .compscience .secondaryBannerWrapper, .compscience #content .cathlt1, .compscience #content .cathlt2 { background-color: rgb(240, 246, 235); }
+.compscience #content h1, .compscience #content h2, .compscience #content a:link, .compscience #content a:visited { color: rgb(75, 112, 45); }
+.compscience #content span.primaryaction { background: url('acpro_btnsubmit_computerscience_left.gif') no-repeat scroll 0% 0% transparent; }
+.compscience #content span.primaryaction input { background: url('acpro_btnsubmit_computerscience_right.gif') no-repeat scroll right center transparent; }
+.compscience #content span.primaryaction a { background: url('acpro_btnsubmit_computerscience_right.gif') no-repeat scroll right center transparent; }
+.compscience #content .catnav ul.tabs li a:link, .compscience #content .catnav ul.tabs li a:visited { background-color: rgb(219, 226, 213); color: rgb(75, 112, 45); }
+.compscience #content .catnav ul.tabs li a:hover, .compscience #content .catnav ul.tabs li a:active, .compscience #content div.catnavwrap, .compscience #content .catnav .catNavHeaderCap, .compscience #content .catalogueUtilities { background-color: rgb(240, 246, 235); }
+.compscience #content .catnav ul.tabs li a.current:link, .compscience #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(240, 246, 235); background-color: rgb(240, 246, 235); }
+.compscience #content .catcont { border-color: rgb(240, 246, 235); }
+.drama #content .dashboardSubject, .drama #content .newsPromo, .drama #content .primaryhlt1, .drama #content .primaryhlt2, .drama #content .listing, .drama #content .listingjacket, .drama #content .socialbookmarks, .drama #content .resourcesfor, .drama #content .titleBlock, .drama .inlineEdit, .drama .secondarySmallJacketWrapper, .drama .secondaryLargeJacketWrapper, .drama .secondaryBannerWrapper, .drama #content .cathlt1, .drama #content .cathlt2 { background-color: rgb(247, 238, 239); }
+.drama #content h1, .drama #content h2, .drama #content a:link, .drama #content a:visited { color: rgb(131, 27, 41); }
+.drama #content span.primaryaction { background: url('acpro_btnsubmit_drama_left.gif') no-repeat scroll 0% 0% transparent; }
+.drama #content span.primaryaction input { background: url('acpro_btnsubmit_drama_right.gif') no-repeat scroll right center transparent; }
+.drama #content span.primaryaction a { background: url('acpro_btnsubmit_drama_right.gif') no-repeat scroll right center transparent; }
+.drama #content .catnav ul.tabs li a:link, .drama #content .catnav ul.tabs li a:visited { background-color: rgb(230, 209, 212); color: rgb(131, 27, 41); }
+.drama #content .catnav ul.tabs li a:hover, .drama #content .catnav ul.tabs li a:active, .drama #content div.catnavwrap, .drama #content .catnav .catNavHeaderCap, .drama #content .catalogueUtilities { background-color: rgb(247, 238, 239); }
+.drama #content .catnav ul.tabs li a.current:link, .drama #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(247, 238, 239); background-color: rgb(247, 238, 239); }
+.drama #content .catcont { border-color: rgb(247, 238, 239); }
+.earthscience #content .dashboardSubject, .earthscience #content .newsPromo, .earthscience #content .primaryhlt1, .earthscience #content .primaryhlt2, .earthscience #content .listing, .earthscience #content .listingjacket, .earthscience #content .socialbookmarks, .earthscience #content .resourcesfor, .earthscience #content .titleBlock, .earthscience .inlineEdit, .earthscience .secondarySmallJacketWrapper, .earthscience .secondaryLargeJacketWrapper, .earthscience .secondaryBannerWrapper, .earthscience #content .cathlt1, .earthscience #content .cathlt2 { background-color: rgb(234, 246, 243); }
+.earthscience #content h1, .earthscience #content h2, .earthscience #content a:link, .earthscience #content a:visited { color: rgb(6, 129, 101); }
+.earthscience #content span.primaryaction { background: url('acpro_btnsubmit_earthscience_left.gif') no-repeat scroll 0% 0% transparent; }
+.earthscience #content span.primaryaction input { background: url('acpro_btnsubmit_earthscience_right.gif') no-repeat scroll right center transparent; }
+.earthscience #content span.primaryaction a { background: url('acpro_btnsubmit_earthscience_right.gif') no-repeat scroll right center transparent; }
+.earthscience #content .catnav ul.tabs li a:link, .earthscience #content .catnav ul.tabs li a:visited { background-color: rgb(205, 230, 224); color: rgb(6, 129, 101); }
+.earthscience #content .catnav ul.tabs li a:hover, .earthscience #content .catnav ul.tabs li a:active, .earthscience #content div.catnavwrap, .earthscience #content .catnav .catNavHeaderCap, .earthscience #content .catalogueUtilities { background-color: rgb(234, 246, 243); }
+.earthscience #content .catnav ul.tabs li a.current:link, .earthscience #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(234, 246, 243); background-color: rgb(234, 246, 243); }
+.earthscience #content .catcont { border-color: rgb(234, 246, 243); }
+.economics #content .dashboardSubject, .economics #content .newsPromo, .economics #content .primaryhlt1, .economics #content .primaryhlt2, .economics #content .listing, .economics #content .listingjacket, .economics #content .socialbookmarks, .economics #content .resourcesfor, .economics #content .titleBlock, .economics .inlineEdit, .economics .secondarySmallJacketWrapper, .economics .secondaryLargeJacketWrapper, .economics .secondaryBannerWrapper, .economics #content .cathlt1, .economics #content .cathlt2 { background-color: rgb(235, 241, 245); }
+.economics #content h1, .economics #content h2, .economics #content a:link, .economics #content a:visited { color: rgb(47, 87, 114); }
+.economics #content span.primaryaction { background: url('acpro_btnsubmit_economics_left.gif') no-repeat scroll 0% 0% transparent; }
+.economics #content span.primaryaction input { background: url('acpro_btnsubmit_economics_right.gif') no-repeat scroll right center transparent; }
+.economics #content span.primaryaction a { background: url('acpro_btnsubmit_economics_right.gif') no-repeat scroll right center transparent; }
+.economics #content .catnav ul.tabs li a:link, .economics #content .catnav ul.tabs li a:visited { background-color: rgb(213, 221, 227); color: rgb(47, 87, 114); }
+.economics #content .catnav ul.tabs li a:hover, .economics #content .catnav ul.tabs li a:active, .economics #content div.catnavwrap, .economics #content .catnav .catNavHeaderCap, .economics #content .catalogueUtilities { background-color: rgb(235, 241, 245); }
+.economics #content .catnav ul.tabs li a.current:link, .economics #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(235, 241, 245); background-color: rgb(235, 241, 245); }
+.economics #content .catcont { border-color: rgb(235, 241, 245); }
+.engineering #content .dashboardSubject, .engineering #content .newsPromo, .engineering #content .primaryhlt1, .engineering #content .primaryhlt2, .engineering #content .listing, .engineering #content .listingjacket, .engineering #content .socialbookmarks, .engineering #content .resourcesfor, .engineering #content .titleBlock, .engineering .inlineEdit, .engineering .secondarySmallJacketWrapper, .engineering .secondaryLargeJacketWrapper, .engineering .secondaryBannerWrapper, .engineering #content .cathlt1, .engineering #content .cathlt2 { background-color: rgb(250, 244, 245); }
+.engineering #content h1, .engineering #content h2, .engineering #content a:link, .engineering #content a:visited { color: rgb(152, 30, 58); }
+.engineering #content span.primaryaction { background: url('acpro_btnsubmit_engineering_left.gif') no-repeat scroll 0% 0% transparent; }
+.engineering #content span.primaryaction input { background: url('acpro_btnsubmit_engineering_right.gif') no-repeat scroll right center transparent; }
+.engineering #content span.primaryaction a { background: url('acpro_btnsubmit_engineering_right.gif') no-repeat scroll right center transparent; }
+.engineering #content .catnav ul.tabs li a:link, .engineering #content .catnav ul.tabs li a:visited { background-color: rgb(243, 226, 229); color: rgb(152, 30, 58); }
+.engineering #content .catnav ul.tabs li a:hover, .engineering #content .catnav ul.tabs li a:active, .engineering #content div.catnavwrap, .engineering #content .catnav .catNavHeaderCap, .engineering #content .catalogueUtilities { background-color: rgb(250, 244, 245); }
+.engineering #content .catnav ul.tabs li a.current:link, .engineering #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(250, 244, 245); background-color: rgb(250, 244, 245); }
+.engineering #content .catcont { border-color: rgb(250, 244, 245); }
+.film #content .dashboardSubject, .film #content .newsPromo, .film #content .primaryhlt1, .film #content .primaryhlt2, .film #content .listing, .film #content .listingjacket, .film #content .socialbookmarks, .film #content .resourcesfor, .film #content .titleBlock, .film .inlineEdit, .film .secondarySmallJacketWrapper, .film .secondaryLargeJacketWrapper, .film .secondaryBannerWrapper, .film #content .cathlt1, .film #content .cathlt2 { background-color: rgb(251, 244, 232); }
+.film #content h1, .film #content h2, .film #content a:link, .film #content a:visited { color: rgb(169, 113, 26); }
+.film #content span.primaryaction { background: url('acpro_btnsubmit_film_left.gif') no-repeat scroll 0% 0% transparent; }
+.film #content span.primaryaction input { background: url('acpro_btnsubmit_film_right.gif') no-repeat scroll right center transparent; }
+.film #content span.primaryaction a { background: url('acpro_btnsubmit_film_right.gif') no-repeat scroll right center transparent; }
+.film #content .catnav ul.tabs li a:link, .film #content .catnav ul.tabs li a:visited { background-color: rgb(244, 232, 212); color: rgb(169, 113, 26); }
+.film #content .catnav ul.tabs li a:hover, .film #content .catnav ul.tabs li a:active, .film #content div.catnavwrap, .film #content .catnav .catNavHeaderCap, .film #content .catalogueUtilities { background-color: rgb(251, 244, 232); }
+.film #content .catnav ul.tabs li a.current:link, .film #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(251, 244, 232); background-color: rgb(251, 244, 232); }
+.film #content .catcont { border-color: rgb(251, 244, 232); }
+.genscience #content .dashboardSubject, .geography #content .newsPromo, .genscience #content .primaryhlt1, .genscience #content .primaryhlt2, .genscience #content .listing, .genscience #content .listingjacket, .genscience #content .socialbookmarks, .genscience #content .resourcesfor, .genscience #content .titleBlock, .genscience .inlineEdit, .genscience .secondarySmallJacketWrapper, .genscience .secondaryLargeJacketWrapper, .genscience .secondaryBannerWrapper, .genscience #content .cathlt1, .genscience #content .cathlt2 { background-color: rgb(245, 246, 232); }
+.genscience #content h1, .genscience #content h2, .genscience #content a:link, .genscience #content a:visited { color: rgb(118, 122, 33); }
+.genscience #content span.primaryaction { background: url('acpro_btnsubmit_genscience_left.gif') no-repeat scroll 0% 0% transparent; }
+.genscience #content span.primaryaction input { background: url('acpro_btnsubmit_genscience_right.gif') no-repeat scroll right center transparent; }
+.genscience #content span.primaryaction a { background: url('acpro_btnsubmit_genscience_right.gif') no-repeat scroll right center transparent; }
+.genscience #content .catnav ul.tabs li a:link, .genscience #content .catnav ul.tabs li a:visited { background-color: rgb(233, 234, 213); color: rgb(118, 122, 33); }
+.genscience #content .catnav ul.tabs li a:hover, .genscience #content .catnav ul.tabs li a:active, .genscience #content div.catnavwrap, .genscience #content .catnav .catNavHeaderCap, .genscience #content .catalogueUtilities { background-color: rgb(245, 246, 232); }
+.genscience #content .catnav ul.tabs li a.current:link, .genscience #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(245, 246, 232); background-color: rgb(245, 246, 232); }
+.genscience #content .catcont { border-color: rgb(245, 246, 232); }
+.history #content .dashboardSubject, .history #content .newsPromo, .history #content .primaryhlt1, .history #content .primaryhlt2, .history #content .listing, .history #content .listingjacket, .history #content .socialbookmarks, .history #content .resourcesfor, .history #content .titleBlock, .history .inlineEdit, .history .secondarySmallJacketWrapper, .history .secondaryLargeJacketWrapper, .history .secondaryBannerWrapper, .history #content .cathlt1, .history #content .cathlt2 { background-color: rgb(254, 245, 242); }
+.history #content h1, .history #content h2, .history #content a:link, .history #content a:visited { color: rgb(165, 35, 0); }
+.history #content span.primaryaction { background: url('acpro_btnsubmit_history_left.gif') no-repeat scroll 0% 0% transparent; }
+.history #content span.primaryaction input { background: url('acpro_btnsubmit_history_right.gif') no-repeat scroll right center transparent; }
+.history #content span.primaryaction a { background: url('acpro_btnsubmit_history_right.gif') no-repeat scroll right center transparent; }
+.history #content .catnav ul.tabs li a:link, .history #content .catnav ul.tabs li a:visited { background-color: rgb(237, 211, 204); color: rgb(165, 35, 0); }
+.history #content .catnav ul.tabs li a:hover, .history #content .catnav ul.tabs li a:active, .history #content div.catnavwrap, .history #content .catnav .catNavHeaderCap, .history #content .catalogueUtilities { background-color: rgb(254, 245, 242); }
+.history #content .catnav ul.tabs li a.current:link, .history #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(254, 245, 242); background-color: rgb(254, 245, 242); }
+.history #content .catcont { border-color: rgb(254, 245, 242); }
+.language #content .dashboardSubject, .language #content .newsPromo, .language #content .primaryhlt1, .language #content .primaryhlt2, .language #content .listing, .language #content .listingjacket, .language #content .socialbookmarks, .language #content .resourcesfor, .language #content .titleBlock, .language .inlineEdit, .language .secondarySmallJacketWrapper, .language .secondaryLargeJacketWrapper, .language .secondaryBannerWrapper, .language #content .cathlt1, .language #content .cathlt2 { background-color: rgb(242, 234, 239); }
+.language #content h1, .language #content h2, .language #content a:link, .language #content a:visited { color: rgb(125, 83, 107); }
+.language #content span.primaryaction { background: url('acpro_btnsubmit_language_left.gif') no-repeat scroll 0% 0% transparent; }
+.language #content span.primaryaction input { background: url('acpro_btnsubmit_language_right.gif') no-repeat scroll right center transparent; }
+.language #content span.primaryaction a { background: url('acpro_btnsubmit_language_right.gif') no-repeat scroll right center transparent; }
+.language #content .catnav ul.tabs li a:link, .language #content .catnav ul.tabs li a:visited { background-color: rgb(235, 226, 231); color: rgb(125, 83, 107); }
+.language #content .catnav ul.tabs li a:hover, .language #content .catnav ul.tabs li a:active, .language #content div.catnavwrap, .language #content .catnav .catNavHeaderCap, .language #content .catalogueUtilities { background-color: rgb(242, 234, 239); }
+.language #content .catnav ul.tabs li a.current:link, .language #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(242, 234, 239); background-color: rgb(242, 234, 239); }
+.language #content .catcont { border-color: rgb(242, 234, 239); }
+.law #content .dashboardSubject, .law #content .newsPromo, .law #content .browse, .law #content .primaryhlt1, .law #content .primaryhlt2, .law #content .listing, .law #content .listingjacket, .law #content .socialbookmarks, .law #content .resourcesfor, .law #content .titleBlock, .law .inlineEdit, .law .secondarySmallJacketWrapper, .law .secondaryLargeJacketWrapper, .law .secondaryBannerWrapper, .law #content .cathlt1, .law #content .cathlt2 { background-color: rgb(248, 241, 254); }
+.law #content h1, .law #content h2, .law #content a:link, .law #content a:visited { color: rgb(96, 37, 155); }
+.law #content span.primaryaction { background: url('acpro_btnsubmit_law_left.gif') no-repeat scroll 0% 0% transparent; }
+.law #content span.primaryaction input { background: url('acpro_btnsubmit_law_right.gif') no-repeat scroll right center transparent; }
+.law #content span.primaryaction a { background: url('acpro_btnsubmit_law_right.gif') no-repeat scroll right center transparent; }
+.law #content .catnav ul.tabs li a:link, .law #content .catnav ul.tabs li a:visited { background-color: rgb(223, 211, 235); color: rgb(96, 37, 155); }
+.law #content .catnav ul.tabs li a:hover, .law #content .catnav ul.tabs li a:active, .law #content div.catnavwrap, .law #content .catnav .catNavHeaderCap, .law #content .catalogueUtilities { background-color: rgb(248, 241, 254); }
+.law #content .catnav ul.tabs li a.current:link, .law #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(248, 241, 254); background-color: rgb(248, 241, 254); }
+.law #content .catcont { border-color: rgb(248, 241, 254); }
+.lifesciences #content .dashboardSubject, .lifesciences #content .newsPromo, .lifesciences #content .primaryhlt1, .lifesciences #content .primaryhlt2, .lifesciences #content .listing, .lifesciences #content .listingjacket, .lifesciences #content .socialbookmarks, .lifesciences #content .resourcesfor, .lifesciences #content .titleBlock, .lifesciences .inlineEdit, .lifesciences .secondarySmallJacketWrapper, .lifesciences .secondaryLargeJacketWrapper, .lifesciences .secondaryBannerWrapper, .lifesciences #content .cathlt1, .lifesciences #content .cathlt2 { background-color: rgb(245, 254, 235); }
+.lifesciences #content h1, .lifesciences #content h2, .lifesciences #content a:link, .lifesciences #content a:visited { color: rgb(79, 138, 16); }
+.lifesciences #content span.primaryaction { background: url('acpro_btnsubmit_lifesciences_left.gif') no-repeat scroll 0% 0% transparent; }
+.lifesciences #content span.primaryaction input { background: url('acpro_btnsubmit_lifesciences_right.gif') no-repeat scroll right center transparent; }
+.lifesciences #content span.primaryaction a { background: url('acpro_btnsubmit_lifesciences_right.gif') no-repeat scroll right center transparent; }
+.lifesciences #content .catnav ul.tabs li a:link, .lifesciences #content .catnav ul.tabs li a:visited { background-color: rgb(220, 232, 207); color: rgb(79, 138, 16); }
+.lifesciences #content .catnav ul.tabs li a:hover, .lifesciences #content .catnav ul.tabs li a:active, .lifesciences #content div.catnavwrap, .lifesciences #content .catnav .catNavHeaderCap, .lifesciences #content .catalogueUtilities { background-color: rgb(245, 254, 235); }
+.lifesciences #content .catnav ul.tabs li a.current:link, .lifesciences #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(245, 254, 235); background-color: rgb(245, 254, 235); }
+.lifesciences #content .catcont { border-color: rgb(245, 254, 235); }
+.literature #content .dashboardSubject, .literature #content .newsPromo, .literature #content .primaryhlt1, .literature #content .primaryhlt2, .literature #content .listing, .literature #content .listingjacket, .literature #content .socialbookmarks, .literature #content .resourcesfor, .literature #content .titleBlock, .literature .inlineEdit, .literature .secondarySmallJacketWrapper, .literature .secondaryLargeJacketWrapper, .literature .secondaryBannerWrapper, .literature #content .cathlt1, .literature #content .cathlt2 { background-color: rgb(244, 238, 234); }
+.literature #content h1, .literature #content h2, .literature #content a:link, .literature #content a:visited { color: rgb(146, 98, 64); }
+.literature #content span.primaryaction { background: url('acpro_btnsubmit_literature_left.gif') no-repeat scroll 0% 0% transparent; }
+.literature #content span.primaryaction input { background: url('acpro_btnsubmit_literature_right.gif') no-repeat scroll right center transparent; }
+.literature #content span.primaryaction a { background: url('acpro_btnsubmit_literature_right.gif') no-repeat scroll right center transparent; }
+.literature #content .catnav ul.tabs li a:link, .literature #content .catnav ul.tabs li a:visited { background-color: rgb(233, 224, 217); color: rgb(146, 98, 64); }
+.literature #content .catnav ul.tabs li a:hover, .literature #content .catnav ul.tabs li a:active, .literature #content div.catnavwrap, .literature #content .catnav .catNavHeaderCap, .literature #content .catalogueUtilities { background-color: rgb(244, 238, 234); }
+.literature #content .catnav ul.tabs li a.current:link, .literature #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(244, 238, 234); background-color: rgb(244, 238, 234); }
+.literature #content .catcont { border-color: rgb(244, 238, 234); }
+.management #content .dashboardSubject, .management #content .newsPromo, .management #content .primaryhlt1, .management #content .primaryhlt2, .management #content .listing, .management #content .listingjacket, .management #content .socialbookmarks, .management #content .resourcesfor, .management #content .titleBlock, .management .inlineEdit, .management .secondarySmallJacketWrapper, .management .secondaryLargeJacketWrapper, .management .secondaryBannerWrapper, .management #content .cathlt1, .management #content .cathlt2 { background-color: rgb(244, 236, 234); }
+.management #content h1, .management #content h2, .management #content a:link, .management #content a:visited { color: rgb(134, 94, 88); }
+.management #content span.primaryaction { background: url('acpro_btnsubmit_management_left.gif') no-repeat scroll 0% 0% transparent; }
+.management #content span.primaryaction input { background: url('acpro_btnsubmit_management_right.gif') no-repeat scroll right center transparent; }
+.management #content span.primaryaction a { background: url('acpro_btnsubmit_management_right.gif') no-repeat scroll right center transparent; }
+.management #content .catnav ul.tabs li a:link, .management #content .catnav ul.tabs li a:visited { background-color: rgb(231, 223, 222); color: rgb(134, 94, 88); }
+.management #content .catnav ul.tabs li a:hover, .management #content .catnav ul.tabs li a:active, .management #content div.catnavwrap, .management #content .catnav .catNavHeaderCap, .management #content .catalogueUtilities { background-color: rgb(244, 236, 234); }
+.management #content .catnav ul.tabs li a.current:link, .management #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(244, 236, 234); background-color: rgb(244, 236, 234); }
+.management #content .catcont { border-color: rgb(244, 236, 234); }
+.maths #content .dashboardSubject, .maths #content .newsPromo, .maths #content .primaryhlt1, .maths #content .primaryhlt2, .maths #content .listing, .maths #content .listingjacket, .maths #content .socialbookmarks, .maths #content .resourcesfor, .maths #content .titleBlock, .maths .inlineEdit, .maths .secondarySmallJacketWrapper, .maths .secondaryLargeJacketWrapper, .maths .secondaryBannerWrapper, .maths #content .cathlt1, .maths #content .cathlt2 { background-color: rgb(238, 242, 251); }
+.maths #content h1, .maths #content h2, .maths #content a:link, .maths #content a:visited { color: rgb(57, 80, 144); }
+.maths #content span.primaryaction { background: url('acpro_btnsubmit_maths_left.gif') no-repeat scroll 0% 0% transparent; }
+.maths #content span.primaryaction input { background: url('acpro_btnsubmit_maths_right.gif') no-repeat scroll right center transparent; }
+.maths #content span.primaryaction a { background: url('acpro_btnsubmit_maths_right.gif') no-repeat scroll right center transparent; }
+.maths #content .catnav ul.tabs li a:link, .maths #content .catnav ul.tabs li a:visited { background-color: rgb(219, 224, 237); color: rgb(57, 80, 144); }
+.maths #content .catnav ul.tabs li a:hover, .maths #content .catnav ul.tabs li a:active, .maths #content div.catnavwrap, .maths #content .catnav .catNavHeaderCap, .maths #content .catalogueUtilities { background-color: rgb(238, 242, 251); }
+.maths #content .catnav ul.tabs li a.current:link, .maths #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(238, 242, 251); background-color: rgb(238, 242, 251); }
+.maths #content .catcont { border-color: rgb(238, 242, 251); }
+.medicine #content .dashboardSubject, .medicine #content .newsPromo, .medicine #content .browse, .medicine #content .primaryhlt1, .medicine #content .primaryhlt2, .medicine #content .listing, .medicine #content .listingjacket, .medicine #content .socialbookmarks, .medicine #content .resourcesfor, .medicine #content .titleBlock, .medicine .inlineEdit, .medicine .secondarySmallJacketWrapper, .medicine .secondaryLargeJacketWrapper, .medicine .secondaryBannerWrapper, .medicine #content .cathlt1, .medicine #content .cathlt2 { background-color: rgb(239, 253, 253); }
+.medicine #content h1, .medicine #content h2, .medicine #content a:link, .medicine #content a:visited { color: rgb(29, 114, 114); }
+.medicine #content span.primaryaction { background: url('acpro_btnsubmit_medicine_left.gif') no-repeat scroll 0% 0% transparent; }
+.medicine #content span.primaryaction input { background: url('acpro_btnsubmit_medicine_right.gif') no-repeat scroll right center transparent; }
+.medicine #content span.primaryaction a { background: url('acpro_btnsubmit_medicine_right.gif') no-repeat scroll right center transparent; }
+.medicine #content .catnav ul.tabs li a:link, .medicine #content .catnav ul.tabs li a:visited { background-color: rgb(211, 235, 234); color: rgb(29, 114, 114); }
+.medicine #content .catnav ul.tabs li a:hover, .medicine #content .catnav ul.tabs li a:active, .medicine #content div.catnavwrap, .medicine #content .catnav .catNavHeaderCap, .medicine #content .catalogueUtilities { background-color: rgb(239, 253, 253); }
+.medicine #content .catnav ul.tabs li a.current:link, .medicine #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(239, 253, 253); background-color: rgb(239, 253, 253); }
+.medicine #content .catcont { border-color: rgb(239, 253, 253); }
+.music #content .dashboardSubject, .music #content .newsPromo, .music #content .primaryhlt1, .music #content .primaryhlt2, .music #content .listing, .music #content .listingjacket, .music #content .socialbookmarks, .music #content .resourcesfor, .music #content .titleBlock, .music .inlineEdit, .music .secondarySmallJacketWrapper, .music .secondaryLargeJacketWrapper, .music .secondaryBannerWrapper, .music #content .cathlt1, .music #content .cathlt2 { background-color: rgb(242, 238, 249); }
+.music #content h1, .music #content h2, .music #content a:link, .music #content a:visited { color: rgb(82, 42, 173); }
+.music #content span.primaryaction { background: url('acpro_btnsubmit_music_left.gif') no-repeat scroll 0% 0% transparent; }
+.music #content span.primaryaction input { background: url('acpro_btnsubmit_music_right.gif') no-repeat scroll right center transparent; }
+.music #content span.primaryaction a { background: url('acpro_btnsubmit_music_right.gif') no-repeat scroll right center transparent; }
+.music #content .catnav ul.tabs li a:link, .music #content .catnav ul.tabs li a:visited { background-color: rgb(220, 212, 239); color: rgb(82, 42, 173); }
+.music #content .catnav ul.tabs li a:hover, .music #content .catnav ul.tabs li a:active, .music #content div.catnavwrap, .music #content .catnav .catNavHeaderCap, .music #content .catalogueUtilities { background-color: rgb(242, 238, 249); }
+.music #content .catnav ul.tabs li a.current:link, .music #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(242, 238, 249); background-color: rgb(242, 238, 249); }
+.music #content .catcont { border-color: rgb(242, 238, 249); }
+.philosophy #content .dashboardSubject, .philosophy #content .newsPromo, .philosophy #content .primaryhlt1, .philosophy #content .primaryhlt2, .philosophy #content .listing, .philosophy #content .listingjacket, .philosophy #content .socialbookmarks, .philosophy #content .resourcesfor, .philosophy #content .titleBlock, .philosophy .inlineEdit, .philosophy .secondarySmallJacketWrapper, .philosophy .secondaryLargeJacketWrapper, .philosophy .secondaryBannerWrapper, .philosophy #content .cathlt1, .philosophy #content .cathlt2 { background-color: rgb(239, 244, 236); }
+.philosophy #content h1, .philosophy #content h2, .philosophy #content a:link, .philosophy #content a:visited { color: rgb(95, 126, 81); }
+.philosophy #content span.primaryaction { background: url('acpro_btnsubmit_philosophy_left.gif') no-repeat scroll 0% 0% transparent; }
+.philosophy #content span.primaryaction input { background: url('acpro_btnsubmit_philosophy_right.gif') no-repeat scroll right center transparent; }
+.philosophy #content span.primaryaction a { background: url('acpro_btnsubmit_philosophy_right.gif') no-repeat scroll right center transparent; }
+.philosophy #content .catnav ul.tabs li a:link, .philosophy #content .catnav ul.tabs li a:visited { background-color: rgb(227, 234, 224); color: rgb(95, 126, 81); }
+.philosophy #content .catnav ul.tabs li a:hover, .philosophy #content .catnav ul.tabs li a:active, .philosophy #content div.catnavwrap, .philosophy #content .catnav .catNavHeaderCap, .philosophy #content .catalogueUtilities { background-color: rgb(239, 244, 236); }
+.philosophy #content .catnav ul.tabs li a.current:link, .philosophy #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(239, 244, 236); background-color: rgb(239, 244, 236); }
+.philosophy #content .catcont { border-color: rgb(239, 244, 236); }
+.physics #content .dashboardSubject, .physics #content .newsPromo, .physics #content .primaryhlt1, .physics #content .primaryhlt2, .physics #content .listing, .physics #content .listingjacket, .physics #content .socialbookmarks, .physics #content .resourcesfor, .physics #content .titleBlock, .physics .inlineEdit, .physics .secondarySmallJacketWrapper, .physics .secondaryLargeJacketWrapper, .physics .secondaryBannerWrapper, .physics #content .cathlt1, .physics #content .cathlt2 { background-color: rgb(252, 241, 253); }
+.physics #content h1, .physics #content h2, .physics #content a:link, .physics #content a:visited { color: rgb(113, 31, 123); }
+.physics #content span.primaryaction { background: url('acpro_btnsubmit_physics_left.gif') no-repeat scroll 0% 0% transparent; }
+.physics #content span.primaryaction input { background: url('acpro_btnsubmit_physics_right.gif') no-repeat scroll right center transparent; }
+.physics #content span.primaryaction a { background: url('acpro_btnsubmit_physics_right.gif') no-repeat scroll right center transparent; }
+.physics #content .catnav ul.tabs li a:link, .physics #content .catnav ul.tabs li a:visited { background-color: rgb(227, 210, 229); color: rgb(113, 31, 123); }
+.physics #content .catnav ul.tabs li a:hover, .physics #content .catnav ul.tabs li a:active, .physics #content div.catnavwrap, .physics #content .catnav .catNavHeaderCap, .physics #content .catalogueUtilities { background-color: rgb(252, 241, 253); }
+.physics #content .catnav ul.tabs li a.current:link, .physics #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(252, 241, 253); background-color: rgb(252, 241, 253); }
+.physics #content .catcont { border-color: rgb(252, 241, 253); }
+.politics #content .dashboardSubject, .politics #content .newsPromo, .politics #content .primaryhlt1, .politics #content .primaryhlt2, .politics #content .listing, .politics #content .listingjacket, .politics #content .socialbookmarks, .politics #content .resourcesfor, .politics #content .titleBlock, .politics .inlineEdit, .politics .secondarySmallJacketWrapper, .politics .secondaryLargeJacketWrapper, .politics .secondaryBannerWrapper, .politics #content .cathlt1, .politics #content .cathlt2 { background-color: rgb(252, 240, 239); }
+.politics #content h1, .politics #content h2, .politics #content a:link, .politics #content a:visited { color: rgb(218, 36, 21); }
+.politics #content span.primaryaction { background: url('acpro_btnsubmit_politicalscience_left.gif') no-repeat scroll 0% 0% transparent; }
+.politics #content span.primaryaction input { background: url('acpro_btnsubmit_politicalscience_right.gif') no-repeat scroll right center transparent; }
+.politics #content span.primaryaction a { background: url('acpro_btnsubmit_politicalscience_right.gif') no-repeat scroll right center transparent; }
+.politics #content .catnav ul.tabs li a:link, .politics #content .catnav ul.tabs li a:visited { background-color: rgb(248, 211, 208); color: rgb(218, 36, 21); }
+.politics #content .catnav ul.tabs li a:hover, .politics #content .catnav ul.tabs li a:active, .politics #content div.catnavwrap, .politics #content .catnav .catNavHeaderCap, .politics #content .catalogueUtilities { background-color: rgb(252, 240, 239); }
+.politics #content .catnav ul.tabs li a.current:link, .politics #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(252, 240, 239); background-color: rgb(252, 240, 239); }
+.politics #content .catcont { border-color: rgb(252, 240, 239); }
+.psychology #content .dashboardSubject, .psychology #content .newsPromo, .psychology #content .primaryhlt1, .psychology #content .primaryhlt2, .psychology #content .listing, .psychology #content .listingjacket, .psychology #content .socialbookmarks, .psychology #content .resourcesfor, .psychology #content .titleBlock, .psychology .inlineEdit, .psychology .secondarySmallJacketWrapper, .psychology .secondaryLargeJacketWrapper, .psychology .secondaryBannerWrapper, .psychology #content .cathlt1, .psychology #content .cathlt2 { background-color: rgb(250, 237, 241); }
+.psychology #content h1, .psychology #content h2, .psychology #content a:link, .psychology #content a:visited { color: rgb(183, 24, 73); }
+.psychology #content span.primaryaction { background: url('acpro_btnsubmit_psychology_left.gif') no-repeat scroll 0% 0% transparent; }
+.psychology #content span.primaryaction input { background: url('acpro_btnsubmit_psychology_right.gif') no-repeat scroll right center transparent; }
+.psychology #content span.primaryaction a { background: url('acpro_btnsubmit_psychology_right.gif') no-repeat scroll right center transparent; }
+.psychology #content .catnav ul.tabs li a:link, .psychology #content .catnav ul.tabs li a:visited { background-color: rgb(241, 209, 219); color: rgb(183, 24, 73); }
+.psychology #content .catnav ul.tabs li a:hover, .psychology #content .catnav ul.tabs li a:active, .psychology #content div.catnavwrap, .psychology #content .catnav .catNavHeaderCap, .psychology #content .catalogueUtilities { background-color: rgb(250, 237, 241); }
+.psychology #content .catnav ul.tabs li a.current:link, .psychology #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(250, 237, 241); background-color: rgb(250, 237, 241); }
+.psychology #content .catcont { border-color: rgb(250, 237, 241); }
+.religion #content .dashboardSubject, .religion #content .newsPromo, .religion #content .primaryhlt1, .religion #content .primaryhlt2, .religion #content .listing, .religion #content .listingjacket, .religion #content .socialbookmarks, .religion #content .resourcesfor, .religion #content .titleBlock, .religion .inlineEdit, .religion .secondarySmallJacketWrapper, .religion .secondaryLargeJacketWrapper, .religion .secondaryBannerWrapper, .religion #content .cathlt1, .religion #content .cathlt2 { background-color: rgb(241, 239, 234); }
+.religion #content h1, .religion #content h2, .religion #content a:link, .religion #content a:visited { color: rgb(124, 111, 83); }
+.religion #content span.primaryaction { background: url('acpro_btnsubmit_religion_left.gif') no-repeat scroll 0% 0% transparent; }
+.religion #content span.primaryaction input { background: url('acpro_btnsubmit_religion_right.gif') no-repeat scroll right center transparent; }
+.religion #content span.primaryaction a { background: url('acpro_btnsubmit_religion_right.gif') no-repeat scroll right center transparent; }
+.religion #content .catnav ul.tabs li a:link, .religion #content .catnav ul.tabs li a:visited { background-color: rgb(229, 226, 221); color: rgb(124, 111, 83); }
+.religion #content .catnav ul.tabs li a:hover, .religion #content .catnav ul.tabs li a:active, .religion #content div.catnavwrap, .religion #content .catnav .catNavHeaderCap, .religion #content .catalogueUtilities { background-color: rgb(241, 239, 234); }
+.religion #content .catnav ul.tabs li a.current:link, .religion #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(241, 239, 234); background-color: rgb(241, 239, 234); }
+.religion #content .catcont { border-color: rgb(241, 239, 234); }
+.sociology #content .dashboardSubject, .sociology #content .newsPromo, .sociology #content .primaryhlt1, .sociology #content .primaryhlt2, .sociology #content .listing, .sociology #content .listingjacket, .sociology #content .socialbookmarks, .sociology #content .resourcesfor, .sociology #content .titleBlock, .sociology .inlineEdit, .sociology .secondarySmallJacketWrapper, .sociology .secondaryLargeJacketWrapper, .sociology .secondaryBannerWrapper, .sociology #content .cathlt1, .sociology #content .cathlt2 { background-color: rgb(253, 235, 241); }
+.sociology #content h1, .sociology #content h2, .sociology #content a:link, .sociology #content a:visited { color: rgb(121, 42, 68); }
+.sociology #content span.primaryaction { background: url('acpro_btnsubmit_sociology_left.gif') no-repeat scroll 0% 0% transparent; }
+.sociology #content span.primaryaction input { background: url('acpro_btnsubmit_sociology_right.gif') no-repeat scroll right center transparent; }
+.sociology #content span.primaryaction a { background: url('acpro_btnsubmit_sociology_right.gif') no-repeat scroll right center transparent; }
+.sociology #content .catnav ul.tabs li a:link, .sociology #content .catnav ul.tabs li a:visited { color: rgb(121, 42, 68); }
+.sociology #content .catnav ul.tabs li a:hover, .sociology #content .catnav ul.tabs li a:active, .sociology #content div.catnavwrap, .sociology #content .catnav .catNavHeaderCap, .sociology #content .catalogueUtilities { background-color: rgb(253, 235, 241); }
+.sociology #content .catnav ul.tabs li a.current:link, .sociology #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(253, 235, 241); background-color: rgb(253, 235, 241); }
+.sociology #content .catcont { border-color: rgb(253, 235, 241); }
+.bibles #content .dashboardSubject, .bibles #content .newsPromo, .bibles #content .primaryhlt1, .bibles #content .primaryhlt2, .bibles #content .listing, .bibles #content .listingjacket, .bibles #content .socialbookmarks, .bibles #content .resourcesfor, .bibles #content .titleBlock, .bibles .inlineEdit, .bibles .secondarySmallJacketWrapper, .bibles .secondaryLargeJacketWrapper, .bibles .secondaryBannerWrapper, .bibles #content .cathlt1, .bibles #content .cathlt2 { background-color: rgb(240, 230, 235); }
+.bibles #content h1, .bibles #content h2, .bibles #content #contentBasket h2, .bibles #content a:link, .bibles #content a:visited, .bibles #contentBasket li.author { color: rgb(102, 0, 51); }
+.bibles #content span.primaryaction { background: url('acpro_btnsubmit_bibles_left.gif') no-repeat scroll 0% 0% transparent; }
+.bibles #content span.primaryaction input { background: url('acpro_btnsubmit_bibles_right.gif') no-repeat scroll right center transparent; }
+.bibles #content span.primaryaction a { background: url('acpro_btnsubmit_bibles_right.gif') no-repeat scroll right center transparent; }
+.bibles #content .catnav ul.tabs li a:link, .bibles #content .catnav ul.tabs li a:visited { background-color: rgb(224, 204, 214); color: rgb(102, 0, 51); }
+.bibles #content .catnav ul.tabs li a:hover, .bibles #content .catnav ul.tabs li a:active, .bibles #content div.catnavwrap, .bibles #content .catnav .catNavHeaderCap, .bibles #content .catalogueUtilities { background-color: rgb(240, 230, 235); }
+.bibles #content .catnav ul.tabs li a.current:link, .bibles #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(240, 230, 235); background-color: rgb(240, 230, 235); }
+.bibles #content .catcont { border-color: rgb(240, 230, 235); }
+#email-a-friend { width: 100%; height: 725px; }
+#content #iframeShowHide { padding: 0px; }
+#content .darkBlue .newsPromoBanner img { border: 2px solid rgb(196, 210, 224); }
+#content .darkBlue { background: url('newshomebluegrad.jpg') repeat-x scroll left bottom rgb(20, 75, 132); }
+#content .darkBlue .newsPromo { background-color: transparent; }
+#content .darkBlue .newsPromo, #content .darkBlue .newsPromo p { color: rgb(255, 255, 255); }
+#content .darkBlue .newsPromo a, #content .darkBlue .newsPromo p.flag { color: rgb(196, 210, 224); }
+#content .titleBlock { margin: 0px 0px 15px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; }
+#content .titleBlock div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .titleBlock div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .titleBlock div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 20px 15px; }
+#content .titleBlock div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .titleBlock .jacketWrap { margin: 0px 0px 20px 10px; padding: 0px; float: left; display: inline; width: 182px; }
+#content .titleBlock .jacketWrap .jacketImg img { margin: 0px; border: 1px solid rgb(0, 0, 0); width: 180px; }
+#content .titleBlock .jacketWrap .jacketImg span img { border: medium none; margin: 0px 0px 0px 1px; }
+#content .titleBlock .jacketWrap .enlargeImg { margin: 1px 0px 5px; padding: 0px; background: none repeat scroll 0% 0% rgb(51, 51, 51); font-size: 0.93em; }
+#content .titleBlock .jacketWrap .enlargeImg a:link, #content .titleBlock div.enlargeImg a:visited { padding: 5px 5px 5px 15px; color: rgb(255, 255, 255); display: block; }
+#content .titleBlock .widgetWrap { margin: 0px 0px 20px -5px; padding: 0px; float: left; display: inline; width: 200px; }
+#content .titleBlockTextWrap { margin: 0px 0px 10px 210px; }
+#content .titleBlock h1 { margin: 0px 0px 3px; padding: 5px 0px 0px; font-size: 1.3em; color: rgb(0, 0, 0); }
+#content .titleBlock .subtitle { margin: 0px 0px 8px; }
+#content .titleBlock .volNumberTitle { margin: 0px 0px 4px; }
+#content .titleBlock .partNumberTitle { margin: 0px 0px 10px; }
+#content .titleBlock .edition { margin: 0px 0px 5px; }
+#content .titleBlock div.seriesDetails { margin: 0px 0px 10px; font-size: 0.93em; }
+#content .titleBlock div.seriesDetails li { margin: 0px 0px 5px; }
+#content .titleBlock div.seriesComplete { margin: 15px 0px; font-size: 0.93em; }
+#content .titleBlock .authorBlock { margin: 0px 0px 10px; }
+#content .titleBlock .authorBlock label { margin: 5px 0px 3px; font-size: 0.93em; font-weight: 700; }
+#content .titleBlock .authorBlock ul { margin: 0px 0px 5px; }
+#content .titleBlock .authorBlock li { margin: 0px 0px 3px; font-size: 1.1em; }
+#content .titleBlock li.Author { margin: 0px; padding: 5px 0px 0px; font-size: 1.1em; }
+#content .titleBlock li.affiliation { margin: 0px; padding: 0px 0px 5px; font-style: italic; }
+#content .titleBlock #contributorsToggle { margin: 0px 0px 5px; padding: 10px 0px 0px; }
+#content .titleBlock #contributorsToggle a, #content .titleBlock #contributors li { font-size: 1em; }
+#content .titleBlock .formatBlock { margin: 0px 0px 10px; }
+#content .titleBlock .formatBlock .edition { margin: 0px 0px 10px; }
+#content .titleBlock .formatBlock .format { font-size: 1.2em; }
+#content .titleBlock div.biblioBlock { margin: 0px 0px 10px; padding: 0px; font-size: 0.93em; }
+#content .titleBlock div.biblioBlock ul { margin-bottom: 3px; }
+#content .titleBlock div.biblioBlock li { margin: 0px; padding: 0px; display: inline; }
+#content .titleBlock div.biblioBlock ul.bookDetails1 { margin-bottom: 10px; }
+#content .titleBlock div.biblioBlock ul.bookDetails1 li { display: block; margin-bottom: 3px; }
+#content .titleBlock div.biblioBlock ul.bibles { margin: 10px 0px; }
+#content .titleBlock #tmpDiscountPrice { margin: 0px 0px 10px; }
+#content .titleBlock div.availBlock { margin: 0px 0px 4px; padding: 0px; }
+#content .titleBlock li.price { margin: 0px; padding: 10px 0px; font-size: 1.4em; }
+#content .titleBlock .buttons { margin: 0px 0px 10px; padding: 0px; overflow: hidden; }
+#content .titleBlock .ebookProcessText { margin: 0px 0px 15px; font-size: 0.93em; color: rgb(102, 102, 102); line-height: 1.3; }
+#content .titleBlock div.othFormatBlock { margin: 0px 0px 4px; padding: 0px; }
+#content .titleBlock div.othFormatBlock ul { display: inline; line-height: 1.3; }
+#content .titleBlock div.othFormatBlock li { margin: 0px; padding: 0px 0px 0px 4px; display: inline; }
+#content .titleBlock div.othFormatBlock a:link, #content .titleBlock div.othformatblock a:visited { text-decoration: underline; }
+#content .titleBlock div.othFormatBlock a:hover, #content .titleBlock div.othformatblock a:active { text-decoration: none; }
+#content .titleBlock div.googleBook { float: right; margin-left: 5px; }
+#content .titleBlock div.resourcesAdvert { float: right; margin-left: 5px; }
+#content .titleBlock .textbookRequest { margin: 0px; padding: 0px; }
+#content .titleBlock .textbookRequest h3 { color: rgb(0, 0, 0); margin: 0px 0px 5px; padding: 0px; font-size: 1.1em; }
+#content .titleBlock .textbookRequest p { color: rgb(0, 0, 0); margin: 0px 0px 3px; padding: 0px; }
+#content .titleBlock .conferenceblock ul li { margin: 15px 0px; }
+#content .blurb { margin: 0px; padding: 15px 10px 0px; line-height: 1.3; }
+#content .blurb ul { font-size: 0.93em; }
+#content .blurb a:link, #content .blurb a:visited { text-decoration: underline; }
+#content .blurb a:hover, #content .blurb a:active { text-decoration: none; }
+#content .prizes { margin: 0px; padding: 0px; }
+#content .prizes h2 { margin-bottom: 5px; font-size: 1.2em; }
+#content .prizes .prizeItem {  }
+#content .catnav { margin: 0px; padding: 0px; height: 1%; }
+#content .catnav ul.tabs { margin: 0px; padding: 0px; }
+#content .catnav ul.tabs li { list-style: none outside none; margin: 0px 1px 0px 0px; float: left; }
+#content .catnav ul.tabs li a:link, #content .catnav ul.tabs li a:visited { margin: 0px; padding: 10px 1em; border-bottom: 1px solid rgb(255, 255, 255); text-decoration: none; font-weight: 700; float: left; font-size: 0.93em; background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top rgb(211, 223, 235); color: rgb(0, 79, 154); }
+#content .catnav ul.tabs li a:hover, #content .catnav ul.tabs li a:active { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top rgb(247, 251, 255); color: rgb(0, 0, 0); }
+#content .catnav ul.tabs li a.current:link, #content .catnav ul.tabs li a.current:visited { border-bottom: 1px solid rgb(247, 251, 255); color: rgb(0, 0, 0); background-color: rgb(247, 251, 255); }
+#content div.catNavHeaderCap { margin: 0px; background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top rgb(245, 248, 250); clear: left; width: 100%; height: 10px; }
+#content div.catnavwrap { margin: 0px; background: none repeat scroll 0% 0% rgb(245, 248, 250); clear: left; width: 100%; }
+#content .catnav ul.opts { margin: 0px 10px 0px 0px; padding: 2px 25px 13px 15px; font-size: 0.93em; line-height: 1.5; }
+#content .catnav ul.opts li { margin: 0px 0px 6px; padding: 0px 0px 0px 5px; display: inline; font-weight: 700; border-left: 1px solid rgb(102, 102, 102); }
+#content .catnav ul.opts li a:link, #content .catnav ul.opts li a:visited { margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-weight: normal; }
+#content .catnav ul.opts li.first { border: medium none; padding: 0px; }
+#content .catcont { margin: 0px; padding: 20px; border-width: 0px 2px 2px; border-style: solid; border-color: rgb(245, 248, 250); height: 1%; line-height: 1.5; }
+#content .catcont .catcontTOC { line-height: 1.7; }
+#content .catcont h2 { margin: 0px 0px 10px; padding: 0px; font-size: 1.3em; }
+#content .catcont h3 { color: rgb(0, 0, 0); }
+#content .catcont p { margin: 0px 0px 5px; padding: 0px; }
+#content .catcont p.lecturerLockedFilesMessage { background: url('acpro_standard_resourcespadlock.gif') no-repeat scroll 0px 0px transparent; padding: 0px 0px 0px 15px; }
+#content .catcont p.questionLockedFilesMessage { background: url('acpro_standard_resourcesquestion.gif') no-repeat scroll 0px 4px transparent; padding: 0px 0px 0px 15px; }
+#content .catcont cite { margin: 0px 0px 15px; padding: 0px; display: block; }
+#content .catcont ul { margin: 0px 0px 15px; padding: 0px; }
+#content .catcont ul a:link, #content .catcont ul a:visited { text-decoration: underline; }
+#content .catcont ul a:hover, #content .catcont ul a:active { text-decoration: none; }
+.catresourceexternal, .catresourcegeneral, .catresourcestudent, .catresourcelecturer { margin: 0px 0px 10px; padding: 5px; }
+.catresourceselect { float: right; width: 200px; }
+.catresourceselect label { margin: 0px 0px 5px; display: block; font-weight: 700; }
+.catresourceselect select { font-size: 1em; }
+#content .catresourcewrapper { padding: 10px 0px; }
+#content .catresourcewrapper h3 { font-size: 1em; }
+#content .catresourcewrapper ul { margin: 0px 0px 20px 20px; padding: 0px; }
+#content .catresourcewrapper ul li { list-style: none outside none; margin: 0px 0px 5px; background: url('acpro_standard_bullet.gif') no-repeat scroll 2px 5px transparent; padding: 0px 0px 0px 15px; }
+#content .catresourcewrapper .resourcelist ul { padding: 4px 0px 0px; margin: 0px; }
+#content .catresourcewrapper .resourcelist ul li {  }
+#content .catresourcewrapper .resourcelist ul li p { padding: 3px 0px 0px ! important; }
+#content .catresourcewrapper ul .resourcelist ul li { margin-left: 10px; }
+#content .catresourcewrapper ul .resourcelist ul li p { padding: 13px 0px 0px; }
+#content .catresourcewrapper ul li.lecturerLocked { background: url('acpro_standard_resourcespadlock.gif') no-repeat scroll 0px 0px transparent; padding: 0px 0px 0px 15px; }
+#content .catresourcewrapper ul li.questionLocked { background: url('acpro_standard_resourcesquestion.gif') no-repeat scroll 0px 3px transparent; padding: 0px 0px 0px 15px; }
+#content .catresourcewrapper div.resourceLinkDesc, #content .catresourcewrapper div.resourceFileDesc { padding: 0px; font-size: 0.93em; }
+p.resourcesCopyright { font-size: 0.93em; color: rgb(102, 102, 102); }
+#content p.emailfriend { margin: 0px 0px 15px; padding: 6px 10px 8px 12px; background: none repeat scroll 0% 0% rgb(245, 248, 250); font-size: 0.93em; }
+#content p.emailfriend a:link, #content p.emailfriend a:visited { margin: 0px; padding: 2px 0px 2px 24px; background: url('emailicon.gif') no-repeat scroll 0px 50% transparent; color: rgb(51, 51, 51); }
+#content p.emailfriend a:hover, #content p.emailfriend a:active { color: rgb(0, 0, 0); }
+#content .catalogueUtilities { margin: 0px 0px 10px; background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom rgb(245, 248, 250); }
+#content .catalogueUtilities ul { padding: 10px 10px 10px 15px; background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+.catalogueUtilities ul li { font-size: 0.93em; }
+#content .catalogueUtilities ul li a:link, #content .catalogueUtilities ul li a:visited { text-decoration: none; padding: 2px 0px; color: rgb(0, 0, 0); }
+#content .catalogueUtilities ul li a:hover, #content .catalogueUtilities ul li a:active { text-decoration: underline; padding: 2px 0px; color: rgb(0, 0, 0); }
+#content .catalogueUtilities ul li.printerFriendly a:link, #content .catalogueUtilities ul li.printerFriendly a:visited, #content .catalogueUtilities ul li.printerFriendly a:hover, #content .catalogueUtilities ul li.printerFriendly a:active { padding-left: 23px; background: url('acpro_printer_friendly.gif') no-repeat scroll 0px 50% transparent; }
+.cathltwrapper { margin: 0px 0px 10px; padding: 0px; }
+.cathltwrapper .cathlt1, .cathltwrapper .cathlt2 { padding: 0px; width: 49%; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% transparent; height: 1%; }
+.cathltwrapper .cathlt1 { float: left; }
+.cathltwrapper .cathlt2 { float: right; }
+.cathltwrapper .cathlt1 div, .cathltwrapper .cathlt2 div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+.cathltwrapper .cathlt1 div div, .cathltwrapper .cathlt2 div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+.cathltwrapper .cathlt1 div div div, .cathltwrapper .cathlt2 div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 5px 5px 10px 10px; }
+.cathltwrapper .cathlt1 div div div div, .cathltwrapper .cathlt2 div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .cathltwrapper p.flag { margin: 0px 0px 6px; padding: 10px 0px 0px 10px; font-size: 0.93em; font-weight: 700; color: rgb(102, 102, 102); }
+#content .cathltwrapper .jacket { margin: 0px 0px 0px 10px; float: left; display: inline; width: 72px; }
+#content .cathltwrapper .jacket img { width: 70px; height: 100px; border: 1px solid rgb(0, 0, 0); }
+#content .cathltwrapper .jacket span img { border: medium none; }
+#content .cathltwrapper .catHltText { margin: 0px 0px 0px 92px; }
+#content .cathltwrapper h2 { margin: 0px 10px 4px 0px; padding: 5px 0px 0px; font-size: 1em; }
+#content .cathltwrapper .subtitle { margin: 0px 10px 5px 0px; font-size: 0.93em; }
+#content .cathltwrapper ul { margin: 0px 10px 6px 0px; }
+#content .cathltwrapper li.edition { margin: 0px 10px 5px 0px; font-size: 0.93em; }
+#content .cathltwrapper li.author { margin: 0px 10px 3px 0px; }
+#content .cathltwrapper li.series { margin: 0px 10px 5px 0px; font-size: 0.93em; }
+#content .socialbookmarks { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; }
+#content .socialbookmarks div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .socialbookmarks div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .socialbookmarks div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .socialbookmarks div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content .socialbookmarks h2 { background: none repeat scroll 0% 0% transparent; margin: 0px 10px 5px 0px; padding: 0px; font-size: 1em; }
+#content .socialbookmarks ul { margin: 0px; padding: 0px; }
+#content .socialbookmarks ul li { margin: 0px 15px 0px 0px; padding: 0px; float: left; }
+#content .socialbookmarks a:link, #content .socialbookmarks a:visited { float: left; padding: 0px 0px 0px 18px; }
+#content .socialbookmarks ul li.delicious a { background: url('acpro_standard_socialbookmark_delicious.gif') no-repeat scroll 0px 50% transparent; }
+#content .socialbookmarks ul li.digg a { background: url('acpro_standard_socialbookmark_digg.gif') no-repeat scroll 0px 50% transparent; }
+#content .socialbookmarks ul li.reddit a { background: url('acpro_standard_socialbookmark_reddit.gif') no-repeat scroll 0px 50% transparent; }
+#content .socialbookmarks ul li.facebook a { background: url('acpro_standard_socialbookmark_facebook.gif') no-repeat scroll 0px 50% transparent; }
+#content .socialbookmarks ul li.stumbleupon a { background: url('acpro_standard_socialbookmark_stumbleupon.gif') no-repeat scroll 0px 50% transparent; }
+#content .socialbookmarks ul li.connotea a { background: url('acpro_standard_socialbookmark_connotea.gif') no-repeat scroll 0px 50% transparent; }
+#seriesBlock { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+#seriesBlockWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+#seriesBlock h2 { margin: 0px; padding: 10px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+#seriesBlock p { margin: 0px 10px 5px; padding: 0px; font-size: 0.93em; }
+#seriesBlock p cite { font-style: italic; }
+#seriesBlock ul { margin: 0px 10px; padding: 0px; font-size: 0.93em; }
+#seriesBlock li { margin: 0px 0px 3px; padding: 0px; }
+#relatedtitlesblock { margin: 0px 0px 10px; padding: 10px; background: none repeat scroll 0% 0% rgb(245, 248, 250); }
+#relatedtitlesblock h2 { margin: 0px 0px 5px; padding: 5px 0px 0px; font-size: 1em; }
+#relatedtitlesblock p { margin: 0px 0px 5px; padding: 0px; font-size: 0.93em; }
+#relatedtitlesblock ul { margin: 0px; padding: 0px; }
+#relatedtitlesblock li { margin: 0px 0px 3px; padding: 0px; }
+.webBundle { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+.webBundleWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+#column .webBundle h2 { margin: 0px; padding: 10px 10px 5px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+#column .webBundle h3 { margin: 0px; padding: 0px 10px 5px; color: rgb(0, 0, 0); font-weight: 700; }
+.webBundle p { margin: 0px 0px 8px; padding: 0px 10px; }
+.webBundle div.externalLink { margin: 0px 0px 10px; padding: 0px 10px; }
+.linksBlock { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+.linksBlockWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+#column .linksBlock h2 { margin: 0px; padding: 10px 10px 5px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+.linksBlock ul { margin: 0px 0px 10px; padding: 0px 10px; }
+.linksBlock li { margin: 0px 0px 5px; }
+.linksBlock p { margin: 0px 0px 2px; padding: 0px 10px; font-size: 0.93em; }
+#bannerblock { margin: 0px auto 10px; padding: 0px; background: none repeat scroll 0% 0% rgb(245, 248, 250); width: 180px; }
+#bannerblock p { margin: 0px; padding: 2px 5px; background: none repeat scroll 0% 0% rgb(51, 51, 51); color: rgb(255, 255, 255); font-size: 0.93em; }
+#content .seriesEditors ul li { margin: 0px 0px 5px; }
+#content .browseSort { margin: 0px; padding: 20px 0px ! important; }
+#content .browseSort h3, #content .searchSort h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .browseSort ul { margin: 0px; padding: 0px; display: inline; }
+#content .browseSort li { margin: 0px; padding-right: 11px; float: left; }
+#content .browseSort span { margin: 0px; padding-right: 6px; float: left; }
+#content .browseSort img, #content .searchSort img { margin: 0px; padding-right: 6px; padding-top: 3px; float: left; }
+#content .browseSort li.selected { font-weight: bold; padding: 0px; }
+#content .browseSort li.un-selected span.unselected.desc { display: none; }
+#content .browseSort li.selected span.selected { display: none; }
+#content .searchSort { margin: 0px; padding: 5px 0px 10px ! important; }
+#content .searchSort h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .searchSort ul { margin: 0px; padding: 0px; display: inline; }
+#content .searchSort span, #content .searchSort img { margin: 0px; float: left; }
+#content .searchSort .selected .selected { font-weight: bold; padding: 0px; }
+#content .searchSort li { margin: 0px; padding-right: 11px; float: left; }
+#contentwrapper_3col #content .searchSort li {  }
+#content .searchSort li a:link { margin: 0px; padding: 0px; }
+#content .searchSort a:link span, #content .searchSort a:visited span { text-decoration: underline; }
+#content .searchSort .sortTitle {  }
+#content .searchSort li.un-selected span.unselected.desc { display: none; }
+#content .searchSort li.selected span.selected { display: none; }
+#content .searchSort li.selected span.sortTitle { font-weight: bold; }
+#content .searchSort li.current { font-weight: bold; }
+#content .conferences .searchSort { margin-bottom: 20px; }
+#content .browsePagination { margin: 0px; padding: 5px 0px ! important; }
+#content .browsePagination h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .browsePagination ul { margin: 0px; padding: 0px; display: inline; }
+#content .browsePagination li { margin: 0px; padding-right: 11px; float: left; }
+#content .browsePagination span, #content .browsePagination img { margin: 0px; padding-right: 6px; float: left; }
+#content .browsePagination .selected { font-weight: bold; padding: 0px; }
+#content .searchPagination { margin: 0px; padding: 5px 0px 10px ! important; }
+#content .searchPagination h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .searchPagination ul { margin: 0px; padding: 0px; display: inline; }
+#content .searchPagination li { margin: 0px; padding-right: 11px; float: left; }
+#content .searchPagination span, #content .searchPagination img { margin: 0px; padding-right: 6px; float: left; }
+#content .searchPagination .selected { font-weight: bold; padding: 0px; }
+#content .paginationWrap { margin: 0px 0px 10px; padding: 0px; font-weight: 700; }
+#content .paginationWrap ul { margin: 0px; padding: 5px 0px 0px; float: left; font-weight: normal; }
+#content .paginationWrap ul li { margin: 0px 10px 0px 0px; padding: 0px; float: left; }
+#content .paginationWrap a:link, #content .paginationWrap a:visited { margin: 0px; padding: 0px; display: block; float: left; }
+#content .paginationWrap .numPages { float: left; margin-right: 5px; padding: 5px 0px 0px; }
+#content .browseResultsPerPage { margin: 0px; padding: 5px 0px ! important; }
+#content .browseResultsPerPage h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .browseResultsPerPage ul { margin: 0px; padding: 0px; display: inline; }
+#content .browseResultsPerPage li { margin: 0px; padding-right: 11px; float: left; }
+#content .browseResultsPerPage a, #content .browseResultsPerPage a.selected { margin: 0px; padding-right: 11px; float: left; }
+#content .browseResultsPerPage span, #content .browseResultsPerPage img { margin: 0px; padding-right: 6px; float: left; }
+#content .browseResultsPerPage .selected { font-weight: bold; padding: 0px; }
+#content .searchResultsPerPage { margin: 0px; padding: 5px 0px 10px ! important; }
+#content .searchResultsPerPage h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .searchResultsPerPage ul { margin: 0px; padding: 0px; display: inline; }
+#content .searchResultsPerPage li { margin: 0px; padding-right: 11px; float: left; }
+#content .searchResultsPerPage a, #content .searchResultsPerPage a.selected { margin: 0px; padding-right: 11px; float: left; }
+#content .advsearch_quick { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(247, 251, 255); height: 1%; }
+#content .advsearch_quick div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .advsearch_quick div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .advsearch_quick div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content .advsearch_quick div div div div { background: none repeat scroll 0px center transparent; padding: 0px; }
+#content .advsearch_quick label { color: rgb(0, 79, 154); display: block; margin: 0px 0px 3px; padding: 0px; font-size: 1.2em; font-weight: 700; }
+#content .advsearch_quick input { font-size: 1em; float: left; vertical-align: middle; }
+#content .advsearch_quick input.textfield { margin: 0px 5px 0px 0px; padding: 3px; width: 200px; }
+#content p.advsearchor { margin: 0px 20px 10px; font-size: 1.3em; font-weight: 700; }
+#content .advsearch_other { margin: 0px 0px 15px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(247, 251, 255); height: 1%; }
+#content .advsearch_other div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content .advsearch_other div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content .advsearch_other div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 1px 15px 15px; }
+#content .advsearch_other div div div div { background: none repeat scroll 0px center transparent; padding: 0px; }
+#content .advsearch_other label { color: rgb(0, 79, 154); display: block; margin: 10px 0px 3px; padding: 0px; font-size: 1.2em; font-weight: 700; }
+#content .advsearch_other input { font-size: 1em; vertical-align: middle; }
+#content .advsearch_other select { margin: 3px 8px 5px 0px; font-size: 1em; vertical-align: middle; }
+#content .advsearch_other input.textfield { width: 200px; margin: 0px 4px 0px 0px; padding: 2px; display: block; }
+#content .advsearch_other .buttons { padding: 10px 0px 0px; }
+#content #searchResultsNew { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; }
+#content #searchResultsNew div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content #searchResultsNew div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content #searchResultsNew div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content #searchResultsNew div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content #searchResultsNew legend { display: none; }
+#content #searchResultsNew input { float: left; vertical-align: middle; }
+#content #searchResultsNew input.searchfield { margin: 0px 5px 0px 0px; padding: 3px; width: 200px; }
+#content #searchResultsNew .hide { display: none; }
+#content #searchResultsNew .advancedSearch { padding: 5px 0px 0px; }
+#content #searchQuickLinks { margin: 0px 0px 10px; padding: 0px; background: url('acpro_standard_curve_topleft.gif') no-repeat scroll 0% 0% rgb(245, 248, 250); height: 1%; }
+#content #searchQuickLinks div { background: url('acpro_standard_curve_topright.gif') no-repeat scroll right top transparent; }
+#content #searchQuickLinks div div { background: url('acpro_standard_curve_botleft.gif') no-repeat scroll left bottom transparent; }
+#content #searchQuickLinks div div div { background: url('acpro_standard_curve_botright.gif') no-repeat scroll right bottom transparent; padding: 15px; }
+#content #searchQuickLinks div div div div { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content #searchQuickLinks h2 { margin-bottom: 5px; }
+#content #searchQuickLinks p {  }
+#content #searchQuickLinks ul {  }
+#content #searchQuickLinks ul li { margin-bottom: 5px; }
+.facetSelected, .facetSelector { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); height: 1%; }
+.facetSelected .facetSelectedWrap, .facetSelector .facetSelectorWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; height: 1%; }
+#panel .facetSelected h2, #panel .facetSelector h2 { margin: 0px; padding: 10px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+#panel .facetSelected .facetSelectedWrap h2 { padding-bottom: 3px; }
+#panel .facetSelected .facetSelectedWrap .refinedByTxt { padding: 0px 10px 10px; color: rgb(102, 102, 102); font-size: 0.93em; }
+.facetSelected p, .facetSelector p { margin: 0px 0px 5px; padding: 0px 10px; }
+.facetSelected p span, .facetSelector p spanv { font-weight: 700; }
+.facetSelected ul, .facetSelector ul { margin: 0px; padding: 0px 10px; }
+.facetSelected li, .facetSelector li { margin: 0px 0px 6px; padding: 0px; font-size: 1em; }
+.searchRelated { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_trans_cap_bot.gif') no-repeat scroll center bottom rgb(255, 255, 255); }
+.searchRelated .searchRelatedWrap { background: url('acpro_standard_trans_bg.gif') repeat-y scroll 0% 0% transparent; }
+.searchRelated .searchRelatedItem {  }
+#column .searchRelated h2 { margin: 0px; padding: 10px; background: url('acpro_standard_trans_cap_top.gif') no-repeat scroll 0% 0% transparent; }
+.searchRelated p { margin: 0px 0px 5px; padding: 0px 10px; }
+.searchRelated p span { font-weight: 700; }
+#column .searchRelated ul { margin: 0px; padding: 0px 10px; }
+#column .searchRelated li { margin: 0px 0px 6px; padding: 0px; font-size: 1em; line-height: 1.3; }
+#column .searchRelated .readmore-container { margin: 0px; padding: 0px 10px; font-size: 0.93em; }
+#column .searchRelated p.relatedContentJournals { font-size: 0.93em; }
+#search_col2 div.form.search.input { padding: 10px 0px; }
+#search_col2 div.form.search.input input.text { font-size: 1.4em; width: 390px; }
+#search_col2 div.form.search.input input.searchButton { background: none repeat scroll 0% 0% rgb(35, 139, 237); border: 0px none; color: white; height: 25px; width: 90px; font-weight: bold; text-transform: uppercase; }
+#search_col1 #content { float: left; width: 210px; margin: 0px; }
+#search_col2 #content { float: left; width: 500px; margin: 0px; padding-left: 10px; }
+p.short { clear: both; padding-top: 5px; }
+p.short a { margin-right: 5px; }
+a.helpLink { background: url('help_icon.gif') no-repeat scroll left top transparent; padding: 1px 0px 0px 17px; }
+a.rightInput { margin: 2px 0px 0px 2px; }
+#content a.button:link, #content a.button:visited, #content .boxButtons a:link, #content .boxButtons a:visited { border: 1px solid rgb(0, 0, 0); font-weight: bold; margin: 5px 0px; background: url('button.jpg') repeat-x scroll left bottom rgb(0, 72, 132); padding: 5px; color: rgb(255, 255, 255); text-decoration: none; display: block; float: left; }
+#content a.button:hover, #content a.button:active, #content .boxButtons a:hover, #content .boxButtons a:active { background: url('button_hover.jpg') repeat-x scroll left bottom rgb(0, 0, 0); }
+#content .checkoutbutton a.button:link, #content .checkoutbutton a.button:visited { background: url('button_gold.jpg') repeat-x scroll left bottom rgb(255, 197, 56); border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-size: 1.2em; padding: 8px; }
+#content .checkoutbutton a.button:hover, #content .checkoutbutton a.button:active { background: url('button_hover.jpg') repeat-x scroll left bottom rgb(0, 0, 0); border: 1px solid rgb(0, 0, 0); color: rgb(255, 197, 56); }
+.boxButtons .edit { float: left; margin-right: 5px; }
+.boxButtons .delete { float: left; }
+#content a.small-button:link, #content a.small-button:visited { border: 1px solid rgb(0, 0, 0); font-weight: bold; margin: 0px; background: url('button.jpg') repeat-x scroll left bottom rgb(0, 72, 132); padding: 2px 3px; color: rgb(255, 255, 255); text-decoration: none; font-size: 0.93em; }
+#content a.small-button:hover, #content a.small-button:active { background: url('button_hover.jpg') repeat-x scroll left bottom rgb(0, 0, 0); }
+#discount_box { margin: 0px 0px 5px; border: 1px solid rgb(180, 205, 236); padding: 10px 0px; width: 225px; background: none repeat scroll 0% 0% rgb(232, 237, 243); float: right; display: inline; }
+.bibles #discount_box { border: 1px solid rgb(102, 0, 51); background: none repeat scroll 0% 0% rgb(240, 230, 235); }
+.bibles #discount_box h3 { color: rgb(102, 0, 51); }
+#discount_box form { margin: 0px 10px; padding: 0px; }
+#discount_box form input { float: left; margin-top: 7px; }
+#discount_error { color: red; }
+#discount_error span.assist { margin-bottom: 8px; width: 100%; }
+#discount_link { margin: 0px; padding: 0px; float: right; font-weight: 700; }
+#appliedPanel th { background: none repeat scroll 0% 0% rgb(232, 237, 243); padding: 5px; }
+.col5 { margin: 0px 0px 20px; float: left; }
+.col6 { margin: 0px; width: 280px; float: right; }
+#contentBasket, #content_basket { margin: 0px 0px 5px; }
+#contentBasket #availHead, #contentBasket #unavailHead, #content_basket #emptyHead { margin: 0px; }
+#emptyMsg { margin: 0px 0px 0px 5px; }
+#emptyMsg p { margin: 0px 0px 5px; padding: 0px; }
+#contentBasket #availHead h2, #content_basket #emptyHead h2, #deliverySection h2, #availNow h3, #preorderHead h3, #unavailHead h2, #oopHead h2 { padding: 5px; background: none repeat scroll 0% 0% rgb(232, 237, 243); color: rgb(0, 72, 132); font-size: 1.2em; margin: 0px; }
+.bibles #contentBasket #availHead h2, .bibles #content_basket #emptyHead h2, .bibles #availNow h3, .bibles #oopHead h2, .bibles #unavailHead h2, .bibles #deliverySection h2 { background-color: rgb(240, 230, 235); }
+#contentBasket #unavailHead p, #contentBasket #oopHead p { padding: 0px; margin: 0px; }
+#contentBasket #availNowHead, #contentBasket #preorderHead, #contentBasket #oop #oopHead, #contentBasket #unavailHead p, #contentBasket #mrHead { padding: 5px; background: none repeat scroll 0% 0% rgb(248, 248, 248); margin: 1px 0px 5px; }
+#contentBasket #availNowHead h3, #contentBasket #preorderHead h3 { background: none repeat scroll 0% 0% rgb(248, 248, 248); color: rgb(0, 0, 0); padding-left: 0px; }
+ul.assist, span.assist { color: red; clear: both; font-weight: bold; margin-bottom: 5px; }
+#contentBasket #preorder, #contentBasket #availNow { margin: 0px; }
+#contentBasket table, #deliverySection table { border-collapse: collapse; width: 99%; margin: 0px 5px; }
+#contentBasket table { clear: both; }
+#availNow th, #preorder th, #unavail th, #oop th, #marketRestricted th { border-bottom: 1px solid rgb(204, 204, 204); text-transform: uppercase; color: rgb(0, 72, 132); padding: 5px 0px 3px; font-weight: bold; }
+.bibles #availNow th, .bibles #preorder th, .bibles #unavail th, .bibles #oop th { color: rgb(102, 0, 51); }
+#availNow td, #preorder td, #unavail td, #oop td, #marketRestricted td { border-bottom: 1px solid rgb(204, 204, 204); padding: 15px 0px; }
+.credit_cards { padding: 12px 0px; clear: both; float: left; }
+.thBookTitle { width: 25%; font-weight: bold; text-transform: uppercase; padding: 10px 0px 5px; text-align: left; }
+.thUnit { width: 13%; font-weight: bold; text-align: center; text-transform: uppercase; padding: 10px 0px 5px; }
+.thQuantity { width: 13%; font-weight: bold; text-align: center; text-transform: uppercase; padding: 10px 0px 5px; }
+.thDelitem { width: 13%; font-weight: bold; text-align: center; text-transform: uppercase; padding: 10px 0px 5px; }
+.thTotal { width: 21%; font-weight: bold; text-align: right; text-transform: uppercase; padding: 10px 0px 5px; }
+.thCancel { font-weight: bold; text-align: center; text-transform: uppercase; padding: 10px 0px 5px; }
+#content table.basketUpdatesButtons td { text-transform: capitalize; border: medium none; }
+#content table.basketUpdatesButtons td.delitem { padding-left: 15px; }
+#contentBasket h4.bookTitle { margin: 0px 0px 3px; padding: 0px; font-size: 1em; }
+#contentBasket li.author { margin: 0px 0px 3px; font-style: italic; color: rgb(0, 72, 132); }
+#contentBasket li.format { margin: 0px 0px 3px; }
+#contentBasket li.availability { margin: 0px; }
+td.unitPrice { text-align: center; }
+td.centrePrice { text-align: center; }
+td.quantity { text-align: center; }
+td.delete { text-align: center; }
+td.price { text-align: right; }
+td.quantity input { width: 25px; }
+#deliverySection ul li.subtotal { padding: 3px 0px; }
+#deliverySection ul li.state_tax { padding: 3px 0px; }
+#deliverySection ul li.country_tax, .countryTax { padding: 3px 0px; }
+#deliverySection ul li.shipping { padding: 3px 0px; }
+#deliverySection ul li.shipping_tax { padding: 3px 0px; }
+#deliverySection ul li.delitem { text-align: center; }
+#editConfirmBt { float: right; }
+.continuebutton { float: left; margin-left: 0px; }
+.checkoutbutton { float: right; }
+.okbutton { float: right; }
+.update_bt { float: right; }
+.primaryaction { float: right; }
+.primaryaction a.button { margin: 0px; }
+#newAccountBt a { margin-right: 5px; }
+#delHead, #deliverySection { margin: 0px; }
+#delHead h2, #deliverySection h2 { padding: 5px; background: none repeat scroll 0% 0% rgb(232, 237, 243); color: rgb(0, 72, 132); font-size: 1.2em; margin: 0px; }
+#deliverySection table { margin: 0px 0px 0px 5px; }
+#deliverySection td { margin: 0px; padding: 0px; vertical-align: top; }
+#delMethod { margin: 0px 0px 0px 5px; float: left; }
+#delMethod span#method { font-weight: bold; }
+#delCharges { margin: 0px; width: 99%; }
+#deliveryCharges #deliveryT { margin-bottom: 0px; }
+#totalBox, #total_box, #subtotal_box { text-align: right; float: right; margin: 0px; color: rgb(0, 72, 132); width: 300px; }
+#totalBox, #total_box, #subtotal_box .subtotal { text-transform: none; }
+.bibles #totalBox, .bibles #total_box { color: rgb(102, 0, 51); }
+.subtotal { padding: 3px 0px; }
+.state_tax { padding: 3px 0px; }
+.country_tax, .countryTax { padding: 3px 0px; }
+.shipping { padding: 3px 0px; }
+.shipping_tax { padding: 3px 0px; }
+.delitem { text-align: center; }
+#grand_head, #grandHead { margin: 0px; padding: 0px 0px 5px; font-weight: bold; color: rgb(0, 72, 132); text-align: right; font-size: 1.2em; }
+.bibles #grand_head, .bibles #grandHead { color: rgb(102, 0, 51); }
+#grandHead p.grandTotal { margin-top: 20px; }
+#grand_now_head { padding: 0px 0px 5px; font-weight: bold; color: rgb(0, 72, 132); text-align: right; font-size: 1em; border-bottom: 1px solid rgb(204, 204, 204); }
+#alumniDiscount { float: left; margin: 10px 0px; padding: 10px 0px; width: 350px; background: none repeat scroll 0% 0% rgb(232, 237, 243); }
+.bibles #alumniDiscount { background: none repeat scroll 0% 0% rgb(240, 230, 235); }
+#alumniDiscount form { margin: 0px 10px; padding: 0px; }
+#alumniDiscount a.button:link { margin-right: 5px; }
+#alumniDiscount p.form_key { margin-bottom: 20px; }
+#alumniDiscount select.select { margin: 0px 0px 10px; }
+#alumniDiscount label { clear: both; }
+#categoryPanel { padding-bottom: 10px; margin-bottom: 5px; border-bottom: 1px solid rgb(232, 237, 243); }
+#landingPagePanel table#isbnTable { border-top: 1px solid rgb(232, 237, 243); margin-top: 5px; width: 100%; }
+#landingPagePanel table#isbnTable td { padding: 10px 0px; border-bottom: 1px solid rgb(232, 237, 243); }
+#landingPagePanel table#isbnTable td.image { vertical-align: top; width: 90px; }
+#landingPagePanel table#isbnTable td.image img { width: 70px; }
+#subheadingPanel a { margin-left: 10px; }
+#subheadingPanel a:link, #subheadingPanel a:visited { background: none repeat scroll 0% 0% rgb(232, 237, 243); border: 1px solid rgb(0, 72, 132); padding: 3px; text-decoration: none; }
+#subheadingPanel a:hover, #subheadingPanel a:active { background: none repeat scroll 0% 0% rgb(0, 72, 132); padding: 3px; text-decoration: none; color: rgb(232, 237, 243); }
+#subheadingPanel select#orderBy { margin-bottom: 0px; }
+#landingPagePanel #resultsWrapper { padding: 50px 0px 20px; position: relative; }
+#landingPagePanel #resultsWrapper #topScroller { position: absolute; top: 20px; left: 0px; }
+table#isbnTable td.detail { padding-top: 5px; }
+table#isbnTable td.detail li { padding-bottom: 5px; }
+table#isbnTable td.detail li.book { font-weight: bold; font-size: 1.1em; }
+table#isbnTable td.detail li.subtitle { font-weight: bold; }
+table#isbnTable td.detail li.author { font-style: italic; }
+table#isbnTable td.detail li.isbn { padding-top: 5px; }
+table#isbnTable td.detail li.blurb { padding: 5px 0px 10px; }
+table#isbnTable td.detail li.blurb a { display: block; }
+table#isbnTable td.detail li.volume, table#isbnTable td.detail li.part, table#isbnTable td.detail li.edition { font-size: 0.93em; }
+table#isbnTable td.detail li.now { font-weight: bold; }
+#landingPagePanel table.data-scroller a { margin-right: 7px; }
+.discountLandingWrapper {  }
+.discountLandingHeader { margin: 0px 0px 30px; }
+.discountLandingDashboard {  }
+.discountLandingTitle .discountLandingTitle h1 {  }
+.discountLandingDesc {  }
+#content .listingitem li.oldPrice { margin: 0px 0px 5px; padding: 0px; font-size: 1em; }
+#content .listingitem li.discountPrice { margin: 0px; padding: 0px; font-size: 1.1em; font-weight: 700; }
+#content .discountLandingPaging { margin: 0px 0px 10px; padding: 0px; font-weight: 700; }
+#content .discountLandingPaging ul { margin: 0px; padding: 5px 0px 0px; float: left; font-weight: normal; }
+#content .discountLandingPaging ul li { margin: 0px 10px 0px 0px; padding: 0px; float: left; }
+#content .discountLandingPaging a:link, #content .discountLandingPaging a:visited { margin: 0px; padding: 0px; display: block; float: left; }
+#content .discountLandingPaging .numPages { float: left; margin-right: 5px; padding: 5px 0px 0px; }
+#content .discountLandingSort { margin: 0px; padding: 5px 0px 10px ! important; }
+#content .discountLandingSort h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .discountLandingSort ul { margin: 0px; padding: 0px; display: inline; }
+#content .discountLandingSort span, #content .discountLandingSort img { margin: 0px; float: left; }
+#content .discountLandingSort .selected .selected { font-weight: bold; padding: 0px; }
+#content .discountLandingSort li { margin: 0px; padding-right: 11px; float: left; }
+#content .discountLandingSort li a:link { margin: 0px; padding: 0px; }
+#content .discountLandingSort a:link span, #content .discountLandingSort a:visited span { text-decoration: underline; }
+#content .discountLandingSort li.current { font-weight: bold; }
+#content .discountLandingCategoryNav { margin: 0px; padding: 5px 0px 10px ! important; }
+#content .discountLandingCategoryNav h3 { margin: 0px 9px 0px 0px; float: left; color: rgb(0, 0, 0); }
+#content .discountLandingCategoryNav select { margin: 0px 5px 0px 0px; float: left; }
+#content .discountLandingCategoryNav input { margin: 0px; float: left; }
+#mr_error, #mrError { color: red; }
+.minisite_wrapper { width: 100% ! important; overflow: hidden; margin: 15px 0px 0px; padding: 0px; }
+.minisite_wrapper .minisite_header_container { width: 100%; height: 89px; }
+.minisite_wrapper #contentwrapper_2col #content { background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0px 210px 0px 0px ! important; padding: 0px 0px 10px 24px ! important; }
+.minisite_wrapper #column { margin: 0px ! important; padding: 0px 5px ! important; }
+.minisite_maincontent_container { min-height: 360px ! important; border: 1px solid rgb(234, 246, 243); font-size: 1.2em ! important; overflow: hidden; }
+.minisite_maincontent_container .minisite_leftcontent_container { width: 28% ! important; float: left; margin: 0px; padding: 5px 15px; }
+.minisite_maincontent_container .minisite_leftcontent_container h2 { font-size: 1em ! important; font-weight: normal ! important; text-transform: uppercase; color: rgb(0, 0, 0) ! important; margin: 0px ! important; padding: 5px 0px ! important; }
+.minisite_maincontent_container .minisite_rightcontent_container { width: 60% ! important; float: left; margin: 0px; padding: 15px; }
+.minisite_maincontent_container .minisite_rightcontent_container .leftcolumn { width: auto ! important; float: left; }
+.minisite_maincontent_container .minisite_rightcontent_container .leftcolumn ul li { list-style-type: disc ! important; margin: 0px 15px ! important; padding: 0px ! important; }
+.minisite_maincontent_container .minisite_rightcontent_container .leftcolumn ul li.lecturerLocked { background: url('acpro_standard_resourcespadlock.gif') no-repeat scroll 0px 3px transparent; margin: 0px ! important; padding: 0px 0px 0px 15px ! important; display: block; }
+.minisite_maincontent_container .minisite_rightcontent_container .leftcolumn ul li.questionLocked { background: url('acpro_standard_resourcesquestion.gif') no-repeat scroll 0px 6px transparent; margin: 0px ! important; padding: 0px 0px 0px 15px ! important; display: block; }
+.minisite_maincontent_container .minisite_rightcontent_container .leftcolumn p { margin: 0px; padding: 0px; line-height: 1.5em; }
+.minisite_maincontent_container .minisite_rightcontent_container .leftcolumn p strong { font-size: 14px; }
+.minisite_maincontent_container .minisite_rightcontent_container .column_divider { display: block; clear: both; }
+.minisite_maincontent_container .minisite_rightcontent_container .column_divider p.lecturerLockedFilesMessage { background: url('acpro_standard_resourcespadlock.gif') no-repeat scroll 0px 5px transparent; margin: 0px ! important; padding: 2px 0px 0px 15px ! important; display: block; font-size: 0.8em; line-height: 1.5em; }
+.minisite_maincontent_container .minisite_rightcontent_container .column_divider p.questionLockedFilesMessage { background: url('acpro_standard_resourcesquestion.gif') no-repeat scroll 0px 7px transparent; margin: 0px ! important; padding: 2px 0px 0px 15px ! important; display: block; font-size: 0.8em; line-height: 1.5em; }
+.minisite_maincontent_container .minisite_rightcontent_container a { color: rgb(0, 0, 0) ! important; }
+.minisite_maincontent_container .minisite_rightcontent_container ul { margin: 0px; padding: 10px 0px ! important; }
+.minisite_maincontent_container .minisite_rightcontent_container ul li { line-height: 1.5em; }
+.minisite_maincontent_container .minisite_rightcontent_container h1 { font-size: 1.1em ! important; font-weight: normal ! important; text-transform: uppercase; color: rgb(0, 0, 0) ! important; margin: 0px ! important; padding: 0px ! important; }
+.minisite_maincontent_container .minisite_leftcontent_container .minisite_leftmenu_one ul { margin: 0px; padding: 0px 0px 15px ! important; }
+.minisite_maincontent_container .minisite_leftcontent_container .minisite_leftmenu_two ul { margin: 0px; padding: 0px ! important; }
+.minisite_maincontent_container .minisite_leftcontent_container .minisite_leftmenu_one ul li, .minisite_maincontent_container .minisite_leftcontent_container .minisite_leftmenu_two ul li { line-height: 1.5em; }
+.minisite_maincontent_container .minisite_leftcontent_container .minisite_leftmenu_one ul li a { color: rgb(0, 0, 0) ! important; font-weight: bold; }
+.minisite_maincontent_container .minisite_leftcontent_container .minisite_leftmenu_two ul li a { font-weight: bold; }
+.minisite_wrapper #miniBasket { margin: 0px 0px 10px; padding: 0px 0px 10px; background: none repeat scroll 0% 0% rgb(242, 242, 242) ! important; border: 1px solid rgb(153, 153, 153); border-radius: 5px 5px 5px 5px; position: relative; height: 1%; }
+.minisite_wrapper #miniBasket #miniBasketTop { margin: 0px; padding: 10px 0px 0px; background: none repeat scroll 0% 0% transparent ! important; }
+.minisite_wrapper #miniBasket #miniBasketWrapper { background: none repeat scroll 0% 0% transparent ! important; }
+.minisite_wrapper #miniBasket h2 { margin: 0px 0px 5px; padding: 0px 24px 0px 10px; }
+.minisite_wrapper #miniBasket h2.headingBasket { background: none repeat scroll 0% 0% transparent ! important; }
+.minisite_wrapper #miniBasket h2.headingCart { background: none repeat scroll 0% 0% transparent ! important; }
+.minisite_wrapper #miniBasket p.qty { margin: 0px 0px 5px; padding: 0px 10px; }
+.minisite_wrapper #column #miniBasket #showDiscounts { margin: 0px 0px 10px; padding: 0px 10px; }
+.minisite_wrapper #column #miniBasket #showLines { margin: 0px 0px 10px; padding: 0px 10px; }
+.minisite_wrapper #miniBasket #subtotal { margin: 0px 0px 5px; padding: 0px 10px 5px; }
+.minisite_wrapper #column #miniBasket .buttons { margin: 0px 0px 0px 7px; }
+.minisite_wrapper .sidebrowse { margin: 0px 0px 10px; padding: 0px 0px 10px; background: none repeat scroll 0% 0% rgb(242, 242, 242) ! important; border: 1px solid rgb(153, 153, 153); border-radius: 5px 5px 5px 5px; }
+.minisite_wrapper .sidebrowsewrap { background: none repeat scroll 0% 0% transparent ! important; }
+.minisite_wrapper #column .sidebrowse h2 { margin: 0px; padding: 10px 10px 5px; background: none repeat scroll 0% 0% transparent ! important; }
+.sidebrowse .social_icon_container {  }
+.sidebrowse .social_icon_container ul { float: left; margin-bottom: 0px; }
+.sidebrowse .social_icon_container ul li { list-style-type: none; display: inline; margin: 0px; padding: 5px 2px; float: left; }
+.sidebrowse .social_icon_container ul li a { background: url('social_url_sprites.png') no-repeat scroll 0px 0px transparent; float: left; width: 24px; height: 24px; text-indent: -999em; }
+.sidebrowse .social_icon_container ul li.button_facebook a { background-position: 0px 0px; }
+.sidebrowse .social_icon_container ul li.button_twitter a { background-position: -28px 0px; }
+.sidebrowse .social_icon_container ul li.button_youtube a { background-position: -56px 0px; }
+.sidebrowse .social_icon_container ul li.button_blog a { background-position: -84px 0px; }
+.sidebrowse .social_icon_container ul li.button_linkedin a { background-position: -112px 0px; }
+.acproCustomerSurvey { margin: 0px 0px 10px; padding: 0px 0px 10px; background: url('acpro_standard_solidblue_bot.gif') no-repeat scroll center bottom rgb(25, 81, 138); }
+.acproCustomerSurveyWrap { background: url('acpro_standard_solidblue_bg.gif') repeat-y scroll 0% 0% transparent; }
+#column .acproCustomerSurveyWrap h2 { margin: 0px; padding: 10px 10px 5px; background: url('acpro_standard_solidblue_top.gif') no-repeat scroll 0% 0% transparent; color: rgb(255, 255, 0); }
+.acproCustomerSurveyWrap p { padding: 0px; margin: 0px 10px 5px; color: rgb(255, 255, 255); }
+#column .acproCustomerSurveyWrap a:link, #column .acproCustomerSurveyWrap a:visited, #column .acproCustomerSurveyWrap a:hover, #column .acproCustomerSurveyWrap a:active { color: rgb(255, 255, 255); }
+
+/* ::::: http://www.cambridge.org/generated_files/pub_module/css/c9.css ::::: */
+
+.required { color: red; }
+
+/* ::::: http://www.cambridge.org/generated_files/pub_module/css/c1803.css ::::: */
+
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute ! important; clip: rect(1px, 1px, 1px, 1px); }
+.ui-helper-reset { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none outside none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+* html .ui-helper-clearfix { height: 1%; }
+.ui-helper-clearfix { display: block; }
+.ui-helper-zfix { width: 100%; height: 100%; top: 0px; left: 0px; position: absolute; opacity: 0; }
+.ui-state-disabled { cursor: default ! important; }
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.ui-widget-overlay { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid rgb(212, 224, 232); background: url('ui-bg_flat_100_ebf1f5_40x100.png') repeat-x scroll 50% 50% rgb(235, 241, 245); color: rgb(34, 34, 34); }
+.ui-widget-content a { color: rgb(34, 34, 34); }
+.ui-widget-header { border: 1px solid rgb(0, 41, 71); background: url('ui-bg_flat_75_285b88_40x100.png') repeat-x scroll 50% 50% rgb(40, 91, 136); color: rgb(234, 245, 247); font-weight: bold; }
+.ui-widget-header a { color: rgb(234, 245, 247); }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid rgb(35, 74, 108); background: url('ui-bg_inset-soft_45_285b88_1x100.png') repeat-x scroll 50% 50% rgb(40, 91, 136); font-weight: normal; color: rgb(255, 255, 255); }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: rgb(255, 255, 255); text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid rgb(32, 138, 239); background: url('ui-bg_glass_75_208aef_1x400.png') repeat-x scroll 50% 50% rgb(32, 138, 239); font-weight: normal; color: rgb(255, 255, 255); }
+.ui-state-hover a, .ui-state-hover a:hover { color: rgb(255, 255, 255); text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid rgb(35, 91, 144); background: url('ui-bg_inset-soft_50_3071ae_1x100.png') repeat-x scroll 50% 50% rgb(48, 113, 174); font-weight: normal; color: rgb(255, 255, 255); }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: rgb(255, 255, 255); text-decoration: none; }
+.ui-widget :active { outline: medium none; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight { border: 1px solid rgb(252, 209, 19); background: url('ui-bg_glass_55_f8da4e_1x400.png') repeat-x scroll 50% 50% rgb(248, 218, 78); color: rgb(145, 86, 8); }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a { color: rgb(145, 86, 8); }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error { border: 1px solid rgb(205, 10, 10); background: url('ui-bg_gloss-wave_45_e14f1c_500x100.png') repeat-x scroll 50% top rgb(225, 79, 28); color: rgb(255, 255, 255); }
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: rgb(255, 255, 255); }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: rgb(255, 255, 255); }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary { opacity: 0.7; font-weight: normal; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: 0.35; background-image: none; }
+.ui-icon { width: 16px; height: 16px; background-image: url('ui-icons_0078ae_256x240.png'); }
+.ui-widget-content .ui-icon { background-image: url('ui-icons_0078ae_256x240.png'); }
+.ui-widget-header .ui-icon { background-image: url('ui-icons_d8e7f3_256x240.png'); }
+.ui-state-default .ui-icon { background-image: url('ui-icons_e0fdff_256x240.png'); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-image: url('ui-icons_056b93_256x240.png'); }
+.ui-state-active .ui-icon { background-image: url('ui-icons_f5e175_256x240.png'); }
+.ui-state-highlight .ui-icon { background-image: url('ui-icons_f7a50d_256x240.png'); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url('ui-icons_fcd113_256x240.png'); }
+.ui-icon-carat-1-n { background-position: 0px 0px; }
+.ui-icon-carat-1-ne { background-position: -16px 0px; }
+.ui-icon-carat-1-e { background-position: -32px 0px; }
+.ui-icon-carat-1-se { background-position: -48px 0px; }
+.ui-icon-carat-1-s { background-position: -64px 0px; }
+.ui-icon-carat-1-sw { background-position: -80px 0px; }
+.ui-icon-carat-1-w { background-position: -96px 0px; }
+.ui-icon-carat-1-nw { background-position: -112px 0px; }
+.ui-icon-carat-2-n-s { background-position: -128px 0px; }
+.ui-icon-carat-2-e-w { background-position: -144px 0px; }
+.ui-icon-triangle-1-n { background-position: 0px -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0px -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0px -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0px -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0px -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0px -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0px -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0px -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0px -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-off { background-position: -96px -144px; }
+.ui-icon-radio-on { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0px -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0px -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0px -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0px -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0px -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { border-top-left-radius: 5px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { border-top-right-radius: 5px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { border-bottom-left-radius: 5px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { border-bottom-right-radius: 5px; }
+.ui-widget-overlay { background: url('ui-bg_flat_75_aaaaaa_40x100.png') repeat-x scroll 50% 50% rgb(170, 170, 170); opacity: 0.3; }
+.ui-widget-shadow { margin: 5px 0px 0px 5px; padding: 0px; background: url('ui-bg_flat_55_999999_40x100.png') repeat-x scroll 50% 50% rgb(153, 153, 153); opacity: 0.45; border-radius: 5px 5px 5px 5px; }
+.ui-resizable { position: relative; }
+.ui-resizable-handle { position: absolute; font-size: 0.1px; z-index: 99999; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0px; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0px; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0px; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0px; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px; }
+.ui-selectable-helper { position: absolute; z-index: 100; border: 1px dotted black; }
+.ui-accordion { width: 100%; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0px none ! important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: 0.5em 0.5em 0.5em 0.7em; }
+.ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: 0.5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0px none; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-autocomplete { position: absolute; cursor: default; }
+* html .ui-autocomplete { width: 1px; }
+.ui-menu { list-style: none outside none; padding: 2px; margin: 0px; display: block; float: left; }
+.ui-menu .ui-menu { margin-top: -3px; }
+.ui-menu .ui-menu-item { margin: 0px; padding: 0px; float: left; clear: left; width: 100%; }
+.ui-menu .ui-menu-item a { text-decoration: none; display: block; padding: 0.2em 0.4em; line-height: 1.5; }
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active { font-weight: normal; margin: -1px; }
+.ui-button { display: inline-block; position: relative; padding: 0px; margin-right: 0.1em; text-decoration: none ! important; cursor: pointer; text-align: center; overflow: visible; }
+.ui-button-icon-only { width: 2.2em; }
+button.ui-button-icon-only { width: 2.4em; }
+.ui-button-icons-only { width: 3.4em; }
+button.ui-button-icons-only { width: 3.7em; }
+.ui-button .ui-button-text { display: block; line-height: 1.4; }
+.ui-button-text-only .ui-button-text { padding: 0.4em 1em; }
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: 0.4em; text-indent: -1e+7px; }
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: 0.4em 1em 0.4em 2.1em; }
+.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: 0.4em 2.1em 0.4em 1em; }
+.ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+input.ui-button { padding: 0.4em 1em; }
+.ui-button-icon-only .ui-icon, .ui-button-text-icon-primary .ui-icon, .ui-button-text-icon-secondary .ui-icon, .ui-button-text-icons .ui-icon, .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+.ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary { left: 0.5em; }
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: 0.5em; }
+.ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: 0.5em; }
+.ui-buttonset { margin-right: 7px; }
+.ui-buttonset .ui-button { margin-left: 0px; margin-right: -0.3em; }
+button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+.ui-dialog { position: absolute; padding: 0.2em; width: 300px; overflow: hidden; }
+.ui-dialog .ui-dialog-titlebar { padding: 0.4em 1em; position: relative; }
+.ui-dialog .ui-dialog-title { float: left; margin: 0.1em 16px 0.1em 0px; }
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: 0.3em; top: 50%; width: 19px; margin: -10px 0px 0px; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0px; }
+.ui-dialog .ui-dialog-content { position: relative; border: 0px none; padding: 0.5em 1em; background: none repeat scroll 0% 0% transparent; overflow: auto; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0px 0px; background-image: none; margin: 0.5em 0px 0px; padding: 0.3em 1em 0.5em 0.4em; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.ui-dialog .ui-dialog-buttonpane button { margin: 0.5em 0.4em 0.5em 0px; cursor: pointer; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: 0.7em; display: block; border: 0px none; background-position: 0px 0px; }
+.ui-slider-horizontal { height: 0.8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -0.3em; margin-left: -0.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0px; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0px; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0px; }
+.ui-slider-vertical { width: 0.8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -0.3em; margin-left: 0px; margin-bottom: -0.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0px; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0px; }
+.ui-slider-vertical .ui-slider-range-max { top: 0px; }
+.ui-tabs { position: relative; padding: 0.2em; }
+.ui-tabs .ui-tabs-nav { margin: 0px; padding: 0.2em 0.2em 0px; }
+.ui-tabs .ui-tabs-nav li { list-style: none outside none; float: left; position: relative; top: 1px; margin: 0px 0.2em 1px 0px; border-bottom: 0px none ! important; padding: 0px; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 0.5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0px; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0px; padding: 1em 1.4em; background: none repeat scroll 0% 0% transparent; }
+.ui-tabs .ui-tabs-hide { display: none ! important; }
+.ui-datepicker { width: 17em; padding: 0.2em 0.2em 0px; display: none; }
+.ui-datepicker .ui-datepicker-header { position: relative; padding: 0.2em 0px; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position: absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.ui-datepicker .ui-datepicker-prev { left: 2px; }
+.ui-datepicker .ui-datepicker-next { right: 2px; }
+.ui-datepicker .ui-datepicker-prev-hover { left: 1px; }
+.ui-datepicker .ui-datepicker-next-hover { right: 1px; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px; }
+.ui-datepicker .ui-datepicker-title { margin: 0px 2.3em; line-height: 1.8em; text-align: center; }
+.ui-datepicker .ui-datepicker-title select { font-size: 1em; margin: 1px 0px; }
+.ui-datepicker select.ui-datepicker-month-year { width: 100%; }
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 49%; }
+.ui-datepicker table { width: 100%; font-size: 0.9em; border-collapse: collapse; margin: 0px 0px 0.4em; }
+.ui-datepicker th { padding: 0.7em 0.3em; text-align: center; font-weight: bold; border: 0px none; }
+.ui-datepicker td { border: 0px none; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: 0.2em; text-align: right; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: 0.7em 0px 0px; padding: 0px 0.2em; border-left: 0px none; border-right: 0px none; border-bottom: 0px none; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: 0.5em 0.2em 0.4em; cursor: pointer; padding: 0.2em 0.6em 0.3em; width: auto; overflow: visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float: left; }
+.ui-datepicker.ui-datepicker-multi { width: auto; }
+.ui-datepicker-multi .ui-datepicker-group { float: left; }
+.ui-datepicker-multi .ui-datepicker-group table { width: 95%; margin: 0px auto 0.4em; }
+.ui-datepicker-multi-2 .ui-datepicker-group { width: 50%; }
+.ui-datepicker-multi-3 .ui-datepicker-group { width: 33.3%; }
+.ui-datepicker-multi-4 .ui-datepicker-group { width: 25%; }
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width: 0px; }
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width: 0px; }
+.ui-datepicker-multi .ui-datepicker-buttonpane { clear: left; }
+.ui-datepicker-row-break { clear: both; width: 100%; font-size: 0em; }
+.ui-datepicker-rtl { direction: rtl; }
+.ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane { clear: right; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float: right; }
+.ui-datepicker-rtl .ui-datepicker-group { float: right; }
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width: 0px; border-left-width: 1px; }
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width: 0px; border-left-width: 1px; }
+.ui-datepicker-cover { display: block; position: absolute; z-index: -1; top: -4px; left: -4px; width: 200px; height: 200px; }
+.ui-progressbar { height: 2em; text-align: left; }
+.ui-progressbar .ui-progressbar-value { margin: -1px; height: 100%; }
+
+/* ::::: http://www.cambridge.org/other_files/thickbox/thickbox.css ::::: */
+
+#TB_window { font: 12px Arial,Helvetica,sans-serif; color: rgb(51, 51, 51); }
+#TB_secondLine { font: 10px Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); }
+#TB_window a:link { color: rgb(102, 102, 102); }
+#TB_window a:visited { color: rgb(102, 102, 102); }
+#TB_window a:hover { color: rgb(0, 0, 0); }
+#TB_window a:active { color: rgb(102, 102, 102); }
+#TB_window a:focus { color: rgb(102, 102, 102); }
+#TB_overlay { position: fixed; z-index: 100; top: 0px; left: 0px; height: 100%; width: 100%; }
+.TB_overlayMacFFBGHack { background: url('macffbghack.png') repeat scroll 0% 0% transparent; }
+.TB_overlayBG { background-color: rgb(0, 0, 0); opacity: 0.75; }
+* html #TB_overlay { position: absolute; }
+#TB_window { position: fixed; background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 102; color: rgb(0, 0, 0); display: none; border: 4px solid rgb(82, 82, 82); text-align: left; top: 50%; left: 50%; }
+* html #TB_window { position: absolute; }
+#TB_window img#TB_Image { display: block; margin: 15px 0px 0px 15px; border-right: 1px solid rgb(204, 204, 204); border-width: 1px; border-style: solid; border-color: rgb(102, 102, 102) rgb(204, 204, 204) rgb(204, 204, 204) rgb(102, 102, 102); }
+#TB_caption { height: 25px; padding: 7px 30px 10px 25px; float: left; }
+#TB_closeWindow { height: 25px; padding: 11px 25px 10px 0px; float: right; }
+#TB_closeAjaxWindow { padding: 7px 10px 5px 0px; margin-bottom: 1px; text-align: right; float: right; }
+#TB_ajaxWindowTitle { float: left; padding: 7px 0px 5px 10px; margin-bottom: 1px; }
+#TB_title { background-color: rgb(232, 232, 232); height: 27px; }
+#TB_ajaxContent { clear: both; padding: 2px 15px 15px; overflow: auto; text-align: left; line-height: 1.4em; }
+#TB_ajaxContent.TB_modal { padding: 15px; }
+#TB_ajaxContent p { padding: 5px 0px; }
+#TB_load { position: fixed; display: none; height: 13px; width: 208px; z-index: 103; top: 50%; left: 50%; margin: -6px 0px 0px -104px; }
+* html #TB_load { position: absolute; }
+#TB_HideSelect { z-index: 99; position: fixed; top: 0px; left: 0px; background-color: rgb(255, 255, 255); border: medium none; opacity: 0; height: 100%; width: 100%; }
+* html #TB_HideSelect { position: absolute; }
+#TB_iframeContent { clear: both; border: medium none; margin-bottom: -1px; margin-top: 1px; }
