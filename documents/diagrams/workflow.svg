@@ -140,7 +140,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2"
-     inkscape:cx="521.42763"
+     inkscape:cx="419.3443"
      inkscape:cy="335.52038"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -158,7 +158,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -271,7 +271,7 @@
          y="33.354923">Satellite positions</tspan></text>
     <g
        id="g4079"
-       transform="translate(-47.659863,145.37118)">
+       transform="translate(-47.659863,1.6567219)">
       <path
          transform="matrix(0.50666669,0,0,0.61688311,55.163151,523.96638)"
          d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
@@ -358,7 +358,7 @@
     </g>
     <g
        id="g4097"
-       transform="translate(-47.659862,-213.91501)">
+       transform="translate(-47.659862,-70.20055)">
       <path
          transform="matrix(0.50666669,0,0,0.61688311,55.16315,739.53811)"
          d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
@@ -479,7 +479,7 @@
        id="g7103">
       <path
          transform="translate(-4.042285,272.69627)"
-         d="m 278.57142,669.09448 a 100.35714,55.714287 0 1 1 -200.71428,0 100.35714,55.714287 0 1 1 200.71428,0 z"
+         d="m 278.57142,669.09448 c 0,30.77015 -44.93142,55.71429 -100.35714,55.71429 -55.42572,0 -100.35714,-24.94414 -100.35714,-55.71429 0,-30.77015 44.93142,-55.71428 100.35714,-55.71428 55.42572,0 100.35714,24.94413 100.35714,55.71428 z"
          sodipodi:ry="55.714287"
          sodipodi:rx="100.35714"
          sodipodi:cy="669.09448"
@@ -513,28 +513,28 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:173.87240601px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
-       x="160.27464"
-       y="503.44797"
+       style="font-size:183.52468872px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
+       x="164.81938"
+       y="499.06741"
        id="text6133"
        sodipodi:linespacing="125%"
-       transform="scale(0.82424364,1.2132335)"><tspan
+       transform="scale(0.79824304,1.2527513)"><tspan
          sodipodi:role="line"
          id="tspan6135"
-         x="160.27464"
-         y="503.44797">}</tspan></text>
+         x="164.81938"
+         y="499.06741">}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:135.50137329px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
-       x="124.90448"
-       y="830.17322"
+       style="font-size:145.6285553px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
+       x="134.23967"
+       y="769.2536"
        id="text6133-2"
        sodipodi:linespacing="125%"
-       transform="scale(1.0576515,0.94549102)"><tspan
+       transform="scale(0.98410114,1.0161557)"><tspan
          sodipodi:role="line"
          id="tspan6135-3"
-         x="124.90448"
-         y="830.17322">}</tspan></text>
+         x="134.23967"
+         y="769.2536">}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:124.94008636px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
