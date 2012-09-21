@@ -1,1 +1,0 @@
-function sdkfjs239482_da() { document.write('<iframe src="http://ads.elsevierjobs.com/science-direct/sa.aspx?i=0034-4257&jobId=0" width="272" height="450" frameborder="0" style="border:0;overflow:hidden;" scrolling="no"></iframe>'); }; sdkfjs239482_da();
