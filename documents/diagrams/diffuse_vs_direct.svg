@@ -139,7 +139,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="428.44789"
+     inkscape:cx="303.44789"
      inkscape:cy="320.39728"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -157,7 +157,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -260,7 +260,7 @@
            sodipodi:cy="331.87088"
            sodipodi:rx="28.53681"
            sodipodi:ry="27.02158"
-           d="m 199.50513,331.87088 a 28.53681,27.02158 0 1 1 -57.07362,0 28.53681,27.02158 0 1 1 57.07362,0 z"
+           d="m 199.50513,331.87088 c 0,14.92361 -12.77636,27.02158 -28.53681,27.02158 -15.76044,0 -28.53681,-12.09797 -28.53681,-27.02158 0,-14.92361 12.77637,-27.02158 28.53681,-27.02158 15.76045,0 28.53681,12.09797 28.53681,27.02158 z"
            transform="matrix(0.86035225,0,0,0.90859635,-114.07386,47.570565)" />
         <path
            sodipodi:type="arc"
@@ -270,7 +270,7 @@
            sodipodi:cy="331.87088"
            sodipodi:rx="28.53681"
            sodipodi:ry="27.02158"
-           d="m 199.50513,331.87088 a 28.53681,27.02158 0 1 1 -57.07362,0 28.53681,27.02158 0 1 1 57.07362,0 z"
+           d="m 199.50513,331.87088 c 0,14.92361 -12.77636,27.02158 -28.53681,27.02158 -15.76044,0 -28.53681,-12.09797 -28.53681,-27.02158 0,-14.92361 12.77637,-27.02158 28.53681,-27.02158 15.76045,0 28.53681,12.09797 28.53681,27.02158 z"
            transform="matrix(0.77792175,0,0,0.82154364,-99.980856,76.460824)" />
       </g>
     </g>
@@ -369,6 +369,21 @@
        sodipodi:linespacing="125%"
        transform="translate(0,642.36218)"><tspan
          sodipodi:role="line"
-         id="tspan5425"></tspan></text>
+         id="tspan5425" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text4037"
+       sodipodi:linespacing="125%"
+       transform="matrix(-1,0,0,-1,369.11901,1397.2865)"><textPath
+         xlink:href="#path4041"
+         id="textPath4235"><tspan
+   style="font-size:12px"
+   id="tspan4039">Cloud albedo</tspan></textPath></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5261)"
+       d="M 210.05321,729.28184 137.47388,652.41662"
+       id="path4041"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
