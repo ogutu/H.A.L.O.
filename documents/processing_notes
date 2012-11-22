@@ -1,135 +1,7 @@
-Started noontime slot for GMS, entire month on T. Nauss' server at 9:15 7.11.12.
-Total duration: 2h 55m
- 
-Started Heliosat for same data, got an error. It took 28s. Output:
-time ./CAL_goes.sh
-./CAL_goes.sh: line 31: ../temp/rhostat.out: No such file or directory
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.152.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.152.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.153.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.153.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.154.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.154.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.155.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.155.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.159.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.159.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.160.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.160.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.161.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.161.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.162.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.162.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.163.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.163.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.164.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.164.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.165.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.165.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.166.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.166.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.169.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.169.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.170.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.170.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.171.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.171.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.172.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.172.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.174.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.174.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.175.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.175.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.176.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.176.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.177.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.177.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.178.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.178.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.180.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.180.0125.out
-cp /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.181.0125.out nach /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed//home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_compressed/goes09.2003.181.0125.out
-goes09.2003.152.0125.out goes09.2003.153.0125.out goes09.2003.154.0125.out goes09.2003.155.0125.out goes09.2003.159.0125.out goes09.2003.160.0125.out goes09.2003.161.0125.out goes09.2003.162.0125.out goes09.2003.163.0125.out goes09.2003.164.0125.out goes09.2003.165.0125.out goes09.2003.166.0125.out goes09.2003.169.0125.out goes09.2003.170.0125.out goes09.2003.171.0125.out goes09.2003.172.0125.out goes09.2003.174.0125.out goes09.2003.175.0125.out goes09.2003.176.0125.out goes09.2003.177.0125.out goes09.2003.178.0125.out goes09.2003.180.0125.out goes09.2003.181.0125.out
-Done: get options 
-Meteosat position not at longitude=0 ! Please check -s in the heliosat call & set it to 0 if Met is at lon=0 
-note! binary data on regular lat, lon grid is expected 
- header 256 bytes defined in struct headinfo 
- header defines lat,lon & so on 
-0 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.152.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 152 26 
-Iam here 1 -142656840 0 
-the doy, hour, min 152 1 25 
-Iam here 1 12401 8501 
-1 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.153.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 153 26 
-Iam here 1 12401 8501 
-the doy, hour, min 153 1 25 
-Iam here 1 12401 8501 
-2 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.154.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 154 26 
-Iam here 1 12401 8501 
-the doy, hour, min 154 1 25 
-Iam here 1 12401 8501 
-3 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.155.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 155 26 
-Iam here 1 12401 8501 
-the doy, hour, min 155 1 25 
-Iam here 1 12401 8501 
-4 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.159.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 159 26 
-Iam here 1 12401 8501 
-the doy, hour, min 159 1 25 
-Iam here 1 12401 8501 
-5 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.160.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 160 26 
-Iam here 1 12401 8501 
-the doy, hour, min 160 1 25 
-Iam here 1 12401 8501 
-6 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.161.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 161 26 
-Iam here 1 12401 8501 
-the doy, hour, min 161 1 25 
-Iam here 1 12401 8501 
-7 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.162.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 162 26 
-Iam here 1 12401 8501 
-the doy, hour, min 162 1 25 
-Iam here 1 12401 8501 
-8 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.163.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 163 26 
-Iam here 1 12401 8501 
-the doy, hour, min 163 1 25 
-Iam here 1 12401 8501 
-9 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.164.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 164 26 
-Iam here 1 12401 8501 
-the doy, hour, min 164 1 25 
-Iam here 1 12401 8501 
-10 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.165.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 165 26 
-Iam here 1 12401 8501 
-the doy, hour, min 165 1 25 
-Iam here 1 12401 8501 
-11 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.166.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 166 26 
-Iam here 1 12401 8501 
-the doy, hour, min 166 1 25 
-Iam here 1 12401 8501 
-12 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.169.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 169 26 
-Iam here 1 12401 8501 
-the doy, hour, min 169 1 25 
-Iam here 1 12401 8501 
-13 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.170.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 170 26 
-Iam here 1 12401 8501 
-the doy, hour, min 170 1 25 
-Iam here 1 12401 8501 
-14 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.171.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 171 26 
-Iam here 1 12401 8501 
-the doy, hour, min 171 1 25 
-Iam here 1 12401 8501 
-15 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.172.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 172 26 
-Iam here 1 12401 8501 
-the doy, hour, min 172 1 25 
-Iam here 1 12401 8501 
-16 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.174.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 174 26 
-Iam here 1 12401 8501 
-the doy, hour, min 174 1 25 
-Iam here 1 12401 8501 
-17 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.175.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 175 26 
-Iam here 1 12401 8501 
-the doy, hour, min 175 1 25 
-Iam here 1 12401 8501 
-18 /home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/goes09.2003.176.0125.out
-grid header 12401 8501 -62.000000 95.000000 0.010000 0.010000 180.000000 62.000000 125 176 26 
-allocation failure 2 in smatrix()rm: cannot remove `/home/dlee/data/137.248.191.49/dlee/sat_data/gms/062003_regridded_decompressed/rhomax.out': No such file or directory
-
-real    0m28.326s
-user    0m17.125s
-sys     0m8.069s
+There were some difficulties up till now, see commits on branch goes on github.
+Problems were with adapting GNU-MAGIC to work with GOES. In the end the data was
+converted from netCDF to a binary format on a regular lat/lon grid and then
+worked on.
 
 -- 20.11.2012
 Success! The whole thing's running - see the commits from the last four days of 
@@ -142,6 +14,18 @@ In order to work with the results:
 off the header (256 bytes). I do that like this:
 dd if=infile of=outfile bs=1 skip=256
 That just chops off the first 256 bits and throws them out.
+
+This could also be accomplished pretty easily by using python. You can skip to
+a certain byte position with the following code (example):
+# Open file object f at specified path in read mode
+# I haven't tested this, so the mode might also need "b" for binary.
+# Apparently, it's irrelevant in Unix systems.
+f = open("/path/to/file.out", "r")
+# Go to 256th byte in the file
+f.seek(256)
+# Read the rest of the file and store it in variable var
+var = f.read()
+# Then you'd need to write it to another file
 
 2. After that I like to read the stuff in GRASS. No problem, the data's 
 basically the same as an Idrisi file. So make an Idrisi file with the right 
@@ -190,3 +74,37 @@ r.in.gdal input=infile.rst output=test -o
 
 Soon I should write a program that takes care of that, but for now I'm just 
 going to leave it alone.
+
+Another note: After processing a bunch of files, I noticed that I was missing
+several GOES-W time steps. The reason for this is that the xdim and ydim of the
+netCDF files are different for the time steps > 9 UTC. At the end of the GOES-W
+regridding process I need to set it up again for those pictures with irregular
+dimensions. That's also relevant for importing CAL into GRASS later on. Here's
+the dimensions of the (normal) satellite coverages. Local noon was calculated as
+local_noon = 13 UTC - satellite.degrees_east / 15
+You've got to try to get as close as possible to local noon for normalization.
+
+GOES-W:
+-62° - 62° N
+-180° - -75° E
+5251 x 6201 pixels
+Local noon: 22 UTC
+# 99 files matched these dimensions. They were moved into folder 5251x6201
+Secondary data:
+# This data had different xc and yc numbers and were processed separately.
+-62° - 62° N
+-180° - -75° E
+5255 x 6205
+Local noon: 22 UTC
+
+GOES-E:
+-62° - 62° N
+-134° - -14° E
+5851 x 6201 pixels
+Local noon: 18 UTC
+
+GMS:
+-62° - 62° N
+95° - 180° E
+4251 x 6201 pixels
+Local noon: 3 UTC
