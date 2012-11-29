@@ -108,3 +108,22 @@ GMS:
 95° - 180° E
 4251 x 6201 pixels
 Local noon: 3 UTC
+
+-- 23.11.2012
+Made a text file to tell which GOES-W data had which number of rows and columns.
+It's stored in 062003_regridded.
+
+-- 29.11.2012
+It'll be a fun time getting the scan column. I'm looking at using the following
+formula:
+
+measure_time = scan_start + (column / time_per_clumn) + (row / row_length *
+        time_per_column)
+
+Probably the easiest way of dealing with that is to:
+* Read the ncdump of one of the original files with Python
+* Split it into lat, lon, and z lists
+* Find the position in the array with the right coordinates
+* Then: time = scan_start + (scan_time * (array_position / array_length))
+
+That should do the trick.
