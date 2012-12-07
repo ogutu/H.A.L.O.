@@ -127,3 +127,33 @@ Probably the easiest way of dealing with that is to:
 * Then: time = scan_start + (scan_time * (array_position / array_length))
 
 That should do the trick.
+
+-- 30.11.2012
+Started GOES-E and -W again. The problem was that I'd forgotten to specify the
+correct longitude in the arguments passed to helclim.exe. Oops. Outputs look
+fine so far now, I'll let it run over the weekend.
+
+-- 1.12.2012
+One advantage of magicsolv0-goes.exe is that it takes the lowest number of
+pixels - that means that the outputs all have the same dimensions, I don't have
+any of the trouble with having to convert pictures with different dimensions
+into viewable PGMs.
+
+-- 5.12.2012
+Tried a bunch of times to get allsky running on the server, but it didn't work.
+For some reason, only the upper parts of the picture are computed. I believe
+that it's got something to do with 32-bit/64-bit conflicts. I can't compile in
+32-bit mode on that computer because the header files are missing, so I tried:
+    1. Compiling in 64-bit mode anyway. Bad results.
+    2. Compiling in 32-bit mode on my computer and putting the 32-bit binary on
+    the cluster. Bad news - the code seems to use some kind of dynamic linking,
+    so no dice. It ran, but gave me bad results.
+    3. Running from my computer while accessing the files on the server. For
+    some reason, I was unable to write outputs.
+    4. Copying cloud albedo files to my computer and running it there. That
+    seems to be working, tests are in progress.
+
+-- 7.12.2012
+It's done! Now I just need to get GRASS working on the server, because for some
+reason GRASS won't write to a mapset on the server, even though I've given
+myself the permissions. I've asked Spaska to install GRASS there.
