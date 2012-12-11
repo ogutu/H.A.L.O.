@@ -157,3 +157,65 @@ that it's got something to do with 32-bit/64-bit conflicts. I can't compile in
 It's done! Now I just need to get GRASS working on the server, because for some
 reason GRASS won't write to a mapset on the server, even though I've given
 myself the permissions. I've asked Spaska to install GRASS there.
+
+*Allocating satellite footprints*
+Now I've got to figure out which footprints I take of each area. I'm going to be
+working on the satellite imagery with cdos, so I need to be able to cut them up
+before I merge them.
+
+I'm using the following algorithm to find borders, always looking for the right
+border:
+{
+    Satellite positions (°E):
+        GOES-W:     -135
+        GOES-E:     -74
+        MSat-Prime: 0
+        MSat-IODC:  57.5
+        GMS:        55
+    
+    domain_satellite_west - satellite_west < satellite_east - domain_satellite_west
+        --> 2 * domain_satellite_west < satellite_east + satellite_west
+        --> domain_satellite_west < (satellite_east + satellite_west) / 2
+}
+This yields e.g. for the border between GOES-W/GOES-E:
+domain_satellite_west - -135 < -74 - domain_satellite_west
+2 * domain_satellite_west < -74 - 135
+2 * domain_satellite_west < -209
+domain_satellite_west < -104.5
+
+That means I've got the following satellite E/W domains:
+GOES-W:     -180° - -134°
+GOES-E:     -134° - -37°
+MSat-Prime:  -37° - 29° (rounded)
+MSat-IODC:    29° - 106° (rounded)
+GMS:         106° - 180°
+
+Why -134° for the GOES-W/GOES-E border? My data is way cut off because I was 
+using Richard's stupid test coordinates. I am so dumb. The minimum longitude of
+GMS is 74, but I was cutting things off at 90. That isn't a problem EXCEPT for
+with the GOES-E data, which I very intelligently cut off at -134°.
+
+So I can divvy that stuff up now into their nice little slices and then merge
+them.
+I plan on combining the closest time steps to get as close as I can to an
+instantaneous product. Nonetheless, this three-hour product will be aggregated
+down below what the other satellites can do, so I'll also validate the
+satellites individually.
+
+-- 11.12.2012
+Made some real progress, I think. I installed the cdos on the server - 
+~/data/lib/cdo/bin/cdo. It's got netCDF support as well. And now I've got the 
+rudimentaries for the rest of the stuff I'll be doing:
+1. Extract individual variables from the netCDF files:
+cdo splitname ifile oprefix
+2. Translate netCDFs to TIFFs for mapping
+gdal_translate ifile ofile.ext
+3. Merge them together
+gdal_merge.py ifile1 ifile2 -o mergedfile
+
+The nice thing is that I can read out the station data directly with R (put a 
+script in my script folder). So all I need to do is load the stations into my
+R environment and then pass the points to the query to get them from each
+file. A little bit of experimentation should take care of everything there - 
+I'm thinking of just splitting the points into the different coverage areas
+and passing them like that. Should work like a charm!
