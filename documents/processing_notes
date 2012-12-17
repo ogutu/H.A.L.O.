@@ -153,6 +153,14 @@ that it's got something to do with 32-bit/64-bit conflicts. I can't compile in
     4. Copying cloud albedo files to my computer and running it there. That
     seems to be working, tests are in progress.
 
+Got it running in the end by recompiling the code locally and moving it to the
+server. There was a problem in the control script - the program was reading 2
+bytes per pixel rather than 1. Fixed that and everything worked fine. Here are
+the times needed (computation was performed simultaneously):
+GOES-W: 20.5h
+GOES-E: 22.6h
+GMS:    43.3h
+
 -- 7.12.2012
 It's done! Now I just need to get GRASS working on the server, because for some
 reason GRASS won't write to a mapset on the server, even though I've given

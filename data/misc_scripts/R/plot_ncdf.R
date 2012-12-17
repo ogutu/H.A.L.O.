@@ -1,4 +1,4 @@
-setwd("/home/lee/Downloads/")
+setwd("/home/lee/Downloads/local")
 library(raster)
 
 # Read raster
@@ -22,3 +22,9 @@ plot(goes10, add=T)
 # Extract from beam at 140°E, 0°N
 # Can also be done with points (syntax w/ xy as points: "extract(beam, xy)")
 extract(beam, 140, 30)
+
+merged <- raster("goes_merged.tif")
+plot(merged)
+# cbind takes the x, y coordinates and puts them in the format expected by extract()
+extract(merged, cbind(-0, 0))
+summary(merged)
