@@ -179,7 +179,7 @@ border:
         GOES-E:     -74
         MSat-Prime: 0
         MSat-IODC:  57.5
-        GMS:        55
+        GMS:        155
     
     domain_satellite_west - satellite_west < satellite_east - domain_satellite_west
         --> 2 * domain_satellite_west < satellite_east + satellite_west
@@ -227,3 +227,77 @@ R environment and then pass the points to the query to get them from each
 file. A little bit of experimentation should take care of everything there - 
 I'm thinking of just splitting the points into the different coverage areas
 and passing them like that. Should work like a charm!
+
+-- 20.12.2012
+All of the data is homogenized but I still haven't made merged pictures of the
+entire world. Got to get to that. I'm also missing the SIS data from Meteosat
+but I've ordered it. Just need to export it as I did the SID / CAL data.
+
+Jörg suggested that I compare the cloud albedo or the irradiation to a MODIS
+cloud mask. He also suggested that I compare the consistence of GOES and
+Meteosat pictures. This creates the following two goals:
+
+1. Compare cloud albedo to MODIS:
+    * Download MODIS cloud masks
+        I've started this and decided to do quite a bit of comparing. Each
+        satellite needs to be validated. I'm going to take daytime slots right in
+        the middle of each satellite's scan at noon, if possible. Those are:
+        --
+        GOES-W: sunrise 14:58, noon 21:01, sunset 3:05, three-hourly scans at 0000
+        GOES-E: sunrise 10:54, noon 16:57, sunset 23:01, three-hourly scans at 0245
+        Msat-Prime: sunrise 5:58, noon 12:01, sunset 18:05, hourly scans at
+            0000
+        Msat-IODC: sunrise 2:08, noon 8:11, sunset 14:15, hourly scans at
+            0000
+        GMS: sunrise 19:38, noon 1:41, sunset 7:45, hourly scans at 0025
+        --
+        For the days 152, 166 and 181 (beginning, middle & end of month) I've
+        got a noontime scan (inside of 3 hours) from somewhere in the area of
+        each satellite.
+
+        I took Aqua because it crosses the equator at about noon so I figured it
+        would give us the best coverage without any possible paralax errors. I
+        always took the daytime scan in the middle of or closest to the
+        satellite's midday scan.
+
+        I ordered everything and had it preprocessed to GeoTIFFs, hopefully
+        it'll get here soon and I can take a look at it.
+    * Resample them to WGS84 w/ proper resolution
+        The data I ordered has a resolution of 1 km, no matter where it is. The
+        MAGICSOL data has a lower resolution - eventually I would do the whole
+        thing with higher res, but why put all your cats in one barn, right? Is
+        that even a saying? What the hell's going on????
+        ---
+        #1#27297583972
+        overflow.stack_cap.weihnachten: We apologize for the short service
+        interruption. Your worker unit has been disabled and is being reserviced
+        due to an erroneous semantic call at 6408788269311PE. Thank you for your
+        patience.
+        
+        Time: User 3.2s
+              System 388800.79s
+        Resuming service. Please standby...
+        ...
+        ...
+        ---
+        Hi there. Where was I? Oh yes, the resolution. I resampled to 0.02°, so
+        about 2km at the equator. Therefore:
+        - Import MODIS to GRASS
+        - Import relevant 16 scans
+        - Reclassify cloud albedo to compare w/ cloud mask on geosynchronous res
+2. Make difference pictures between 
+
+Aggregate satellite scans to global product:
+    Time steps:
+        GOES-W:     0000 +3
+        GOES-E:     2345 +3
+        Msat-Prime: 0000 +3
+        Msat-IODC:  0000 +3
+        GMS:        0025 +3
+This seemed to work well, but the Meteosat satellites give me some really funky
+values. They're on a factor of about 10 larger than the GOES values. I'm not
+sure why and am investigating. The GOES values look valid for instantaneous
+irradiation, the Meteosat values are in the thousands. It's gotta be a problem
+with the units. Another problem seems to be the fact that all of the other data
+has different values too. Joules? Watts? Kilowatts? Lumens? What are they?
+

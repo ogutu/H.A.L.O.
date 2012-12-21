@@ -1,0 +1,18 @@
+-- Für HelClim (Wolkenalbedo und Rmin):
+1. Selbstkalibrierung & Ermittlung von Wolkenalbedo mit HelClim (cloud index)
+2. Wir brauchen das XPIF-Format : Header und dann Binärwerte.Geolokiert werden die Pixel über den Öffnungswinkel des Satelliten.
+3. Dsa ganze wird mit CAL-MVIRI-openMTP.sh ausgeführt (helclim/exe/)
+4. Aufpassen beim Kompilieren - mach die 32-bit-Version. Sonst hat man vllt ein paar Probleme wg. Datentypen - long ist anders in 32 und 64 bit.
+5. Falls ich auf 64 bit konvertieren will - integer überall in allen headerfiles und im code statt long schreiben. Long soll weg!
+6. Um das ganze zu optimieren kann man auch mit der Option -O 1/2/3 optimieren - die Zahl ist das Optimierungslevel
+
+-- Für Magic:
+1. Nach Anleitung (install) kompilieren
+2. Beachten: Output ist GHI und DNI, nicht DHI!! Das kann geändert werden:
+clear.b[lin][col]=Bmlb/coszen -----> Wenn ich coszen wegmache, hab ich DHI, falls ich das will. Das ist im magic*.c-File.
+3. Beispiel Config-Datei gibts unter magic-config-exCLOUD.inp --> Damit man verstehe, was die Felder bedueten, etc.
+4. Beachte: line 28 aperture, satellite position muss angepasst werden. (Z. 76 im Skript)
+5. Visual Climate Data Analysis Tools - Viewer??
+
+
+satgeo-32b.c --> Geolokation?
