@@ -1,3 +1,4 @@
+>>>>>>>>taken care of
 There were some difficulties up till now, see commits on branch goes on github.
 Problems were with adapting GNU-MAGIC to work with GOES. In the end the data was
 converted from netCDF to a binary format on a regular lat/lon grid and then
@@ -233,6 +234,8 @@ All of the data is homogenized but I still haven't made merged pictures of the
 entire world. Got to get to that. I'm also missing the SIS data from Meteosat
 but I've ordered it. Just need to export it as I did the SID / CAL data.
 
+========
+
 Jörg suggested that I compare the cloud albedo or the irradiation to a MODIS
 cloud mask. He also suggested that I compare the consistence of GOES and
 Meteosat pictures. This creates the following two goals:
@@ -300,4 +303,4 @@ sure why and am investigating. The GOES values look valid for instantaneous
 irradiation, the Meteosat values are in the thousands. It's gotta be a problem
 with the units. Another problem seems to be the fact that all of the other data
 has different values too. Joules? Watts? Kilowatts? Lumens? What are they?
-
+<<<<<<<<not taken care of
