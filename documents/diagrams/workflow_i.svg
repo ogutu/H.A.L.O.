@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg3253"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="workflow_i.svg"
+   inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3255">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4970"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4576-29"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="220.08244"
+     inkscape:cy="572.46149"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1153"
+     inkscape:window-x="-7"
+     inkscape:window-y="-10"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3258">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       transform="translate(1436.1811,-281.47582)"
+       id="g3658-8"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png">
+      <g
+         id="g3625"
+         transform="translate(-582.85714,417.14286)">
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+           id="path4332-3"
+           sodipodi:cx="178.21428"
+           sodipodi:cy="669.09448"
+           sodipodi:rx="100.35714"
+           sodipodi:ry="55.714287"
+           d="m 278.57142,669.09448 c 0,30.77015 -44.93142,55.71429 -100.35714,55.71429 -55.42572,0 -100.35714,-24.94414 -100.35714,-55.71429 0,-30.77015 44.93142,-55.71428 100.35714,-55.71428 55.42572,0 100.35714,24.94413 100.35714,55.71428 z"
+           transform="translate(-441.07142,59.029224)" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="-263.19406"
+           y="710.09735"
+           id="text3896-7-3-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="-261.28391"
+             y="710.09735"
+             id="tspan4013-1-6-7">Central archivation at project </tspan><tspan
+             sodipodi:role="line"
+             x="-263.19406"
+             y="725.09735"
+             id="tspan7040-4">archive:</tspan><tspan
+             sodipodi:role="line"
+             x="-263.19406"
+             y="740.09735"
+             id="tspan7038-4">University of Marburg</tspan><tspan
+             sodipodi:role="line"
+             x="-263.19406"
+             y="755.09735"
+             id="tspan4436-1">(LCRS)</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="opacity:0.21900826;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.95836872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2985-3-8-6"
+       width="584.5285"
+       height="453.51926"
+       x="0.47918436"
+       y="308.36377"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+    <g
+       id="g4310-1"
+       transform="translate(-22.339336,28.580672)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,9.740641,341.09869)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-1-2-9"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-3-2-6"
+         y="448.01587"
+         x="100.39865"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           id="tspan4015-8-0"
+           y="448.01587"
+           x="100.39865"
+           sodipodi:role="line">NOAA</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:183.52468872px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Antykwa Poltawskiego Light;-inkscape-font-specification:'Antykwa Poltawskiego Light, Light'"
+       x="-291.90799"
+       y="431.70572"
+       id="text6133-0"
+       sodipodi:linespacing="125%"
+       transform="scale(-0.79824304,1.2527513)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         id="tspan6135-2"
+         x="-291.90799"
+         y="431.70572">}</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)"
+       d="m 141.35848,472.24599 19.1929,0"
+       id="path4663-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+    <g
+       id="g4073-7"
+       transform="translate(128.66067,-154.28696)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,55.16315,452.10914)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-1-4"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-3-0"
+         y="550.82025"
+         x="146.2196"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="550.82025"
+           x="146.2196"
+           id="tspan3898-3-2"
+           sodipodi:role="line">GOES-W</tspan><tspan
+           id="tspan4015-85"
+           y="565.82025"
+           x="146.2196"
+           sodipodi:role="line">(135°W)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="339.26755"
+       y="382.34482"
+       id="text3759"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         x="339.26755"
+         y="382.34482"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3763">16-bit full disc scans of VIS channel</tspan><tspan
+         id="tspan3928"
+         sodipodi:role="line"
+         x="339.26755"
+         y="397.34482"
+         style="font-size:12px;text-align:start;text-anchor:start">Single variable netCDF</tspan><tspan
+         sodipodi:role="line"
+         x="339.26755"
+         y="412.34482"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3765">Hourly scans, 2.6 GB each</tspan><tspan
+         sodipodi:role="line"
+         x="339.26755"
+         y="427.34482"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3767">Total: 3.26 TB</tspan></text>
+    <g
+       id="g4085-6"
+       transform="translate(128.66067,-221.75145)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,55.16315,595.82362)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-3-3"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-8-4"
+         y="694.53473"
+         x="146.41589"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="694.53473"
+           x="146.41589"
+           id="tspan3898-6-3"
+           sodipodi:role="line">GOES-E</tspan><tspan
+           id="tspan4017-0"
+           y="709.53473"
+           x="146.41589"
+           sodipodi:role="line">(75°W)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="339.26755"
+       y="461.48776"
+       id="text3759-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         x="339.26755"
+         y="461.48776"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3763-0">16-bit full disc scans of VIS channel</tspan><tspan
+         id="tspan3932"
+         sodipodi:role="line"
+         x="339.26755"
+         y="476.48776"
+         style="font-size:12px;text-align:start;text-anchor:start">Single variable netCDF</tspan><tspan
+         sodipodi:role="line"
+         x="339.26755"
+         y="491.48776"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3765-1">Three-hourly scans, 2.6 GB each</tspan><tspan
+         sodipodi:role="line"
+         x="339.26755"
+         y="506.48776"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3767-2">Total: 592 GB</tspan></text>
+    <g
+       id="g4079-2"
+       transform="translate(128.66067,-73.644205)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,55.163151,523.96638)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-4"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-2"
+         y="622.67749"
+         x="146.36609"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="622.67749"
+           x="146.36609"
+           id="tspan3898-8"
+           sodipodi:role="line">GMS</tspan><tspan
+           id="tspan4013-2"
+           y="637.67749"
+           x="146.36609"
+           sodipodi:role="line">(155°E)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="334.98184"
+       y="540.63068"
+       id="text3759-0-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="540.63068"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3763-0-8">16-bit full disc scans of VIS channel</tspan><tspan
+         id="tspan3936"
+         sodipodi:role="line"
+         x="334.98184"
+         y="555.63068"
+         style="font-size:12px;text-align:start;text-anchor:start">Single variable netCDF</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="570.63068"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3765-1-9">Three-hourly scans, 2.6 GB each</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="585.63068"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3767-2-7">Total: 592 GB</tspan></text>
+    <g
+       id="g4091-4"
+       transform="translate(128.66067,-141.10866)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,55.16315,667.68087)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-39-8"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-59-7"
+         y="766.39197"
+         x="146.10535"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="766.39197"
+           x="146.10535"
+           id="tspan3898-31-5"
+           sodipodi:role="line">Meteosat IODC</tspan><tspan
+           id="tspan4021-0"
+           y="781.39197"
+           x="146.10535"
+           sodipodi:role="line">(57.5°E)</tspan></text>
+    </g>
+    <g
+       id="g4097-5"
+       transform="translate(128.66067,-136.71587)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,55.16315,739.53811)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-38-7"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-5-1"
+         y="838.35468"
+         x="146.09363"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="838.35468"
+           x="146.09363"
+           id="tspan3898-4-9"
+           sodipodi:role="line">Meteosat Prime</tspan><tspan
+           id="tspan4019-5"
+           y="853.35468"
+           x="146.09363"
+           sodipodi:role="line">(0°)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="334.98184"
+       y="611.09485"
+       id="text3759-0-5-4"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="611.09485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3763-0-8-6">Precomputed SID &amp; SIS values</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="626.09485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3765-1-9-8">GRASS binary format (single variable)</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="641.09485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3494">Hourly scans, 4.2 MB each</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="656.09485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3767-2-7-9">Total: 27 GB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="334.98184"
+       y="687.34485"
+       id="text3759-0-5-40"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="687.34485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3763-0-8-0">Precomputed SID, SIS &amp; CAL values</tspan><tspan
+         id="tspan3936-1"
+         sodipodi:role="line"
+         x="334.98184"
+         y="702.34485"
+         style="font-size:12px;text-align:start;text-anchor:start">Single variable netCDF</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="717.34485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3765-1-9-7">Hourly scans, 2.6 GB each</tspan><tspan
+         sodipodi:role="line"
+         x="334.98184"
+         y="732.34485"
+         style="font-size:12px;text-align:start;text-anchor:start"
+         id="tspan3767-2-7-6">Total: 592 GB</tspan></text>
+    <g
+       id="g3359-2"
+       transform="translate(-198.48158,-63.931495)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,185.88288,590.5037)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-9-4-8"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-7-8-1"
+         y="696.30469"
+         x="277.72449"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           id="tspan4013-1-2-7"
+           y="696.30469"
+           x="277.72449"
+           sodipodi:role="line">JRC</tspan></text>
+    </g>
+    <g
+       id="g4315-9"
+       transform="translate(-22.339337,189.8663)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <path
+         transform="matrix(0.50666669,0,0,0.61688311,9.740642,412.95593)"
+         d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+         sodipodi:ry="55"
+         sodipodi:rx="107.14286"
+         sodipodi:cy="166.23734"
+         sodipodi:cx="180"
+         id="path3894-9-7"
+         style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3896-7-6"
+         y="519.87311"
+         x="100.33713"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           id="tspan4013-1-4"
+           y="519.87311"
+           x="100.33713"
+           sodipodi:role="line">CM SAF</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.16118693px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)"
+       d="m 141.43907,627.90648 65.61353,0"
+       id="path4663-0-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.16118693px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)"
+       d="m 141.43907,707.0339 65.61353,0"
+       id="path4663-0-6-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="232.96024"
+       y="344.62277"
+       id="text3830-81-0-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722"><tspan
+         sodipodi:role="line"
+         id="tspan3924-6-5"
+         x="232.96024"
+         y="344.62277">Satellite data</tspan></text>
+    <g
+       id="g4086"
+       transform="translate(-30,0)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3830-81-0-0-9"
+         y="344.62277"
+         x="743.21161"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="344.62277"
+           x="743.21161"
+           id="tspan3924-6-5-5"
+           sodipodi:role="line">Validation data</tspan></text>
+      <g
+         transform="translate(0,29.211438)"
+         id="g4047">
+        <g
+           id="g3986"
+           transform="translate(0,-5.9369374)">
+          <g
+             transform="translate(-3.3659957,1.6174697)"
+             id="g3745">
+            <path
+               sodipodi:type="arc"
+               style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+               id="path3894-39-8-6"
+               sodipodi:cx="180"
+               sodipodi:cy="166.23734"
+               sodipodi:rx="107.14286"
+               sodipodi:ry="55"
+               d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+               transform="matrix(0.50666669,0,0,0.61688311,631.47553,272.93021)" />
+            <text
+               xml:space="preserve"
+               style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+               x="722.59937"
+               y="379.95285"
+               id="text3896-59-7-88"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 x="722.59937"
+                 y="379.95285"
+                 id="tspan4021-0-6">ERA-Interim</tspan></text>
+          </g>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3759-3"
+             y="372.90723"
+             x="779.26758"
+             style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               id="tspan3763-7"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="372.90723"
+               x="779.26758"
+               sodipodi:role="line">Single variable netCDF</tspan><tspan
+               id="tspan3767-9"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="387.90723"
+               x="779.26758"
+               sodipodi:role="line">Three-hourly modell data</tspan></text>
+        </g>
+        <g
+           id="g4016"
+           transform="translate(4.3000001e-6,-14.021467)">
+          <g
+             transform="translate(-289.29423,-50)"
+             id="g3761">
+            <path
+               sodipodi:type="arc"
+               style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+               id="path3894-39-8-53"
+               sodipodi:cx="180"
+               sodipodi:cy="166.23734"
+               sodipodi:rx="107.14286"
+               sodipodi:ry="55"
+               d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+               transform="matrix(0.50666669,0,0,0.61688311,917.40376,408.39289)" />
+            <text
+               xml:space="preserve"
+               style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+               x="1008.3137"
+               y="515.31006"
+               id="text3896-59-7-1"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 x="1008.3137"
+                 y="515.31006"
+                 id="tspan4021-0-1">CLARA</tspan></text>
+          </g>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3759-3-9"
+             y="449.25244"
+             x="778.57031"
+             style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               id="tspan3763-7-8"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="449.25244"
+               x="778.57031"
+               sodipodi:role="line">Single variable netCDF</tspan><tspan
+               id="tspan3767-9-4"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="464.25244"
+               x="778.57031"
+               sodipodi:role="line">Daily averaged variables </tspan><tspan
+               id="tspan3908"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="479.25244"
+               x="778.57031"
+               sodipodi:role="line">computed from polar orbiters</tspan></text>
+        </g>
+        <g
+           id="g4026"
+           transform="translate(0,-27.546402)">
+          <g
+             transform="translate(7.8838143,-72.857143)"
+             id="g3753">
+            <path
+               sodipodi:type="arc"
+               style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+               id="path3894-39-8-5"
+               sodipodi:cx="180"
+               sodipodi:cy="166.23734"
+               sodipodi:rx="107.14286"
+               sodipodi:ry="55"
+               d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+               transform="matrix(0.50666669,0,0,0.61688311,620.22572,520.53565)" />
+            <text
+               xml:space="preserve"
+               style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+               x="711.17084"
+               y="627.45282"
+               id="text3896-59-7-8"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 x="711.17084"
+                 y="627.45282"
+                 id="tspan4021-0-4">MODIS</tspan></text>
+          </g>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3759-3-8"
+             y="531.03809"
+             x="778.91016"
+             style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               id="tspan3767-9-6"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="531.03809"
+               x="778.91016"
+               sodipodi:role="line">Single variable GeoTIFF</tspan><tspan
+               id="tspan3937"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="546.03809"
+               x="778.91016"
+               sodipodi:role="line">Cloud masks computed from</tspan><tspan
+               id="tspan3939"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="561.03809"
+               x="778.91016"
+               sodipodi:role="line">individual MODIS scans on</tspan><tspan
+               id="tspan3941"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="576.03809"
+               x="778.91016"
+               sodipodi:role="line">the Aqua platform</tspan></text>
+        </g>
+        <g
+           id="g4037"
+           transform="translate(0,-42.85713)">
+          <g
+             transform="translate(8.1387043,-72.857143)"
+             id="g3769">
+            <path
+               sodipodi:type="arc"
+               style="opacity:0.21900826;fill:#000000;fill-opacity:1"
+               id="path3894-39-8-6-5"
+               sodipodi:cx="180"
+               sodipodi:cy="166.23734"
+               sodipodi:rx="107.14286"
+               sodipodi:ry="55"
+               d="m 287.14286,166.23734 c 0,30.37566 -47.96949,55 -107.14286,55 -59.17337,0 -107.14286,-24.62434 -107.14286,-55 0,-30.37567 47.96949,-55 107.14286,-55 59.17337,0 107.14286,24.62433 107.14286,55 z"
+               transform="matrix(0.50666669,0,0,0.61688311,619.97083,611.60712)" />
+            <text
+               xml:space="preserve"
+               style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+               x="711.17084"
+               y="718.52429"
+               id="text3896-59-7-88-4"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 x="711.17084"
+                 y="718.52429"
+                 id="tspan4021-0-6-7">BSRN</tspan></text>
+          </g>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3759-3-8-4"
+             y="629.60956"
+             x="778.57031"
+             style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               id="tspan3941-3"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="629.60956"
+               x="778.57031"
+               sodipodi:role="line">Multivariable tables</tspan><tspan
+               id="tspan3982"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="644.60956"
+               x="778.57031"
+               sodipodi:role="line">SIS and SID measured at</tspan><tspan
+               id="tspan3984"
+               style="font-size:12px;text-align:start;text-anchor:start"
+               y="659.60956"
+               x="778.57031"
+               sodipodi:role="line">quality controlled stations</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="opacity:0.21900826;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.74225271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2985-3-8-6-3"
+       width="350.45892"
+       height="453.73535"
+       x="595.81781"
+       y="308.63882"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 282.85714,458.3802 c 108.57143,78.57143 195.71429,82.85714 195.71429,82.85714"
+       id="path4149"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 772.85714,462.66591 c -7.14285,48.57143 -77.14285,75.71429 -77.14285,75.71429"
+       id="path4151"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)"
+       inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_i.png"
+       inkscape:export-xdpi="182.53722"
+       inkscape:export-ydpi="182.53722" />
+  </g>
+</svg>
