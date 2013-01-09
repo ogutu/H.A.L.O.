@@ -16,8 +16,8 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="workflow_ii.svg"
    inkscape:export-filename="/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/workflow_ii.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-xdpi="164.2"
+   inkscape:export-ydpi="164.2">
   <defs
      id="defs6915">
     <marker
@@ -323,13 +323,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="630.05339"
-     inkscape:cy="339.29088"
+     inkscape:cy="339.79596"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1153"
-     inkscape:window-x="-7"
+     inkscape:window-height="1180"
+     inkscape:window-x="1913"
      inkscape:window-y="-10"
      inkscape:window-maximized="1"
      showborder="true" />
@@ -483,7 +483,7 @@
              sodipodi:role="line"
              x="89.856445"
              y="510.65894"
-             id="tspan8615">NetCDF</tspan></text>
+             id="tspan8615">netCDF</tspan></text>
       </g>
       <g
          transform="translate(96.956006,161.42857)"
@@ -657,7 +657,7 @@
                id="tspan8643-2-0"
                y="510.65894"
                x="593.06519"
-               sodipodi:role="line">NetCDF</tspan></text>
+               sodipodi:role="line">netCDF</tspan></text>
         </g>
         <g
            id="g8803"
@@ -714,7 +714,7 @@
                id="tspan8643-2-0-2"
                y="510.65894"
                x="744.49377"
-               sodipodi:role="line">NetCDF</tspan></text>
+               sodipodi:role="line">netCDF</tspan></text>
         </g>
       </g>
       <g
