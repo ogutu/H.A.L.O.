@@ -119,6 +119,13 @@ def cleanup(search_strings):
             os.remove(f)
 
 def main():
+    '''
+    Usage:
+    combine_to_global.py input_folder output_folder variable
+    Example:
+    python combine_to_global.py ~/data/homogenized/tmp/all_sats ~/data/homogenized/tmp/all_sats G
+    '''
+    
     # Get command line arguments
     args = get_arguments()
     input_folder = args[0]

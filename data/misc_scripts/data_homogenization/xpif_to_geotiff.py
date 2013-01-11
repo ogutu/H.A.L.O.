@@ -190,6 +190,7 @@ def main():
     args = get_arguments()
     input_file = args[0]
     output_file = args[1]
+    # TODO: Get projection parameters from user (n-s-e-w, etc.)
     file_endings = [".XPIF", ".rst", ".tif"]
     
     # Get scan name
