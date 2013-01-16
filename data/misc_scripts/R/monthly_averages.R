@@ -1,0 +1,7 @@
+setwd("/home/lee/Downloads/local/homogenized/validation/era/")
+
+library(raster)
+rasters <- list.files()
+raster_collection <- stack(rasters)
+monthly_average <- mean(raster_collection)
+writeRaster(monthly_average, filename="monthly_average.tif", format="GTiff")
