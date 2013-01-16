@@ -1,5 +1,4 @@
 setwd("/home/lee/Downloads/local")
-library(raster)
 
 # Read raster
 goes9 <- raster("goes09.nc")
@@ -23,8 +22,11 @@ plot(goes10, add=T)
 # Can also be done with points (syntax w/ xy as points: "extract(beam, xy)")
 extract(beam, 140, 30)
 
-merged <- raster("goes_merged.tif")
+library(raster)
+raster1 <- raster("clara.2003.152.0000G.tif")
+raster2 <- raster("clara.2003.153.0000G.tif")
 plot(merged)
 # cbind takes the x, y coordinates and puts them in the format expected by extract()
-extract(merged, cbind(-0, 0))
+extract(merged, cbind(-30, 0))
 summary(merged)
+plot(raster1 - raster2)
