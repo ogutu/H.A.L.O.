@@ -1,5 +1,3 @@
-setwd("/home/lee/Downloads/local/homogenized/validation/era/")
-
 library(raster)
 rasters <- list.files()
 raster_collection <- stack(rasters)
