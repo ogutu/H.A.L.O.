@@ -170,7 +170,7 @@ CombineTables <- function(folder) {
                            as.character(output.table$day))
   return(output.table)
 }
-ValidateTable <- function(predicted, observed, threshold) {
+ValidateTable <- function(observed, predicted, threshold) {
   # Computes bias, MAD, SD, AC, RMSE and fraction above threshold for dataframe
   # Observed table should be subsetted to the relevant variable
   #
@@ -230,20 +230,78 @@ ValidateTable <- function(predicted, observed, threshold) {
   # Values are divided by 24 to reduce to W / m² rather than Wh / m² * day
   c(bias / 24, mad / 24, sd / 24, ac, rmse / 24, frac)
 }
-
-{
+ValidateMonth <- function(observed, predicted) {
+  # Computes bias, MAD, SD, AC, RMSE and fraction above threshold for dataframe
+  # Observed table should be subsetted to the relevant variable
+  #
+  # Args:
+  #   predicted (vector):  The predicted variable
+  #   observed  (vector):  The matching observation
+  #
+  # Returns:
+  #   A numeric vector: c(bias, mad, sd, rmse)
+  
+  # Join tables
+  validation.table <- merge(observed, predicted)
+  # Reduce to 30 days, 24 hours for hourly values
+  observed <- validation.table[2] / 24
+  predicted <- validation.table[3] / 24
+  
+  deviance <- predicted - observed
+  # Bias
+  bias <- 1 / length(deviance) * sum(deviance)
+  # MAD
+  mad <- 1 / length(deviance) * sum(abs(deviance))
+  # Standard deviance
+  sd <- sapply(deviance, sd)
+  ac <- {
+    observed.mean <- as.numeric(colMeans(observed))
+    predicted.mean <- as.numeric(colMeans(predicted))
+    ac_1 <- sum((predicted - predicted.mean) * 
+                  (observed - observed.mean))
+    ac_2 <- sqrt(sum((predicted - predicted.mean)**2))
+    ac_3 <- sqrt(sum((observed - observed.mean)**2))
+    
+    ac_1 / (ac_2 * ac_3)
+  }
+  rmse <- {
+    library(hydroGOF)
+    as.numeric(rmse(predicted, observed))
+  }
+  FractionAboveThreshold <- function(deviance.vector, threshold) {
+    # Computes fraction of observations whose error is above a given threshold
+    #
+    # Args: 
+    #   deviance.vector (numeric vector): The observed deviances
+    #   threshold (numeric): Maximum deviance
+    #
+    # Returns:
+    #   Percentage of observations above maximum deviance
+    length(deviance.vector[abs(deviance.vector) > threshold]) / 
+      length(deviance.vector)
+  }
+  
+  # Values are divided by 24 to reduce to W / m² rather than Wh / m² * day
+  c(as.numeric(bias), 
+    as.numeric(mad), 
+    as.numeric(sd), 
+    as.numeric(rmse))
+}
+DailyValidation {
   # Make combined tables of each folder
-  bsrn <- CombineTables("~/Desktop/values_at_stations/bsrn/")
-  clara <- CombineTables("~/Desktop/values_at_stations/clarasis/")
-  era <- CombineTables("~/Desktop/values_at_stations/erasis/")
-  goes09.sid <- CombineTables("~/Desktop/values_at_stations/goes09sid/")
-  goes09.sis <- CombineTables("~/Desktop/values_at_stations/goes09sis/")
-  goes12.sid <- CombineTables("~/Desktop/values_at_stations/goes12sid/")
-  goes12.sis <- CombineTables("~/Desktop/values_at_stations/goes12sis/")
-  msat_i.sid <- CombineTables("~/Desktop/values_at_stations/msat-isid/")
-  msat_i.sis <- CombineTables("~/Desktop/values_at_stations/msat-isis/")
-  msat_p.sid <- CombineTables("~/Desktop/values_at_stations/msat-psid/")
-  msat_p.sis <- CombineTables("~/Desktop/values_at_stations/msat-psis/")
+  bsrn <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/bsrn/")
+  clara <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/clarasis/")
+  era <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/erasis/")
+  goes09.sid <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/goes09sid/")
+  goes09.sis <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/goes09sis/")
+  goes12.sid <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/goes12sid/")
+  goes12.sis <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/goes12sis/")
+  msat_i.sid <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/msat-isid/")
+  msat_i.sis <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/msat-isis/")
+  msat_p.sid <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/msat-psid/")
+  msat_p.sis <- CombineTables("/home/lee/Network/ssh/work_computer/thesis_data/homogenized/validation/values_at_stations/msat-psis/")
+  magic.sid <- rbind(goes09.sid, goes12.sid, msat_i.sid, msat_p.sid)
+  magic.sis <- rbind(goes09.sis, goes12.sis, msat_i.sis, msat_p.sis)
   
   # Subset bsrn with bsrn[,-5] (sis) bzw. bsrn[,-4] (sid)
   ValidateTable(bsrn[,-5], clara, 25)
@@ -252,12 +310,154 @@ ValidateTable <- function(predicted, observed, threshold) {
   ValidateTable(bsrn[,-5], goes12.sis, 25)
   ValidateTable(bsrn[,-5], msat_i.sis, 25)
   ValidateTable(bsrn[,-5], msat_p.sis, 25)
+  ValidateTable(bsrn[,-5], magic.sis, 25)
   
   ValidateTable(bsrn[,-4], goes09.sid, 30)
   ValidateTable(bsrn[,-4], goes12.sid, 30)
   ValidateTable(bsrn[,-4], msat_i.sid, 30)
   ValidateTable(bsrn[,-4], msat_p.sid, 30)
+  ValidateTable(bsrn[,-4], magic.sid, 30)
+
+  # Scatterplots SIS satellites
+  png("/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/scatterplots/all_sats_sis.png", 
+      height=960, 
+      width=960)
+  par(mfrow=c(2, 2))
+  # GOES-E
+  validation.table <- merge(goes12.sis, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sis,
+       xlab="BSRN", ylab="GOES-E")
+  abline(lm(validation.table$daily.sums ~ validation.table$sis))
+  # Meteosat Prime
+  validation.table <- merge(msat_p.sis, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sis,
+       xlab="BSRN", ylab="Meteosat Prime")
+  abline(lm(validation.table$daily.sums ~ validation.table$sis))
+  # Meteosat IODC
+  validation.table <- merge(msat_i.sis, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sis,
+       xlab="BSRN", ylab="Meteosat IODC")
+  abline(lm(validation.table$daily.sums ~ validation.table$sis))
+  # GMS 
+  validation.table <- merge(goes09.sis, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sis,
+       xlab="BSRN", ylab="GMS")
+  abline(lm(validation.table$daily.sums ~ validation.table$sis))
+  dev.off()
   
+  # Scatterplots SID satellites
+  png("/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/scatterplots/all_sats_sid.png", 
+      height=960, 
+      width=960)
+  par(mfrow=c(2, 2))
+  # GOES-E
+  validation.table <- merge(goes12.sid, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sid,
+       xlab="BSRN", ylab="GOES-E")
+  abline(lm(validation.table$daily.sums ~ validation.table$sid))
+  # Meteosat Prime
+  validation.table <- merge(msat_p.sid, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sid,
+       xlab="BSRN", ylab="Meteosat Prime")
+  abline(lm(validation.table$daily.sums ~ validation.table$sid))
+  # Meteosat IODC
+  validation.table <- merge(msat_i.sid, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sid,
+       xlab="BSRN", ylab="Meteosat IODC")
+  abline(lm(validation.table$daily.sums ~ validation.table$sid))
+  # GMS 
+  validation.table <- merge(goes09.sid, bsrn)
+  plot(validation.table$daily.sums ~ validation.table$sid,
+       xlab="BSRN", ylab="GMS")
+  abline(lm(validation.table$daily.sums ~ validation.table$sid))
+  dev.off()
   
-  # Make scatterplots!
+  # Scatterplot MAGICSOL SID
+  png("/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/scatterplots/magic_sid.png", 
+      height=960, 
+      width=960)
+  validation.table <- merge(magic.sid, bsrn)
+  plot(validation.table$sis ~ validation.table$daily.sums,
+       xlab="BSRN", ylab="MAGICSOL")
+  abline(lm(validation.table$sid ~ validation.table$daily.sums))
+  dev.off()
+  
+  # Scatterplot all sources SIS
+  png("/home/lee/Documents/eclipse-workspace/master_lee/documents/diagrams/scatterplots/sources_sis.png", 
+      height=480, 
+      width=480*3)
+  par(mfrow=(c(1, 3)))
+  # ERA-Interim
+  validation.table <- merge(era, bsrn)
+  plot(validation.table$sis ~ validation.table$daily.sums,
+       xlab="BSRN", ylab="ERA-Interim")
+  abline(lm(validation.table$sid ~ validation.table$daily.sums))
+  # CLARA
+  validation.table <- merge(clara, bsrn)
+  plot(validation.table$sis ~ validation.table$daily.sums,
+       xlab="BSRN", ylab="CLARA")
+  abline(lm(validation.table$sid ~ validation.table$daily.sums))
+  # MAGICSOL
+  validation.table <- merge(magic.sis, bsrn)
+  plot(validation.table$sis ~ validation.table$daily.sums,
+       xlab="BSRN", ylab="MAGICSOL")
+  abline(lm(validation.table$sid ~ validation.table$daily.sums))
+  dev.off()
+}
+Monthlyvalidation {
+  # Validate month
+  # Remove day tags
+  bsrn$id <- strtrim(bsrn$id, 13)
+  clara$id <- strtrim(clara$id, 13)
+  era$id <- strtrim(era$id, 13)
+  goes09.sid$id <- strtrim(goes09.sid$id, 13)
+  goes09.sis$id <- strtrim(goes09.sis$id, 13)
+  goes12.sid$id <- strtrim(goes12.sid$id, 13)
+  goes12.sis$id <- strtrim(goes12.sis$id, 13)
+  msat_i.sid$id <- strtrim(msat_i.sid$id, 13)
+  msat_i.sis$id <- strtrim(msat_i.sis$id, 13)
+  msat_p.sid$id <- strtrim(msat_p.sid$id, 13)
+  msat_p.sis$id <- strtrim(msat_p.sis$id, 13)
+  magic.sid$id <- strtrim(magic.sid$id, 13)
+  magic.sis$id <- strtrim(magic.sis$id, 13)
+  # Aggregate to stations
+  bsrn.agg <- aggregate(list(bsrn$sis, bsrn$sid), by=list(bsrn$id), FUN=mean)
+  colnames(bsrn.agg) <- c("coords", "sis", "sid")
+  clara.agg <- aggregate(clara$daily.sums, by=list(clara$id), FUN=mean)
+  era.agg <- aggregate(era$daily.sums, by=list(era$id), FUN=mean)
+  goes09.sid.agg <- aggregate(goes09.sid$daily.sums, by=list(goes09.sid$id), FUN=mean)
+  goes09.sis.agg <- aggregate(goes09.sis$daily.sums, by=list(goes09.sis$id), FUN=mean)
+  goes12.sid.agg <- aggregate(goes12.sid$daily.sums, by=list(goes12.sid$id), FUN=mean)
+  goes12.sis.agg <- aggregate(goes12.sis$daily.sums, by=list(goes12.sis$id), FUN=mean)
+  msat_i.sid.agg <- aggregate(msat_i.sid$daily.sums, by=list(msat_i.sid$id), FUN=mean)
+  msat_i.sis.agg <- aggregate(msat_i.sis$daily.sums, by=list(msat_i.sis$id), FUN=mean)
+  msat_p.sid.agg <- aggregate(msat_p.sid$daily.sums, by=list(msat_p.sid$id), FUN=mean)
+  msat_p.sis.agg <- aggregate(msat_p.sis$daily.sums, by=list(msat_p.sis$id), FUN=mean)
+  magic.sid.agg <- aggregate(magic.sid$daily.sums, by=list(magic.sid$id), FUN=mean)
+  magic.sis.agg <- aggregate(magic.sis$daily.sums, by=list(magic.sis$id), FUN=mean)
+  colnames(clara.agg) <- c("coords", "daily")
+  colnames(era.agg) <- c("coords", "daily")
+  colnames(goes09.sid.agg) <- c("coords", "daily")
+  colnames(goes09.sis.agg) <- c("coords", "daily")
+  colnames(goes12.sid.agg) <- c("coords", "daily")
+  colnames(goes12.sis.agg) <- c("coords", "daily")
+  colnames(msat_i.sid.agg) <- c("coords", "daily")
+  colnames(msat_i.sis.agg) <- c("coords", "daily")
+  colnames(msat_p.sid.agg) <- c("coords", "daily")
+  colnames(msat_p.sis.agg) <- c("coords", "daily")
+  colnames(magic.sid.agg) <- c("coords", "daily")
+  colnames(magic.sis.agg) <- c("coords", "daily")
+  # Validate SID
+  ValidateMonth(bsrn.agg[,-2], goes12.sis.agg)
+  ValidateMonth(bsrn.agg[,-2], msat_i.sis.agg)
+  ValidateMonth(bsrn.agg[,-2], msat_p.sis.agg)
+  ValidateMonth(bsrn.agg[,-2], goes09.sis.agg)
+  ValidateMonth(bsrn.agg[,-2], magic.sid.agg)
+  # Validate SIS
+  ValidateMonth(bsrn.agg[,-3], goes12.sis.agg)
+  ValidateMonth(bsrn.agg[,-3], msat_p.sis.agg)
+  ValidateMonth(bsrn.agg[,-3], goes09.sis.agg)
+  ValidateMonth(bsrn.agg[,-3], era.agg)
+  ValidateMonth(bsrn.agg[,-3], clara.agg)
+  ValidateMonth(bsrn.agg[,-3], magic.sis.agg) 
 }
